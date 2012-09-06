@@ -1,0 +1,1 @@
+/usr/bin/i686-linux-gnu-gcc-4.5  -O2 -DBIG_JOINS=1  -fno-strict-aliasing  -Wall    CMakeFiles/thr_lock.dir/thr_lock.c.o  -o thr_lock  -lpthread libmysys.a ../dbug/libdbug.a libmysys.a ../dbug/libdbug.a ../strings/libstrings.a -lz -lm -lrt -lpthread 

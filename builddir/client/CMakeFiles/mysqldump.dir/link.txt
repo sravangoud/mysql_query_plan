@@ -1,0 +1,1 @@
+/usr/bin/i686-linux-gnu-g++-4.5   -O3 -DBIG_JOINS=1 -felide-constructors -fno-exceptions -fno-rtti  -fno-strict-aliasing  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti    CMakeFiles/mysqldump.dir/mysqldump.c.o CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o  -o mysqldump  -lpthread ../libmysql/libmysqlclient.a -lpthread -lz -lm -lrt -ldl 

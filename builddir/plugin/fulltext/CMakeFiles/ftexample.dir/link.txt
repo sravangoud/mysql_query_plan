@@ -1,0 +1,1 @@
+/usr/bin/i686-linux-gnu-gcc-4.5  -fPIC -O2 -DBIG_JOINS=1  -fno-strict-aliasing  -Wall   -shared -Wl,-soname,mypluglib.so -o mypluglib.so CMakeFiles/ftexample.dir/plugin_example.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

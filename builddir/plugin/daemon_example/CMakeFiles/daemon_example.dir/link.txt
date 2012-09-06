@@ -1,0 +1,1 @@
+/usr/bin/i686-linux-gnu-g++-4.5  -fPIC -O3 -DBIG_JOINS=1 -felide-constructors -fno-exceptions -fno-rtti  -fno-strict-aliasing  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti   -shared -Wl,-soname,libdaemon_example.so -o libdaemon_example.so CMakeFiles/daemon_example.dir/daemon_example.cc.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

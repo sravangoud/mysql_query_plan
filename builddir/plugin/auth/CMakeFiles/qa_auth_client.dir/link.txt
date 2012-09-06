@@ -1,0 +1,1 @@
+/usr/bin/i686-linux-gnu-gcc-4.5  -fPIC -O2 -DBIG_JOINS=1  -fno-strict-aliasing  -Wall   -shared -Wl,-soname,qa_auth_client.so -o qa_auth_client.so CMakeFiles/qa_auth_client.dir/qa_auth_client.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

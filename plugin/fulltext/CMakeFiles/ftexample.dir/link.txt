@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC  -Wall -O -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DENABLED_DEBUG_SYNC   -shared -Wl,-soname,mypluglib.so -o mypluglib.so CMakeFiles/ftexample.dir/plugin_example.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

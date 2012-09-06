@@ -1,0 +1,1 @@
+/usr/bin/i686-linux-gnu-gcc-4.5  -O2 -DBIG_JOINS=1  -fno-strict-aliasing  -Wall    CMakeFiles/lf-t.dir/lf-t.c.o  -o lf-t  -lpthread ../mytap/libmytap.a ../../mysys/libmysys.a ../../strings/libstrings.a ../../dbug/libdbug.a ../../mysys/libmysys.a ../../dbug/libdbug.a ../../strings/libstrings.a -lz -lm -lrt -lpthread 

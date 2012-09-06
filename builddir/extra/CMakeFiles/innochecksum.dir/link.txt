@@ -1,0 +1,1 @@
+/usr/bin/i686-linux-gnu-gcc-4.5  -O2 -DBIG_JOINS=1  -fno-strict-aliasing  -Wall    CMakeFiles/innochecksum.dir/innochecksum.c.o  -o innochecksum  -lpthread 

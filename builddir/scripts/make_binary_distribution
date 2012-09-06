@@ -1,0 +1,1 @@
+cd /build/buildd/mysql-5.5-5.5.24/builddir && '/usr/bin/cpack' -G TGZ --config CPackConfig.cmake

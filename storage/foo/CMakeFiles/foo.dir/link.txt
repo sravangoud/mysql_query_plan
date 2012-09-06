@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -O -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DENABLED_DEBUG_SYNC   -shared -Wl,-soname,ha_foo.so -o ha_foo.so CMakeFiles/foo.dir/ha_foo.cc.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

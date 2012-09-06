@@ -1,0 +1,1 @@
+/usr/bin/i686-linux-gnu-gcc-4.5  -fPIC -O2 -DBIG_JOINS=1  -fno-strict-aliasing  -Wall   -shared -Wl,-soname,auth_socket.so -o auth_socket.so CMakeFiles/auth_socket.dir/auth_socket.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

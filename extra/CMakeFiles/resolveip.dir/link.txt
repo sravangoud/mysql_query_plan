@@ -1,0 +1,1 @@
+/usr/bin/gcc   -Wall -O -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DENABLED_DEBUG_SYNC    CMakeFiles/resolveip.dir/resolveip.c.o  -o resolveip  -lpthread ../mysys/libmysys.a ../dbug/libdbug.a ../mysys/libmysys.a ../dbug/libdbug.a ../strings/libstrings.a -lz -lm -lrt -lpthread 

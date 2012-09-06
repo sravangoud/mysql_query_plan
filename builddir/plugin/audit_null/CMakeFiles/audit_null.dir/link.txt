@@ -1,0 +1,1 @@
+/usr/bin/i686-linux-gnu-gcc-4.5  -fPIC -O2 -DBIG_JOINS=1  -fno-strict-aliasing  -Wall   -shared -Wl,-soname,adt_null.so -o adt_null.so CMakeFiles/audit_null.dir/audit_null.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 
