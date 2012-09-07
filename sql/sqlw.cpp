@@ -6,6 +6,7 @@
  */
 
 char * query = "explain select id from myt12;";
+//char * query = "create table myt12(id int) engine=foo;";
 
 //char * query = " explain SELECT booking_awarded_count.id,"
 //       "booking_awarded_count.property_name AS property_name,"

@@ -23,6 +23,7 @@ using namespace std;
 
 void Populate_HA_CREATE_INFO( HA_CREATE_INFO & icreate_info, handler *file );
 void GetHandler( THD * thd, handler ** iophandler );
+void Populate_THD( THD *& pTHD );
 
 static char *get_relative_path(const char *path)
 {
@@ -176,8 +177,8 @@ void sql_wrapper::select_describe( char * query )
 
 	//init_server_components();
 
-	THD thd_temp;
-	THD *thd= &thd_temp;
+	//THD thd_temp;
+	//THD *thd= &thd_temp;
 
 	pthd->thread_stack= (char*) &pthd;
 	pthd->store_globals();
@@ -225,22 +226,38 @@ void sql_wrapper::select_describe( char * query )
 
 		THD *thd_temp= current_thd;
 
+#if(0)
+		char * query_1_Dummy = "create table myt12_Dummy(id int) engine=foo;";
+		alloc_query( pthd, query_1_Dummy, strlen(query_1_Dummy));
+		Parser_state pState_1_Dummy;
+		pState_1_Dummy.init(pthd, query_1_Dummy, strlen(query_1_Dummy) );
+		mysql_parse(pthd, pthd->query(), pthd->query_length(), &pState_1_Dummy);
+#endif
+
+
 		//mysql_parse(pthd, query, strlen(query), &pState);
 		mysql_parse(pthd, pthd->query(), pthd->query_length(), &pState);
 
 		all_tables= pthd->lex->query_tables;
 
 #if(1)
-		char * query_1 = "create table myt12(id int) engine=foo;";
-		bool bRes = alloc_query( pthd, query_1, strlen(query_1));
+		THD * thd_create = NULL;
+		Populate_THD(thd_create);
+		//char * query_1 = "create table myt12(id int) engine=foo;";
+		char * query_1 = "create table myt12(id int);";
+		bool bRes = alloc_query( thd_create, query_1, strlen(query_1));
 		Parser_state pState_1;
-		pState_1.init(pthd, query_1, strlen(query_1) );
-		mysql_parse(pthd, pthd->query(), pthd->query_length(), &pState_1);
+		pState_1.init(thd_create, query_1, strlen(query_1) );
+		mysql_parse(thd_create, thd_create->query(), thd_create->query_length(), &pState_1);
 
 #endif
+
 		//close_thread_tables(thd);
 
 //Create a .frm file for each table
+
+#if(1)
+
 		const char *path = "/var/lib/mysql/sravan/myt12.frm";
 		const char *db = "sravan";
 		const char *table_name = "myt12";
@@ -250,6 +267,7 @@ void sql_wrapper::select_describe( char * query )
 		//Create a field list
 		List<Create_field> create_fields;
 		Create_field f1;
+		memset(&f1, 0, sizeof(f1));
 		f1.field_name = "id";
 		f1.sql_type = MYSQL_TYPE_LONG;
 		f1.length = 11;
@@ -261,6 +279,8 @@ void sql_wrapper::select_describe( char * query )
 		f1.sc_length = 11;
 		f1.pack_flag = 32795;
 		f1.charset = default_charset_info;
+		f1.comment.str = NULL;
+		f1.comment.length = 0;
 
 		create_fields.push_back(&f1);
 
@@ -272,17 +292,17 @@ void sql_wrapper::select_describe( char * query )
 
 		//Get the handler...
 		handler *file = NULL;
-		GetHandler(thd, &file);
+		GetHandler(thd_create, &file);
 
-		HA_CREATE_INFO create_info;
-		Populate_HA_CREATE_INFO(create_info, file);
+		HA_CREATE_INFO create_info = thd_create->lex->create_info;
+		//Populate_HA_CREATE_INFO(create_info, file);
 
 
-		pthd->work_part_info = NULL;
+		thd_create->work_part_info = NULL;
 
 		/*
 		partition_info * part_info = NULL;
-		pthd->work_part_info = part_info= new partition_info();
+		thd_create->work_part_info = part_info= new partition_info();
 		if (part_info)
 		{
 			file->set_auto_partitions(part_info);
@@ -293,7 +313,7 @@ void sql_wrapper::select_describe( char * query )
 		//Can we populate HA_CREATE_INFO and handler????
 
 		//Create the .frm file corresponding to the table
-		mysql_create_frm( pthd,/*Context*/
+		mysql_create_frm( thd_create,/*Context*/
 						  path,/*Path of the .frm file*/
 						  db,/*DBName*/
 						  table_name,
@@ -303,7 +323,21 @@ void sql_wrapper::select_describe( char * query )
 						  key_info,/**/
 						  file/**/);
 
+#endif
+
+#if(0)
+		//char * query_1 = "create table myt12(id int) engine=foo;";
+		bool bRes_3 = alloc_query( pthd, query, strlen(query));
+		Parser_state pState_2;
+		pState_2.init(pthd, query, strlen(query) );
+		mysql_parse(pthd, pthd->query(), pthd->query_length(), &pState_2);
+
+#endif
+
+#if(1)
+		my_pthread_setspecific_ptr(THR_THD, pthd);
 		execute_sqlcom_select(pthd, all_tables);
+#endif
 
 	}
 	else
@@ -454,4 +488,37 @@ void GetHandler( THD * thd, handler ** iophandler )
 }
 
 
+void Populate_THD( THD *& pthd )
+{
+	pthd = new THD();
+
+	//init_server_components();
+
+	//THD thd_temp;
+	//THD *thd= &thd_temp;
+
+	pthd->thread_stack= (char*) &pthd;
+	pthd->store_globals();
+
+	//pthd = current_thd;
+
+	pthd->init_for_queries();
+
+	//my_pthread_setspecific_ptr(THR_THD, pthd);
+
+	//pthd->update_charset();
+
+	//JOIN Join;
+
+	/* Set collactions that depends on the default collation */
+	pthd->variables.collation_server=	 default_charset_info;
+	pthd->variables.collation_database=	 default_charset_info;
+	pthd->variables.collation_connection=  default_charset_info;
+	pthd->variables.character_set_results= default_charset_info;
+	pthd->variables.character_set_client=  default_charset_info;
+	//pthd->variables.character_set_filesystem= get_charset_by_csname( NULL/*character_set_filesystem_name*/,
+	//                              MY_CS_PRIMARY, MYF(MY_WME));
+
+	pthd->lex->sql_command = SQLCOM_END;
+}
 
