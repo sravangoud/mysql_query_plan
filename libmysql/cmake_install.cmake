@@ -1,4 +1,4 @@
-# Install script for directory: /home/sravang/Projects_New/mysql-5.5_New/libmysql
+# Install script for directory: /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,11 +33,11 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Development")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysqlclient.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysqlclient.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Development")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Development")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysqlclient_r.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysqlclient_r.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Development")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedLibraries")
@@ -54,9 +54,9 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedL
     ENDIF()
   ENDFOREACH()
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysqlclient.so.18.0.0"
-    "/home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysqlclient.so.18"
-    "/home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysqlclient.so"
+    "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysqlclient.so.18.0.0"
+    "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysqlclient.so.18"
+    "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysqlclient.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmysqlclient.so.18.0.0"
@@ -73,14 +73,14 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedL
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedLibraries")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedLibraries")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysqlclient_r.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysqlclient_r.so")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedLibraries")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedLibraries")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysqlclient_r.so.18")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysqlclient_r.so.18")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedLibraries")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedLibraries")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysqlclient_r.so.18.0.0")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysqlclient_r.so.18.0.0")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedLibraries")
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/sravang/Projects_New/mysql-5.5_New/storage/perfschema
+# Install script for directory: /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/perfschema
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/sravang/Projects_New/mysql-5.5_New/storage/perfschema/unittest/cmake_install.cmake")
+  INCLUDE("/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/perfschema/unittest/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

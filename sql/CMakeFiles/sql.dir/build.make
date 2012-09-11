@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Include any dependencies generated for this target.
 include sql/CMakeFiles/sql.dir/depend.make
@@ -48,17 +48,17 @@ include sql/CMakeFiles/sql.dir/flags.make
 
 sql/CMakeFiles/sql.dir/__/sql-common/client.c.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/__/sql-common/client.c.o: sql-common/client.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object sql/CMakeFiles/sql.dir/__/sql-common/client.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/sql-common/client.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql-common/client.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/sql-common/client.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client.c
 
 sql/CMakeFiles/sql.dir/__/sql-common/client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sql.dir/__/sql-common/client.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql-common/client.c > CMakeFiles/sql.dir/__/sql-common/client.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client.c > CMakeFiles/sql.dir/__/sql-common/client.c.i
 
 sql/CMakeFiles/sql.dir/__/sql-common/client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sql.dir/__/sql-common/client.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql-common/client.c -o CMakeFiles/sql.dir/__/sql-common/client.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client.c -o CMakeFiles/sql.dir/__/sql-common/client.c.s
 
 sql/CMakeFiles/sql.dir/__/sql-common/client.c.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/__/sql-common/client.c.o.requires
@@ -71,17 +71,17 @@ sql/CMakeFiles/sql.dir/__/sql-common/client.c.o.provides.build: sql/CMakeFiles/s
 
 sql/CMakeFiles/sql.dir/derror.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/derror.cc.o: sql/derror.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/derror.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/derror.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/derror.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/derror.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/derror.cc
 
 sql/CMakeFiles/sql.dir/derror.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/derror.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/derror.cc > CMakeFiles/sql.dir/derror.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/derror.cc > CMakeFiles/sql.dir/derror.cc.i
 
 sql/CMakeFiles/sql.dir/derror.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/derror.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/derror.cc -o CMakeFiles/sql.dir/derror.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/derror.cc -o CMakeFiles/sql.dir/derror.cc.s
 
 sql/CMakeFiles/sql.dir/derror.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/derror.cc.o.requires
@@ -94,17 +94,17 @@ sql/CMakeFiles/sql.dir/derror.cc.o.provides.build: sql/CMakeFiles/sql.dir/derror
 
 sql/CMakeFiles/sql.dir/des_key_file.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/des_key_file.cc.o: sql/des_key_file.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/des_key_file.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/des_key_file.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/des_key_file.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/des_key_file.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/des_key_file.cc
 
 sql/CMakeFiles/sql.dir/des_key_file.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/des_key_file.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/des_key_file.cc > CMakeFiles/sql.dir/des_key_file.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/des_key_file.cc > CMakeFiles/sql.dir/des_key_file.cc.i
 
 sql/CMakeFiles/sql.dir/des_key_file.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/des_key_file.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/des_key_file.cc -o CMakeFiles/sql.dir/des_key_file.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/des_key_file.cc -o CMakeFiles/sql.dir/des_key_file.cc.s
 
 sql/CMakeFiles/sql.dir/des_key_file.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/des_key_file.cc.o.requires
@@ -117,17 +117,17 @@ sql/CMakeFiles/sql.dir/des_key_file.cc.o.provides.build: sql/CMakeFiles/sql.dir/
 
 sql/CMakeFiles/sql.dir/discover.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/discover.cc.o: sql/discover.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/discover.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/discover.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/discover.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/discover.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/discover.cc
 
 sql/CMakeFiles/sql.dir/discover.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/discover.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/discover.cc > CMakeFiles/sql.dir/discover.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/discover.cc > CMakeFiles/sql.dir/discover.cc.i
 
 sql/CMakeFiles/sql.dir/discover.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/discover.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/discover.cc -o CMakeFiles/sql.dir/discover.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/discover.cc -o CMakeFiles/sql.dir/discover.cc.s
 
 sql/CMakeFiles/sql.dir/discover.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/discover.cc.o.requires
@@ -140,17 +140,17 @@ sql/CMakeFiles/sql.dir/discover.cc.o.provides.build: sql/CMakeFiles/sql.dir/disc
 
 sql/CMakeFiles/sql.dir/__/libmysql/errmsg.c.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/__/libmysql/errmsg.c.o: libmysql/errmsg.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object sql/CMakeFiles/sql.dir/__/libmysql/errmsg.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/libmysql/errmsg.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/libmysql/errmsg.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/libmysql/errmsg.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/errmsg.c
 
 sql/CMakeFiles/sql.dir/__/libmysql/errmsg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sql.dir/__/libmysql/errmsg.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/libmysql/errmsg.c > CMakeFiles/sql.dir/__/libmysql/errmsg.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/errmsg.c > CMakeFiles/sql.dir/__/libmysql/errmsg.c.i
 
 sql/CMakeFiles/sql.dir/__/libmysql/errmsg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sql.dir/__/libmysql/errmsg.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/libmysql/errmsg.c -o CMakeFiles/sql.dir/__/libmysql/errmsg.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/errmsg.c -o CMakeFiles/sql.dir/__/libmysql/errmsg.c.s
 
 sql/CMakeFiles/sql.dir/__/libmysql/errmsg.c.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/__/libmysql/errmsg.c.o.requires
@@ -163,17 +163,17 @@ sql/CMakeFiles/sql.dir/__/libmysql/errmsg.c.o.provides.build: sql/CMakeFiles/sql
 
 sql/CMakeFiles/sql.dir/field.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/field.cc.o: sql/field.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/field.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/field.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/field.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/field.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/field.cc
 
 sql/CMakeFiles/sql.dir/field.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/field.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/field.cc > CMakeFiles/sql.dir/field.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/field.cc > CMakeFiles/sql.dir/field.cc.i
 
 sql/CMakeFiles/sql.dir/field.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/field.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/field.cc -o CMakeFiles/sql.dir/field.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/field.cc -o CMakeFiles/sql.dir/field.cc.s
 
 sql/CMakeFiles/sql.dir/field.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/field.cc.o.requires
@@ -186,17 +186,17 @@ sql/CMakeFiles/sql.dir/field.cc.o.provides.build: sql/CMakeFiles/sql.dir/field.c
 
 sql/CMakeFiles/sql.dir/field_conv.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/field_conv.cc.o: sql/field_conv.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/field_conv.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/field_conv.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/field_conv.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/field_conv.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/field_conv.cc
 
 sql/CMakeFiles/sql.dir/field_conv.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/field_conv.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/field_conv.cc > CMakeFiles/sql.dir/field_conv.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/field_conv.cc > CMakeFiles/sql.dir/field_conv.cc.i
 
 sql/CMakeFiles/sql.dir/field_conv.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/field_conv.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/field_conv.cc -o CMakeFiles/sql.dir/field_conv.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/field_conv.cc -o CMakeFiles/sql.dir/field_conv.cc.s
 
 sql/CMakeFiles/sql.dir/field_conv.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/field_conv.cc.o.requires
@@ -209,17 +209,17 @@ sql/CMakeFiles/sql.dir/field_conv.cc.o.provides.build: sql/CMakeFiles/sql.dir/fi
 
 sql/CMakeFiles/sql.dir/filesort.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/filesort.cc.o: sql/filesort.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/filesort.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/filesort.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/filesort.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/filesort.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/filesort.cc
 
 sql/CMakeFiles/sql.dir/filesort.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/filesort.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/filesort.cc > CMakeFiles/sql.dir/filesort.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/filesort.cc > CMakeFiles/sql.dir/filesort.cc.i
 
 sql/CMakeFiles/sql.dir/filesort.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/filesort.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/filesort.cc -o CMakeFiles/sql.dir/filesort.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/filesort.cc -o CMakeFiles/sql.dir/filesort.cc.s
 
 sql/CMakeFiles/sql.dir/filesort.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/filesort.cc.o.requires
@@ -232,17 +232,17 @@ sql/CMakeFiles/sql.dir/filesort.cc.o.provides.build: sql/CMakeFiles/sql.dir/file
 
 sql/CMakeFiles/sql.dir/gstream.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/gstream.cc.o: sql/gstream.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/gstream.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/gstream.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/gstream.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/gstream.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/gstream.cc
 
 sql/CMakeFiles/sql.dir/gstream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/gstream.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/gstream.cc > CMakeFiles/sql.dir/gstream.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/gstream.cc > CMakeFiles/sql.dir/gstream.cc.i
 
 sql/CMakeFiles/sql.dir/gstream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/gstream.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/gstream.cc -o CMakeFiles/sql.dir/gstream.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/gstream.cc -o CMakeFiles/sql.dir/gstream.cc.s
 
 sql/CMakeFiles/sql.dir/gstream.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/gstream.cc.o.requires
@@ -255,17 +255,17 @@ sql/CMakeFiles/sql.dir/gstream.cc.o.provides.build: sql/CMakeFiles/sql.dir/gstre
 
 sql/CMakeFiles/sql.dir/sha2.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sha2.cc.o: sql/sha2.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sha2.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sha2.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sha2.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sha2.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sha2.cc
 
 sql/CMakeFiles/sql.dir/sha2.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sha2.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sha2.cc > CMakeFiles/sql.dir/sha2.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sha2.cc > CMakeFiles/sql.dir/sha2.cc.i
 
 sql/CMakeFiles/sql.dir/sha2.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sha2.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sha2.cc -o CMakeFiles/sql.dir/sha2.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sha2.cc -o CMakeFiles/sql.dir/sha2.cc.s
 
 sql/CMakeFiles/sql.dir/sha2.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sha2.cc.o.requires
@@ -278,17 +278,17 @@ sql/CMakeFiles/sql.dir/sha2.cc.o.provides.build: sql/CMakeFiles/sql.dir/sha2.cc.
 
 sql/CMakeFiles/sql.dir/signal_handler.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/signal_handler.cc.o: sql/signal_handler.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/signal_handler.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/signal_handler.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/signal_handler.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/signal_handler.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/signal_handler.cc
 
 sql/CMakeFiles/sql.dir/signal_handler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/signal_handler.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/signal_handler.cc > CMakeFiles/sql.dir/signal_handler.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/signal_handler.cc > CMakeFiles/sql.dir/signal_handler.cc.i
 
 sql/CMakeFiles/sql.dir/signal_handler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/signal_handler.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/signal_handler.cc -o CMakeFiles/sql.dir/signal_handler.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/signal_handler.cc -o CMakeFiles/sql.dir/signal_handler.cc.s
 
 sql/CMakeFiles/sql.dir/signal_handler.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/signal_handler.cc.o.requires
@@ -301,17 +301,17 @@ sql/CMakeFiles/sql.dir/signal_handler.cc.o.provides.build: sql/CMakeFiles/sql.di
 
 sql/CMakeFiles/sql.dir/handler.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/handler.cc.o: sql/handler.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/handler.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/handler.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/handler.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/handler.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/handler.cc
 
 sql/CMakeFiles/sql.dir/handler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/handler.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/handler.cc > CMakeFiles/sql.dir/handler.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/handler.cc > CMakeFiles/sql.dir/handler.cc.i
 
 sql/CMakeFiles/sql.dir/handler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/handler.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/handler.cc -o CMakeFiles/sql.dir/handler.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/handler.cc -o CMakeFiles/sql.dir/handler.cc.s
 
 sql/CMakeFiles/sql.dir/handler.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/handler.cc.o.requires
@@ -324,17 +324,17 @@ sql/CMakeFiles/sql.dir/handler.cc.o.provides.build: sql/CMakeFiles/sql.dir/handl
 
 sql/CMakeFiles/sql.dir/hostname.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/hostname.cc.o: sql/hostname.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/hostname.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/hostname.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/hostname.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/hostname.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/hostname.cc
 
 sql/CMakeFiles/sql.dir/hostname.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/hostname.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/hostname.cc > CMakeFiles/sql.dir/hostname.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/hostname.cc > CMakeFiles/sql.dir/hostname.cc.i
 
 sql/CMakeFiles/sql.dir/hostname.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/hostname.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/hostname.cc -o CMakeFiles/sql.dir/hostname.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/hostname.cc -o CMakeFiles/sql.dir/hostname.cc.s
 
 sql/CMakeFiles/sql.dir/hostname.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/hostname.cc.o.requires
@@ -347,17 +347,17 @@ sql/CMakeFiles/sql.dir/hostname.cc.o.provides.build: sql/CMakeFiles/sql.dir/host
 
 sql/CMakeFiles/sql.dir/init.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/init.cc.o: sql/init.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/init.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/init.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/init.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/init.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/init.cc
 
 sql/CMakeFiles/sql.dir/init.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/init.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/init.cc > CMakeFiles/sql.dir/init.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/init.cc > CMakeFiles/sql.dir/init.cc.i
 
 sql/CMakeFiles/sql.dir/init.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/init.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/init.cc -o CMakeFiles/sql.dir/init.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/init.cc -o CMakeFiles/sql.dir/init.cc.s
 
 sql/CMakeFiles/sql.dir/init.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/init.cc.o.requires
@@ -370,17 +370,17 @@ sql/CMakeFiles/sql.dir/init.cc.o.provides.build: sql/CMakeFiles/sql.dir/init.cc.
 
 sql/CMakeFiles/sql.dir/item.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item.cc.o: sql/item.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item.cc
 
 sql/CMakeFiles/sql.dir/item.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item.cc > CMakeFiles/sql.dir/item.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item.cc > CMakeFiles/sql.dir/item.cc.i
 
 sql/CMakeFiles/sql.dir/item.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item.cc -o CMakeFiles/sql.dir/item.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item.cc -o CMakeFiles/sql.dir/item.cc.s
 
 sql/CMakeFiles/sql.dir/item.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item.cc.o.requires
@@ -393,17 +393,17 @@ sql/CMakeFiles/sql.dir/item.cc.o.provides.build: sql/CMakeFiles/sql.dir/item.cc.
 
 sql/CMakeFiles/sql.dir/item_buff.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item_buff.cc.o: sql/item_buff.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item_buff.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_buff.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item_buff.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_buff.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_buff.cc
 
 sql/CMakeFiles/sql.dir/item_buff.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item_buff.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item_buff.cc > CMakeFiles/sql.dir/item_buff.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_buff.cc > CMakeFiles/sql.dir/item_buff.cc.i
 
 sql/CMakeFiles/sql.dir/item_buff.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item_buff.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item_buff.cc -o CMakeFiles/sql.dir/item_buff.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_buff.cc -o CMakeFiles/sql.dir/item_buff.cc.s
 
 sql/CMakeFiles/sql.dir/item_buff.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item_buff.cc.o.requires
@@ -416,17 +416,17 @@ sql/CMakeFiles/sql.dir/item_buff.cc.o.provides.build: sql/CMakeFiles/sql.dir/ite
 
 sql/CMakeFiles/sql.dir/item_cmpfunc.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item_cmpfunc.cc.o: sql/item_cmpfunc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item_cmpfunc.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_cmpfunc.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item_cmpfunc.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_cmpfunc.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_cmpfunc.cc
 
 sql/CMakeFiles/sql.dir/item_cmpfunc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item_cmpfunc.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item_cmpfunc.cc > CMakeFiles/sql.dir/item_cmpfunc.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_cmpfunc.cc > CMakeFiles/sql.dir/item_cmpfunc.cc.i
 
 sql/CMakeFiles/sql.dir/item_cmpfunc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item_cmpfunc.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item_cmpfunc.cc -o CMakeFiles/sql.dir/item_cmpfunc.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_cmpfunc.cc -o CMakeFiles/sql.dir/item_cmpfunc.cc.s
 
 sql/CMakeFiles/sql.dir/item_cmpfunc.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item_cmpfunc.cc.o.requires
@@ -439,17 +439,17 @@ sql/CMakeFiles/sql.dir/item_cmpfunc.cc.o.provides.build: sql/CMakeFiles/sql.dir/
 
 sql/CMakeFiles/sql.dir/item_create.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item_create.cc.o: sql/item_create.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item_create.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_create.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item_create.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_create.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_create.cc
 
 sql/CMakeFiles/sql.dir/item_create.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item_create.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item_create.cc > CMakeFiles/sql.dir/item_create.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_create.cc > CMakeFiles/sql.dir/item_create.cc.i
 
 sql/CMakeFiles/sql.dir/item_create.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item_create.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item_create.cc -o CMakeFiles/sql.dir/item_create.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_create.cc -o CMakeFiles/sql.dir/item_create.cc.s
 
 sql/CMakeFiles/sql.dir/item_create.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item_create.cc.o.requires
@@ -462,17 +462,17 @@ sql/CMakeFiles/sql.dir/item_create.cc.o.provides.build: sql/CMakeFiles/sql.dir/i
 
 sql/CMakeFiles/sql.dir/item_func.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item_func.cc.o: sql/item_func.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item_func.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_func.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item_func.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_func.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_func.cc
 
 sql/CMakeFiles/sql.dir/item_func.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item_func.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item_func.cc > CMakeFiles/sql.dir/item_func.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_func.cc > CMakeFiles/sql.dir/item_func.cc.i
 
 sql/CMakeFiles/sql.dir/item_func.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item_func.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item_func.cc -o CMakeFiles/sql.dir/item_func.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_func.cc -o CMakeFiles/sql.dir/item_func.cc.s
 
 sql/CMakeFiles/sql.dir/item_func.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item_func.cc.o.requires
@@ -485,17 +485,17 @@ sql/CMakeFiles/sql.dir/item_func.cc.o.provides.build: sql/CMakeFiles/sql.dir/ite
 
 sql/CMakeFiles/sql.dir/item_geofunc.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item_geofunc.cc.o: sql/item_geofunc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item_geofunc.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_geofunc.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item_geofunc.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_geofunc.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_geofunc.cc
 
 sql/CMakeFiles/sql.dir/item_geofunc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item_geofunc.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item_geofunc.cc > CMakeFiles/sql.dir/item_geofunc.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_geofunc.cc > CMakeFiles/sql.dir/item_geofunc.cc.i
 
 sql/CMakeFiles/sql.dir/item_geofunc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item_geofunc.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item_geofunc.cc -o CMakeFiles/sql.dir/item_geofunc.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_geofunc.cc -o CMakeFiles/sql.dir/item_geofunc.cc.s
 
 sql/CMakeFiles/sql.dir/item_geofunc.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item_geofunc.cc.o.requires
@@ -508,17 +508,17 @@ sql/CMakeFiles/sql.dir/item_geofunc.cc.o.provides.build: sql/CMakeFiles/sql.dir/
 
 sql/CMakeFiles/sql.dir/item_row.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item_row.cc.o: sql/item_row.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item_row.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_row.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item_row.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_row.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_row.cc
 
 sql/CMakeFiles/sql.dir/item_row.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item_row.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item_row.cc > CMakeFiles/sql.dir/item_row.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_row.cc > CMakeFiles/sql.dir/item_row.cc.i
 
 sql/CMakeFiles/sql.dir/item_row.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item_row.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item_row.cc -o CMakeFiles/sql.dir/item_row.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_row.cc -o CMakeFiles/sql.dir/item_row.cc.s
 
 sql/CMakeFiles/sql.dir/item_row.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item_row.cc.o.requires
@@ -531,17 +531,17 @@ sql/CMakeFiles/sql.dir/item_row.cc.o.provides.build: sql/CMakeFiles/sql.dir/item
 
 sql/CMakeFiles/sql.dir/item_strfunc.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item_strfunc.cc.o: sql/item_strfunc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item_strfunc.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_strfunc.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item_strfunc.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_strfunc.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_strfunc.cc
 
 sql/CMakeFiles/sql.dir/item_strfunc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item_strfunc.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item_strfunc.cc > CMakeFiles/sql.dir/item_strfunc.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_strfunc.cc > CMakeFiles/sql.dir/item_strfunc.cc.i
 
 sql/CMakeFiles/sql.dir/item_strfunc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item_strfunc.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item_strfunc.cc -o CMakeFiles/sql.dir/item_strfunc.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_strfunc.cc -o CMakeFiles/sql.dir/item_strfunc.cc.s
 
 sql/CMakeFiles/sql.dir/item_strfunc.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item_strfunc.cc.o.requires
@@ -554,17 +554,17 @@ sql/CMakeFiles/sql.dir/item_strfunc.cc.o.provides.build: sql/CMakeFiles/sql.dir/
 
 sql/CMakeFiles/sql.dir/item_subselect.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item_subselect.cc.o: sql/item_subselect.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item_subselect.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_subselect.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item_subselect.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_subselect.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_subselect.cc
 
 sql/CMakeFiles/sql.dir/item_subselect.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item_subselect.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item_subselect.cc > CMakeFiles/sql.dir/item_subselect.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_subselect.cc > CMakeFiles/sql.dir/item_subselect.cc.i
 
 sql/CMakeFiles/sql.dir/item_subselect.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item_subselect.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item_subselect.cc -o CMakeFiles/sql.dir/item_subselect.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_subselect.cc -o CMakeFiles/sql.dir/item_subselect.cc.s
 
 sql/CMakeFiles/sql.dir/item_subselect.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item_subselect.cc.o.requires
@@ -577,17 +577,17 @@ sql/CMakeFiles/sql.dir/item_subselect.cc.o.provides.build: sql/CMakeFiles/sql.di
 
 sql/CMakeFiles/sql.dir/item_sum.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item_sum.cc.o: sql/item_sum.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item_sum.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_sum.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item_sum.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_sum.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_sum.cc
 
 sql/CMakeFiles/sql.dir/item_sum.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item_sum.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item_sum.cc > CMakeFiles/sql.dir/item_sum.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_sum.cc > CMakeFiles/sql.dir/item_sum.cc.i
 
 sql/CMakeFiles/sql.dir/item_sum.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item_sum.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item_sum.cc -o CMakeFiles/sql.dir/item_sum.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_sum.cc -o CMakeFiles/sql.dir/item_sum.cc.s
 
 sql/CMakeFiles/sql.dir/item_sum.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item_sum.cc.o.requires
@@ -600,17 +600,17 @@ sql/CMakeFiles/sql.dir/item_sum.cc.o.provides.build: sql/CMakeFiles/sql.dir/item
 
 sql/CMakeFiles/sql.dir/item_timefunc.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item_timefunc.cc.o: sql/item_timefunc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item_timefunc.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_timefunc.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item_timefunc.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_timefunc.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_timefunc.cc
 
 sql/CMakeFiles/sql.dir/item_timefunc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item_timefunc.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item_timefunc.cc > CMakeFiles/sql.dir/item_timefunc.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_timefunc.cc > CMakeFiles/sql.dir/item_timefunc.cc.i
 
 sql/CMakeFiles/sql.dir/item_timefunc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item_timefunc.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item_timefunc.cc -o CMakeFiles/sql.dir/item_timefunc.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_timefunc.cc -o CMakeFiles/sql.dir/item_timefunc.cc.s
 
 sql/CMakeFiles/sql.dir/item_timefunc.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item_timefunc.cc.o.requires
@@ -623,17 +623,17 @@ sql/CMakeFiles/sql.dir/item_timefunc.cc.o.provides.build: sql/CMakeFiles/sql.dir
 
 sql/CMakeFiles/sql.dir/key.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/key.cc.o: sql/key.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/key.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/key.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/key.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/key.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/key.cc
 
 sql/CMakeFiles/sql.dir/key.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/key.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/key.cc > CMakeFiles/sql.dir/key.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/key.cc > CMakeFiles/sql.dir/key.cc.i
 
 sql/CMakeFiles/sql.dir/key.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/key.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/key.cc -o CMakeFiles/sql.dir/key.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/key.cc -o CMakeFiles/sql.dir/key.cc.s
 
 sql/CMakeFiles/sql.dir/key.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/key.cc.o.requires
@@ -646,17 +646,17 @@ sql/CMakeFiles/sql.dir/key.cc.o.provides.build: sql/CMakeFiles/sql.dir/key.cc.o
 
 sql/CMakeFiles/sql.dir/log.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/log.cc.o: sql/log.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/log.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/log.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/log.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/log.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/log.cc
 
 sql/CMakeFiles/sql.dir/log.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/log.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/log.cc > CMakeFiles/sql.dir/log.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/log.cc > CMakeFiles/sql.dir/log.cc.i
 
 sql/CMakeFiles/sql.dir/log.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/log.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/log.cc -o CMakeFiles/sql.dir/log.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/log.cc -o CMakeFiles/sql.dir/log.cc.s
 
 sql/CMakeFiles/sql.dir/log.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/log.cc.o.requires
@@ -669,17 +669,17 @@ sql/CMakeFiles/sql.dir/log.cc.o.provides.build: sql/CMakeFiles/sql.dir/log.cc.o
 
 sql/CMakeFiles/sql.dir/lock.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/lock.cc.o: sql/lock.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/lock.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/lock.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/lock.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/lock.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/lock.cc
 
 sql/CMakeFiles/sql.dir/lock.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/lock.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/lock.cc > CMakeFiles/sql.dir/lock.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/lock.cc > CMakeFiles/sql.dir/lock.cc.i
 
 sql/CMakeFiles/sql.dir/lock.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/lock.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/lock.cc -o CMakeFiles/sql.dir/lock.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/lock.cc -o CMakeFiles/sql.dir/lock.cc.s
 
 sql/CMakeFiles/sql.dir/lock.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/lock.cc.o.requires
@@ -692,17 +692,17 @@ sql/CMakeFiles/sql.dir/lock.cc.o.provides.build: sql/CMakeFiles/sql.dir/lock.cc.
 
 sql/CMakeFiles/sql.dir/log_event.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/log_event.cc.o: sql/log_event.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/log_event.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/log_event.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/log_event.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/log_event.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/log_event.cc
 
 sql/CMakeFiles/sql.dir/log_event.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/log_event.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/log_event.cc > CMakeFiles/sql.dir/log_event.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/log_event.cc > CMakeFiles/sql.dir/log_event.cc.i
 
 sql/CMakeFiles/sql.dir/log_event.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/log_event.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/log_event.cc -o CMakeFiles/sql.dir/log_event.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/log_event.cc -o CMakeFiles/sql.dir/log_event.cc.s
 
 sql/CMakeFiles/sql.dir/log_event.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/log_event.cc.o.requires
@@ -715,17 +715,17 @@ sql/CMakeFiles/sql.dir/log_event.cc.o.provides.build: sql/CMakeFiles/sql.dir/log
 
 sql/CMakeFiles/sql.dir/rpl_record.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/rpl_record.cc.o: sql/rpl_record.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/rpl_record.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_record.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_record.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_record.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_record.cc
 
 sql/CMakeFiles/sql.dir/rpl_record.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/rpl_record.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_record.cc > CMakeFiles/sql.dir/rpl_record.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_record.cc > CMakeFiles/sql.dir/rpl_record.cc.i
 
 sql/CMakeFiles/sql.dir/rpl_record.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/rpl_record.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_record.cc -o CMakeFiles/sql.dir/rpl_record.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_record.cc -o CMakeFiles/sql.dir/rpl_record.cc.s
 
 sql/CMakeFiles/sql.dir/rpl_record.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/rpl_record.cc.o.requires
@@ -738,17 +738,17 @@ sql/CMakeFiles/sql.dir/rpl_record.cc.o.provides.build: sql/CMakeFiles/sql.dir/rp
 
 sql/CMakeFiles/sql.dir/rpl_reporting.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/rpl_reporting.cc.o: sql/rpl_reporting.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/rpl_reporting.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_reporting.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_reporting.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_reporting.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_reporting.cc
 
 sql/CMakeFiles/sql.dir/rpl_reporting.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/rpl_reporting.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_reporting.cc > CMakeFiles/sql.dir/rpl_reporting.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_reporting.cc > CMakeFiles/sql.dir/rpl_reporting.cc.i
 
 sql/CMakeFiles/sql.dir/rpl_reporting.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/rpl_reporting.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_reporting.cc -o CMakeFiles/sql.dir/rpl_reporting.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_reporting.cc -o CMakeFiles/sql.dir/rpl_reporting.cc.s
 
 sql/CMakeFiles/sql.dir/rpl_reporting.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/rpl_reporting.cc.o.requires
@@ -761,17 +761,17 @@ sql/CMakeFiles/sql.dir/rpl_reporting.cc.o.provides.build: sql/CMakeFiles/sql.dir
 
 sql/CMakeFiles/sql.dir/log_event_old.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/log_event_old.cc.o: sql/log_event_old.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/log_event_old.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/log_event_old.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/log_event_old.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/log_event_old.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/log_event_old.cc
 
 sql/CMakeFiles/sql.dir/log_event_old.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/log_event_old.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/log_event_old.cc > CMakeFiles/sql.dir/log_event_old.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/log_event_old.cc > CMakeFiles/sql.dir/log_event_old.cc.i
 
 sql/CMakeFiles/sql.dir/log_event_old.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/log_event_old.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/log_event_old.cc -o CMakeFiles/sql.dir/log_event_old.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/log_event_old.cc -o CMakeFiles/sql.dir/log_event_old.cc.s
 
 sql/CMakeFiles/sql.dir/log_event_old.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/log_event_old.cc.o.requires
@@ -784,17 +784,17 @@ sql/CMakeFiles/sql.dir/log_event_old.cc.o.provides.build: sql/CMakeFiles/sql.dir
 
 sql/CMakeFiles/sql.dir/rpl_record_old.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/rpl_record_old.cc.o: sql/rpl_record_old.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/rpl_record_old.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_record_old.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_record_old.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_record_old.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_record_old.cc
 
 sql/CMakeFiles/sql.dir/rpl_record_old.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/rpl_record_old.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_record_old.cc > CMakeFiles/sql.dir/rpl_record_old.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_record_old.cc > CMakeFiles/sql.dir/rpl_record_old.cc.i
 
 sql/CMakeFiles/sql.dir/rpl_record_old.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/rpl_record_old.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_record_old.cc -o CMakeFiles/sql.dir/rpl_record_old.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_record_old.cc -o CMakeFiles/sql.dir/rpl_record_old.cc.s
 
 sql/CMakeFiles/sql.dir/rpl_record_old.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/rpl_record_old.cc.o.requires
@@ -807,17 +807,17 @@ sql/CMakeFiles/sql.dir/rpl_record_old.cc.o.provides.build: sql/CMakeFiles/sql.di
 
 sql/CMakeFiles/sql.dir/mf_iocache.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/mf_iocache.cc.o: sql/mf_iocache.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/mf_iocache.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/mf_iocache.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/mf_iocache.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/mf_iocache.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/mf_iocache.cc
 
 sql/CMakeFiles/sql.dir/mf_iocache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/mf_iocache.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/mf_iocache.cc > CMakeFiles/sql.dir/mf_iocache.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/mf_iocache.cc > CMakeFiles/sql.dir/mf_iocache.cc.i
 
 sql/CMakeFiles/sql.dir/mf_iocache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/mf_iocache.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/mf_iocache.cc -o CMakeFiles/sql.dir/mf_iocache.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/mf_iocache.cc -o CMakeFiles/sql.dir/mf_iocache.cc.s
 
 sql/CMakeFiles/sql.dir/mf_iocache.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/mf_iocache.cc.o.requires
@@ -830,17 +830,17 @@ sql/CMakeFiles/sql.dir/mf_iocache.cc.o.provides.build: sql/CMakeFiles/sql.dir/mf
 
 sql/CMakeFiles/sql.dir/my_decimal.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/my_decimal.cc.o: sql/my_decimal.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/my_decimal.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/my_decimal.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/my_decimal.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/my_decimal.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/my_decimal.cc
 
 sql/CMakeFiles/sql.dir/my_decimal.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/my_decimal.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/my_decimal.cc > CMakeFiles/sql.dir/my_decimal.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/my_decimal.cc > CMakeFiles/sql.dir/my_decimal.cc.i
 
 sql/CMakeFiles/sql.dir/my_decimal.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/my_decimal.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/my_decimal.cc -o CMakeFiles/sql.dir/my_decimal.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/my_decimal.cc -o CMakeFiles/sql.dir/my_decimal.cc.s
 
 sql/CMakeFiles/sql.dir/my_decimal.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/my_decimal.cc.o.requires
@@ -853,17 +853,17 @@ sql/CMakeFiles/sql.dir/my_decimal.cc.o.provides.build: sql/CMakeFiles/sql.dir/my
 
 sql/CMakeFiles/sql.dir/__/sql-common/my_time.c.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/__/sql-common/my_time.c.o: sql-common/my_time.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object sql/CMakeFiles/sql.dir/__/sql-common/my_time.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/sql-common/my_time.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql-common/my_time.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/sql-common/my_time.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/my_time.c
 
 sql/CMakeFiles/sql.dir/__/sql-common/my_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sql.dir/__/sql-common/my_time.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql-common/my_time.c > CMakeFiles/sql.dir/__/sql-common/my_time.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/my_time.c > CMakeFiles/sql.dir/__/sql-common/my_time.c.i
 
 sql/CMakeFiles/sql.dir/__/sql-common/my_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sql.dir/__/sql-common/my_time.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql-common/my_time.c -o CMakeFiles/sql.dir/__/sql-common/my_time.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/my_time.c -o CMakeFiles/sql.dir/__/sql-common/my_time.c.s
 
 sql/CMakeFiles/sql.dir/__/sql-common/my_time.c.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/__/sql-common/my_time.c.o.requires
@@ -876,17 +876,17 @@ sql/CMakeFiles/sql.dir/__/sql-common/my_time.c.o.provides.build: sql/CMakeFiles/
 
 sql/CMakeFiles/sql.dir/mysqld.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/mysqld.cc.o: sql/mysqld.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/mysqld.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/mysqld.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/mysqld.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/mysqld.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/mysqld.cc
 
 sql/CMakeFiles/sql.dir/mysqld.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/mysqld.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/mysqld.cc > CMakeFiles/sql.dir/mysqld.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/mysqld.cc > CMakeFiles/sql.dir/mysqld.cc.i
 
 sql/CMakeFiles/sql.dir/mysqld.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/mysqld.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/mysqld.cc -o CMakeFiles/sql.dir/mysqld.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/mysqld.cc -o CMakeFiles/sql.dir/mysqld.cc.s
 
 sql/CMakeFiles/sql.dir/mysqld.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/mysqld.cc.o.requires
@@ -899,17 +899,17 @@ sql/CMakeFiles/sql.dir/mysqld.cc.o.provides.build: sql/CMakeFiles/sql.dir/mysqld
 
 sql/CMakeFiles/sql.dir/net_serv.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/net_serv.cc.o: sql/net_serv.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/net_serv.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/net_serv.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/net_serv.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/net_serv.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/net_serv.cc
 
 sql/CMakeFiles/sql.dir/net_serv.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/net_serv.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/net_serv.cc > CMakeFiles/sql.dir/net_serv.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/net_serv.cc > CMakeFiles/sql.dir/net_serv.cc.i
 
 sql/CMakeFiles/sql.dir/net_serv.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/net_serv.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/net_serv.cc -o CMakeFiles/sql.dir/net_serv.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/net_serv.cc -o CMakeFiles/sql.dir/net_serv.cc.s
 
 sql/CMakeFiles/sql.dir/net_serv.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/net_serv.cc.o.requires
@@ -922,17 +922,17 @@ sql/CMakeFiles/sql.dir/net_serv.cc.o.provides.build: sql/CMakeFiles/sql.dir/net_
 
 sql/CMakeFiles/sql.dir/keycaches.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/keycaches.cc.o: sql/keycaches.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/keycaches.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/keycaches.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/keycaches.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/keycaches.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/keycaches.cc
 
 sql/CMakeFiles/sql.dir/keycaches.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/keycaches.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/keycaches.cc > CMakeFiles/sql.dir/keycaches.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/keycaches.cc > CMakeFiles/sql.dir/keycaches.cc.i
 
 sql/CMakeFiles/sql.dir/keycaches.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/keycaches.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/keycaches.cc -o CMakeFiles/sql.dir/keycaches.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/keycaches.cc -o CMakeFiles/sql.dir/keycaches.cc.s
 
 sql/CMakeFiles/sql.dir/keycaches.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/keycaches.cc.o.requires
@@ -945,17 +945,17 @@ sql/CMakeFiles/sql.dir/keycaches.cc.o.provides.build: sql/CMakeFiles/sql.dir/key
 
 sql/CMakeFiles/sql.dir/__/sql-common/client_plugin.c.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/__/sql-common/client_plugin.c.o: sql-common/client_plugin.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object sql/CMakeFiles/sql.dir/__/sql-common/client_plugin.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/sql-common/client_plugin.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql-common/client_plugin.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/sql-common/client_plugin.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client_plugin.c
 
 sql/CMakeFiles/sql.dir/__/sql-common/client_plugin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sql.dir/__/sql-common/client_plugin.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql-common/client_plugin.c > CMakeFiles/sql.dir/__/sql-common/client_plugin.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client_plugin.c > CMakeFiles/sql.dir/__/sql-common/client_plugin.c.i
 
 sql/CMakeFiles/sql.dir/__/sql-common/client_plugin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sql.dir/__/sql-common/client_plugin.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql-common/client_plugin.c -o CMakeFiles/sql.dir/__/sql-common/client_plugin.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client_plugin.c -o CMakeFiles/sql.dir/__/sql-common/client_plugin.c.s
 
 sql/CMakeFiles/sql.dir/__/sql-common/client_plugin.c.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/__/sql-common/client_plugin.c.o.requires
@@ -968,17 +968,17 @@ sql/CMakeFiles/sql.dir/__/sql-common/client_plugin.c.o.provides.build: sql/CMake
 
 sql/CMakeFiles/sql.dir/opt_range.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/opt_range.cc.o: sql/opt_range.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/opt_range.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/opt_range.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/opt_range.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/opt_range.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/opt_range.cc
 
 sql/CMakeFiles/sql.dir/opt_range.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/opt_range.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/opt_range.cc > CMakeFiles/sql.dir/opt_range.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/opt_range.cc > CMakeFiles/sql.dir/opt_range.cc.i
 
 sql/CMakeFiles/sql.dir/opt_range.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/opt_range.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/opt_range.cc -o CMakeFiles/sql.dir/opt_range.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/opt_range.cc -o CMakeFiles/sql.dir/opt_range.cc.s
 
 sql/CMakeFiles/sql.dir/opt_range.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/opt_range.cc.o.requires
@@ -991,17 +991,17 @@ sql/CMakeFiles/sql.dir/opt_range.cc.o.provides.build: sql/CMakeFiles/sql.dir/opt
 
 sql/CMakeFiles/sql.dir/opt_sum.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/opt_sum.cc.o: sql/opt_sum.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/opt_sum.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/opt_sum.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/opt_sum.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/opt_sum.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/opt_sum.cc
 
 sql/CMakeFiles/sql.dir/opt_sum.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/opt_sum.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/opt_sum.cc > CMakeFiles/sql.dir/opt_sum.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/opt_sum.cc > CMakeFiles/sql.dir/opt_sum.cc.i
 
 sql/CMakeFiles/sql.dir/opt_sum.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/opt_sum.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/opt_sum.cc -o CMakeFiles/sql.dir/opt_sum.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/opt_sum.cc -o CMakeFiles/sql.dir/opt_sum.cc.s
 
 sql/CMakeFiles/sql.dir/opt_sum.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/opt_sum.cc.o.requires
@@ -1014,17 +1014,17 @@ sql/CMakeFiles/sql.dir/opt_sum.cc.o.provides.build: sql/CMakeFiles/sql.dir/opt_s
 
 sql/CMakeFiles/sql.dir/__/sql-common/pack.c.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/__/sql-common/pack.c.o: sql-common/pack.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object sql/CMakeFiles/sql.dir/__/sql-common/pack.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/sql-common/pack.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql-common/pack.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/sql-common/pack.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/pack.c
 
 sql/CMakeFiles/sql.dir/__/sql-common/pack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sql.dir/__/sql-common/pack.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql-common/pack.c > CMakeFiles/sql.dir/__/sql-common/pack.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/pack.c > CMakeFiles/sql.dir/__/sql-common/pack.c.i
 
 sql/CMakeFiles/sql.dir/__/sql-common/pack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sql.dir/__/sql-common/pack.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql-common/pack.c -o CMakeFiles/sql.dir/__/sql-common/pack.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/pack.c -o CMakeFiles/sql.dir/__/sql-common/pack.c.s
 
 sql/CMakeFiles/sql.dir/__/sql-common/pack.c.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/__/sql-common/pack.c.o.requires
@@ -1037,17 +1037,17 @@ sql/CMakeFiles/sql.dir/__/sql-common/pack.c.o.provides.build: sql/CMakeFiles/sql
 
 sql/CMakeFiles/sql.dir/parse_file.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/parse_file.cc.o: sql/parse_file.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/parse_file.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/parse_file.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/parse_file.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/parse_file.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/parse_file.cc
 
 sql/CMakeFiles/sql.dir/parse_file.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/parse_file.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/parse_file.cc > CMakeFiles/sql.dir/parse_file.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/parse_file.cc > CMakeFiles/sql.dir/parse_file.cc.i
 
 sql/CMakeFiles/sql.dir/parse_file.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/parse_file.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/parse_file.cc -o CMakeFiles/sql.dir/parse_file.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/parse_file.cc -o CMakeFiles/sql.dir/parse_file.cc.s
 
 sql/CMakeFiles/sql.dir/parse_file.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/parse_file.cc.o.requires
@@ -1060,17 +1060,17 @@ sql/CMakeFiles/sql.dir/parse_file.cc.o.provides.build: sql/CMakeFiles/sql.dir/pa
 
 sql/CMakeFiles/sql.dir/password.c.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/password.c.o: sql/password.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object sql/CMakeFiles/sql.dir/password.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/password.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql/password.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/password.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/password.c
 
 sql/CMakeFiles/sql.dir/password.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sql.dir/password.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/password.c > CMakeFiles/sql.dir/password.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/password.c > CMakeFiles/sql.dir/password.c.i
 
 sql/CMakeFiles/sql.dir/password.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sql.dir/password.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/password.c -o CMakeFiles/sql.dir/password.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/password.c -o CMakeFiles/sql.dir/password.c.s
 
 sql/CMakeFiles/sql.dir/password.c.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/password.c.o.requires
@@ -1083,17 +1083,17 @@ sql/CMakeFiles/sql.dir/password.c.o.provides.build: sql/CMakeFiles/sql.dir/passw
 
 sql/CMakeFiles/sql.dir/procedure.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/procedure.cc.o: sql/procedure.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/procedure.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/procedure.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/procedure.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/procedure.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/procedure.cc
 
 sql/CMakeFiles/sql.dir/procedure.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/procedure.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/procedure.cc > CMakeFiles/sql.dir/procedure.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/procedure.cc > CMakeFiles/sql.dir/procedure.cc.i
 
 sql/CMakeFiles/sql.dir/procedure.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/procedure.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/procedure.cc -o CMakeFiles/sql.dir/procedure.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/procedure.cc -o CMakeFiles/sql.dir/procedure.cc.s
 
 sql/CMakeFiles/sql.dir/procedure.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/procedure.cc.o.requires
@@ -1106,17 +1106,17 @@ sql/CMakeFiles/sql.dir/procedure.cc.o.provides.build: sql/CMakeFiles/sql.dir/pro
 
 sql/CMakeFiles/sql.dir/protocol.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/protocol.cc.o: sql/protocol.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/protocol.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/protocol.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/protocol.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/protocol.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/protocol.cc
 
 sql/CMakeFiles/sql.dir/protocol.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/protocol.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/protocol.cc > CMakeFiles/sql.dir/protocol.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/protocol.cc > CMakeFiles/sql.dir/protocol.cc.i
 
 sql/CMakeFiles/sql.dir/protocol.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/protocol.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/protocol.cc -o CMakeFiles/sql.dir/protocol.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/protocol.cc -o CMakeFiles/sql.dir/protocol.cc.s
 
 sql/CMakeFiles/sql.dir/protocol.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/protocol.cc.o.requires
@@ -1129,17 +1129,17 @@ sql/CMakeFiles/sql.dir/protocol.cc.o.provides.build: sql/CMakeFiles/sql.dir/prot
 
 sql/CMakeFiles/sql.dir/records.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/records.cc.o: sql/records.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/records.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/records.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/records.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/records.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/records.cc
 
 sql/CMakeFiles/sql.dir/records.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/records.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/records.cc > CMakeFiles/sql.dir/records.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/records.cc > CMakeFiles/sql.dir/records.cc.i
 
 sql/CMakeFiles/sql.dir/records.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/records.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/records.cc -o CMakeFiles/sql.dir/records.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/records.cc -o CMakeFiles/sql.dir/records.cc.s
 
 sql/CMakeFiles/sql.dir/records.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/records.cc.o.requires
@@ -1152,17 +1152,17 @@ sql/CMakeFiles/sql.dir/records.cc.o.provides.build: sql/CMakeFiles/sql.dir/recor
 
 sql/CMakeFiles/sql.dir/repl_failsafe.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/repl_failsafe.cc.o: sql/repl_failsafe.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/repl_failsafe.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/repl_failsafe.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/repl_failsafe.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/repl_failsafe.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/repl_failsafe.cc
 
 sql/CMakeFiles/sql.dir/repl_failsafe.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/repl_failsafe.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/repl_failsafe.cc > CMakeFiles/sql.dir/repl_failsafe.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/repl_failsafe.cc > CMakeFiles/sql.dir/repl_failsafe.cc.i
 
 sql/CMakeFiles/sql.dir/repl_failsafe.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/repl_failsafe.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/repl_failsafe.cc -o CMakeFiles/sql.dir/repl_failsafe.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/repl_failsafe.cc -o CMakeFiles/sql.dir/repl_failsafe.cc.s
 
 sql/CMakeFiles/sql.dir/repl_failsafe.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/repl_failsafe.cc.o.requires
@@ -1175,17 +1175,17 @@ sql/CMakeFiles/sql.dir/repl_failsafe.cc.o.provides.build: sql/CMakeFiles/sql.dir
 
 sql/CMakeFiles/sql.dir/rpl_filter.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/rpl_filter.cc.o: sql/rpl_filter.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/rpl_filter.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_filter.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_filter.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_filter.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_filter.cc
 
 sql/CMakeFiles/sql.dir/rpl_filter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/rpl_filter.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_filter.cc > CMakeFiles/sql.dir/rpl_filter.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_filter.cc > CMakeFiles/sql.dir/rpl_filter.cc.i
 
 sql/CMakeFiles/sql.dir/rpl_filter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/rpl_filter.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_filter.cc -o CMakeFiles/sql.dir/rpl_filter.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_filter.cc -o CMakeFiles/sql.dir/rpl_filter.cc.s
 
 sql/CMakeFiles/sql.dir/rpl_filter.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/rpl_filter.cc.o.requires
@@ -1198,17 +1198,17 @@ sql/CMakeFiles/sql.dir/rpl_filter.cc.o.provides.build: sql/CMakeFiles/sql.dir/rp
 
 sql/CMakeFiles/sql.dir/set_var.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/set_var.cc.o: sql/set_var.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/set_var.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/set_var.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/set_var.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/set_var.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/set_var.cc
 
 sql/CMakeFiles/sql.dir/set_var.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/set_var.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/set_var.cc > CMakeFiles/sql.dir/set_var.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/set_var.cc > CMakeFiles/sql.dir/set_var.cc.i
 
 sql/CMakeFiles/sql.dir/set_var.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/set_var.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/set_var.cc -o CMakeFiles/sql.dir/set_var.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/set_var.cc -o CMakeFiles/sql.dir/set_var.cc.s
 
 sql/CMakeFiles/sql.dir/set_var.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/set_var.cc.o.requires
@@ -1221,17 +1221,17 @@ sql/CMakeFiles/sql.dir/set_var.cc.o.provides.build: sql/CMakeFiles/sql.dir/set_v
 
 sql/CMakeFiles/sql.dir/slave.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/slave.cc.o: sql/slave.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/slave.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/slave.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/slave.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/slave.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/slave.cc
 
 sql/CMakeFiles/sql.dir/slave.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/slave.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/slave.cc > CMakeFiles/sql.dir/slave.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/slave.cc > CMakeFiles/sql.dir/slave.cc.i
 
 sql/CMakeFiles/sql.dir/slave.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/slave.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/slave.cc -o CMakeFiles/sql.dir/slave.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/slave.cc -o CMakeFiles/sql.dir/slave.cc.s
 
 sql/CMakeFiles/sql.dir/slave.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/slave.cc.o.requires
@@ -1244,17 +1244,17 @@ sql/CMakeFiles/sql.dir/slave.cc.o.provides.build: sql/CMakeFiles/sql.dir/slave.c
 
 sql/CMakeFiles/sql.dir/sp.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sp.cc.o: sql/sp.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sp.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sp.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sp.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sp.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp.cc
 
 sql/CMakeFiles/sql.dir/sp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sp.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sp.cc > CMakeFiles/sql.dir/sp.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp.cc > CMakeFiles/sql.dir/sp.cc.i
 
 sql/CMakeFiles/sql.dir/sp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sp.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sp.cc -o CMakeFiles/sql.dir/sp.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp.cc -o CMakeFiles/sql.dir/sp.cc.s
 
 sql/CMakeFiles/sql.dir/sp.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sp.cc.o.requires
@@ -1267,17 +1267,17 @@ sql/CMakeFiles/sql.dir/sp.cc.o.provides.build: sql/CMakeFiles/sql.dir/sp.cc.o
 
 sql/CMakeFiles/sql.dir/sp_cache.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sp_cache.cc.o: sql/sp_cache.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sp_cache.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sp_cache.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sp_cache.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sp_cache.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_cache.cc
 
 sql/CMakeFiles/sql.dir/sp_cache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sp_cache.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sp_cache.cc > CMakeFiles/sql.dir/sp_cache.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_cache.cc > CMakeFiles/sql.dir/sp_cache.cc.i
 
 sql/CMakeFiles/sql.dir/sp_cache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sp_cache.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sp_cache.cc -o CMakeFiles/sql.dir/sp_cache.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_cache.cc -o CMakeFiles/sql.dir/sp_cache.cc.s
 
 sql/CMakeFiles/sql.dir/sp_cache.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sp_cache.cc.o.requires
@@ -1290,17 +1290,17 @@ sql/CMakeFiles/sql.dir/sp_cache.cc.o.provides.build: sql/CMakeFiles/sql.dir/sp_c
 
 sql/CMakeFiles/sql.dir/sp_head.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sp_head.cc.o: sql/sp_head.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sp_head.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sp_head.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sp_head.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sp_head.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_head.cc
 
 sql/CMakeFiles/sql.dir/sp_head.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sp_head.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sp_head.cc > CMakeFiles/sql.dir/sp_head.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_head.cc > CMakeFiles/sql.dir/sp_head.cc.i
 
 sql/CMakeFiles/sql.dir/sp_head.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sp_head.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sp_head.cc -o CMakeFiles/sql.dir/sp_head.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_head.cc -o CMakeFiles/sql.dir/sp_head.cc.s
 
 sql/CMakeFiles/sql.dir/sp_head.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sp_head.cc.o.requires
@@ -1313,17 +1313,17 @@ sql/CMakeFiles/sql.dir/sp_head.cc.o.provides.build: sql/CMakeFiles/sql.dir/sp_he
 
 sql/CMakeFiles/sql.dir/sp_pcontext.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sp_pcontext.cc.o: sql/sp_pcontext.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sp_pcontext.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sp_pcontext.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sp_pcontext.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sp_pcontext.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_pcontext.cc
 
 sql/CMakeFiles/sql.dir/sp_pcontext.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sp_pcontext.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sp_pcontext.cc > CMakeFiles/sql.dir/sp_pcontext.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_pcontext.cc > CMakeFiles/sql.dir/sp_pcontext.cc.i
 
 sql/CMakeFiles/sql.dir/sp_pcontext.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sp_pcontext.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sp_pcontext.cc -o CMakeFiles/sql.dir/sp_pcontext.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_pcontext.cc -o CMakeFiles/sql.dir/sp_pcontext.cc.s
 
 sql/CMakeFiles/sql.dir/sp_pcontext.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sp_pcontext.cc.o.requires
@@ -1336,17 +1336,17 @@ sql/CMakeFiles/sql.dir/sp_pcontext.cc.o.provides.build: sql/CMakeFiles/sql.dir/s
 
 sql/CMakeFiles/sql.dir/sp_rcontext.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sp_rcontext.cc.o: sql/sp_rcontext.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sp_rcontext.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sp_rcontext.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sp_rcontext.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sp_rcontext.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_rcontext.cc
 
 sql/CMakeFiles/sql.dir/sp_rcontext.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sp_rcontext.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sp_rcontext.cc > CMakeFiles/sql.dir/sp_rcontext.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_rcontext.cc > CMakeFiles/sql.dir/sp_rcontext.cc.i
 
 sql/CMakeFiles/sql.dir/sp_rcontext.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sp_rcontext.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sp_rcontext.cc -o CMakeFiles/sql.dir/sp_rcontext.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sp_rcontext.cc -o CMakeFiles/sql.dir/sp_rcontext.cc.s
 
 sql/CMakeFiles/sql.dir/sp_rcontext.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sp_rcontext.cc.o.requires
@@ -1359,17 +1359,17 @@ sql/CMakeFiles/sql.dir/sp_rcontext.cc.o.provides.build: sql/CMakeFiles/sql.dir/s
 
 sql/CMakeFiles/sql.dir/spatial.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/spatial.cc.o: sql/spatial.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/spatial.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/spatial.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/spatial.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/spatial.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/spatial.cc
 
 sql/CMakeFiles/sql.dir/spatial.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/spatial.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/spatial.cc > CMakeFiles/sql.dir/spatial.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/spatial.cc > CMakeFiles/sql.dir/spatial.cc.i
 
 sql/CMakeFiles/sql.dir/spatial.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/spatial.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/spatial.cc -o CMakeFiles/sql.dir/spatial.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/spatial.cc -o CMakeFiles/sql.dir/spatial.cc.s
 
 sql/CMakeFiles/sql.dir/spatial.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/spatial.cc.o.requires
@@ -1382,17 +1382,17 @@ sql/CMakeFiles/sql.dir/spatial.cc.o.provides.build: sql/CMakeFiles/sql.dir/spati
 
 sql/CMakeFiles/sql.dir/sql_acl.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_acl.cc.o: sql/sql_acl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_acl.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_acl.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_acl.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_acl.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_acl.cc
 
 sql/CMakeFiles/sql.dir/sql_acl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_acl.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_acl.cc > CMakeFiles/sql.dir/sql_acl.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_acl.cc > CMakeFiles/sql.dir/sql_acl.cc.i
 
 sql/CMakeFiles/sql.dir/sql_acl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_acl.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_acl.cc -o CMakeFiles/sql.dir/sql_acl.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_acl.cc -o CMakeFiles/sql.dir/sql_acl.cc.s
 
 sql/CMakeFiles/sql.dir/sql_acl.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_acl.cc.o.requires
@@ -1405,17 +1405,17 @@ sql/CMakeFiles/sql.dir/sql_acl.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_a
 
 sql/CMakeFiles/sql.dir/sql_analyse.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_analyse.cc.o: sql/sql_analyse.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_analyse.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_analyse.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_analyse.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_analyse.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_analyse.cc
 
 sql/CMakeFiles/sql.dir/sql_analyse.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_analyse.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_analyse.cc > CMakeFiles/sql.dir/sql_analyse.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_analyse.cc > CMakeFiles/sql.dir/sql_analyse.cc.i
 
 sql/CMakeFiles/sql.dir/sql_analyse.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_analyse.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_analyse.cc -o CMakeFiles/sql.dir/sql_analyse.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_analyse.cc -o CMakeFiles/sql.dir/sql_analyse.cc.s
 
 sql/CMakeFiles/sql.dir/sql_analyse.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_analyse.cc.o.requires
@@ -1428,17 +1428,17 @@ sql/CMakeFiles/sql.dir/sql_analyse.cc.o.provides.build: sql/CMakeFiles/sql.dir/s
 
 sql/CMakeFiles/sql.dir/sql_base.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_base.cc.o: sql/sql_base.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_base.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_base.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_base.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_base.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_base.cc
 
 sql/CMakeFiles/sql.dir/sql_base.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_base.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_base.cc > CMakeFiles/sql.dir/sql_base.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_base.cc > CMakeFiles/sql.dir/sql_base.cc.i
 
 sql/CMakeFiles/sql.dir/sql_base.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_base.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_base.cc -o CMakeFiles/sql.dir/sql_base.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_base.cc -o CMakeFiles/sql.dir/sql_base.cc.s
 
 sql/CMakeFiles/sql.dir/sql_base.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_base.cc.o.requires
@@ -1451,17 +1451,17 @@ sql/CMakeFiles/sql.dir/sql_base.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_
 
 sql/CMakeFiles/sql.dir/sql_cache.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_cache.cc.o: sql/sql_cache.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_cache.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_cache.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_cache.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_cache.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_cache.cc
 
 sql/CMakeFiles/sql.dir/sql_cache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_cache.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_cache.cc > CMakeFiles/sql.dir/sql_cache.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_cache.cc > CMakeFiles/sql.dir/sql_cache.cc.i
 
 sql/CMakeFiles/sql.dir/sql_cache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_cache.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_cache.cc -o CMakeFiles/sql.dir/sql_cache.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_cache.cc -o CMakeFiles/sql.dir/sql_cache.cc.s
 
 sql/CMakeFiles/sql.dir/sql_cache.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_cache.cc.o.requires
@@ -1474,17 +1474,17 @@ sql/CMakeFiles/sql.dir/sql_cache.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql
 
 sql/CMakeFiles/sql.dir/sql_class.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_class.cc.o: sql/sql_class.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_class.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_class.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_class.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_class.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_class.cc
 
 sql/CMakeFiles/sql.dir/sql_class.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_class.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_class.cc > CMakeFiles/sql.dir/sql_class.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_class.cc > CMakeFiles/sql.dir/sql_class.cc.i
 
 sql/CMakeFiles/sql.dir/sql_class.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_class.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_class.cc -o CMakeFiles/sql.dir/sql_class.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_class.cc -o CMakeFiles/sql.dir/sql_class.cc.s
 
 sql/CMakeFiles/sql.dir/sql_class.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_class.cc.o.requires
@@ -1497,17 +1497,17 @@ sql/CMakeFiles/sql.dir/sql_class.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql
 
 sql/CMakeFiles/sql.dir/sql_client.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_client.cc.o: sql/sql_client.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_client.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_client.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_client.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_client.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_client.cc
 
 sql/CMakeFiles/sql.dir/sql_client.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_client.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_client.cc > CMakeFiles/sql.dir/sql_client.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_client.cc > CMakeFiles/sql.dir/sql_client.cc.i
 
 sql/CMakeFiles/sql.dir/sql_client.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_client.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_client.cc -o CMakeFiles/sql.dir/sql_client.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_client.cc -o CMakeFiles/sql.dir/sql_client.cc.s
 
 sql/CMakeFiles/sql.dir/sql_client.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_client.cc.o.requires
@@ -1520,17 +1520,17 @@ sql/CMakeFiles/sql.dir/sql_client.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/sql_crypt.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_crypt.cc.o: sql/sql_crypt.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_crypt.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_crypt.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_crypt.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_crypt.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_crypt.cc
 
 sql/CMakeFiles/sql.dir/sql_crypt.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_crypt.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_crypt.cc > CMakeFiles/sql.dir/sql_crypt.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_crypt.cc > CMakeFiles/sql.dir/sql_crypt.cc.i
 
 sql/CMakeFiles/sql.dir/sql_crypt.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_crypt.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_crypt.cc -o CMakeFiles/sql.dir/sql_crypt.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_crypt.cc -o CMakeFiles/sql.dir/sql_crypt.cc.s
 
 sql/CMakeFiles/sql.dir/sql_crypt.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_crypt.cc.o.requires
@@ -1543,17 +1543,17 @@ sql/CMakeFiles/sql.dir/sql_crypt.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql
 
 sql/CMakeFiles/sql.dir/sql_cursor.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_cursor.cc.o: sql/sql_cursor.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_cursor.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_cursor.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_cursor.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_cursor.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_cursor.cc
 
 sql/CMakeFiles/sql.dir/sql_cursor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_cursor.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_cursor.cc > CMakeFiles/sql.dir/sql_cursor.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_cursor.cc > CMakeFiles/sql.dir/sql_cursor.cc.i
 
 sql/CMakeFiles/sql.dir/sql_cursor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_cursor.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_cursor.cc -o CMakeFiles/sql.dir/sql_cursor.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_cursor.cc -o CMakeFiles/sql.dir/sql_cursor.cc.s
 
 sql/CMakeFiles/sql.dir/sql_cursor.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_cursor.cc.o.requires
@@ -1566,17 +1566,17 @@ sql/CMakeFiles/sql.dir/sql_cursor.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/sql_db.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_db.cc.o: sql/sql_db.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_db.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_db.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_db.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_db.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_db.cc
 
 sql/CMakeFiles/sql.dir/sql_db.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_db.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_db.cc > CMakeFiles/sql.dir/sql_db.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_db.cc > CMakeFiles/sql.dir/sql_db.cc.i
 
 sql/CMakeFiles/sql.dir/sql_db.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_db.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_db.cc -o CMakeFiles/sql.dir/sql_db.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_db.cc -o CMakeFiles/sql.dir/sql_db.cc.s
 
 sql/CMakeFiles/sql.dir/sql_db.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_db.cc.o.requires
@@ -1589,17 +1589,17 @@ sql/CMakeFiles/sql.dir/sql_db.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_db
 
 sql/CMakeFiles/sql.dir/sql_delete.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_delete.cc.o: sql/sql_delete.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_delete.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_delete.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_delete.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_delete.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_delete.cc
 
 sql/CMakeFiles/sql.dir/sql_delete.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_delete.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_delete.cc > CMakeFiles/sql.dir/sql_delete.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_delete.cc > CMakeFiles/sql.dir/sql_delete.cc.i
 
 sql/CMakeFiles/sql.dir/sql_delete.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_delete.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_delete.cc -o CMakeFiles/sql.dir/sql_delete.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_delete.cc -o CMakeFiles/sql.dir/sql_delete.cc.s
 
 sql/CMakeFiles/sql.dir/sql_delete.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_delete.cc.o.requires
@@ -1612,17 +1612,17 @@ sql/CMakeFiles/sql.dir/sql_delete.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/sql_derived.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_derived.cc.o: sql/sql_derived.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_derived.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_derived.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_derived.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_derived.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_derived.cc
 
 sql/CMakeFiles/sql.dir/sql_derived.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_derived.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_derived.cc > CMakeFiles/sql.dir/sql_derived.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_derived.cc > CMakeFiles/sql.dir/sql_derived.cc.i
 
 sql/CMakeFiles/sql.dir/sql_derived.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_derived.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_derived.cc -o CMakeFiles/sql.dir/sql_derived.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_derived.cc -o CMakeFiles/sql.dir/sql_derived.cc.s
 
 sql/CMakeFiles/sql.dir/sql_derived.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_derived.cc.o.requires
@@ -1635,17 +1635,17 @@ sql/CMakeFiles/sql.dir/sql_derived.cc.o.provides.build: sql/CMakeFiles/sql.dir/s
 
 sql/CMakeFiles/sql.dir/sql_do.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_do.cc.o: sql/sql_do.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_do.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_do.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_do.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_do.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_do.cc
 
 sql/CMakeFiles/sql.dir/sql_do.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_do.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_do.cc > CMakeFiles/sql.dir/sql_do.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_do.cc > CMakeFiles/sql.dir/sql_do.cc.i
 
 sql/CMakeFiles/sql.dir/sql_do.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_do.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_do.cc -o CMakeFiles/sql.dir/sql_do.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_do.cc -o CMakeFiles/sql.dir/sql_do.cc.s
 
 sql/CMakeFiles/sql.dir/sql_do.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_do.cc.o.requires
@@ -1658,17 +1658,17 @@ sql/CMakeFiles/sql.dir/sql_do.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_do
 
 sql/CMakeFiles/sql.dir/sql_error.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_error.cc.o: sql/sql_error.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_error.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_error.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_error.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_error.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_error.cc
 
 sql/CMakeFiles/sql.dir/sql_error.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_error.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_error.cc > CMakeFiles/sql.dir/sql_error.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_error.cc > CMakeFiles/sql.dir/sql_error.cc.i
 
 sql/CMakeFiles/sql.dir/sql_error.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_error.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_error.cc -o CMakeFiles/sql.dir/sql_error.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_error.cc -o CMakeFiles/sql.dir/sql_error.cc.s
 
 sql/CMakeFiles/sql.dir/sql_error.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_error.cc.o.requires
@@ -1681,17 +1681,17 @@ sql/CMakeFiles/sql.dir/sql_error.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql
 
 sql/CMakeFiles/sql.dir/sql_handler.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_handler.cc.o: sql/sql_handler.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_handler.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_handler.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_handler.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_handler.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_handler.cc
 
 sql/CMakeFiles/sql.dir/sql_handler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_handler.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_handler.cc > CMakeFiles/sql.dir/sql_handler.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_handler.cc > CMakeFiles/sql.dir/sql_handler.cc.i
 
 sql/CMakeFiles/sql.dir/sql_handler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_handler.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_handler.cc -o CMakeFiles/sql.dir/sql_handler.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_handler.cc -o CMakeFiles/sql.dir/sql_handler.cc.s
 
 sql/CMakeFiles/sql.dir/sql_handler.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_handler.cc.o.requires
@@ -1704,17 +1704,17 @@ sql/CMakeFiles/sql.dir/sql_handler.cc.o.provides.build: sql/CMakeFiles/sql.dir/s
 
 sql/CMakeFiles/sql.dir/sql_help.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_help.cc.o: sql/sql_help.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_help.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_help.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_help.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_help.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_help.cc
 
 sql/CMakeFiles/sql.dir/sql_help.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_help.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_help.cc > CMakeFiles/sql.dir/sql_help.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_help.cc > CMakeFiles/sql.dir/sql_help.cc.i
 
 sql/CMakeFiles/sql.dir/sql_help.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_help.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_help.cc -o CMakeFiles/sql.dir/sql_help.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_help.cc -o CMakeFiles/sql.dir/sql_help.cc.s
 
 sql/CMakeFiles/sql.dir/sql_help.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_help.cc.o.requires
@@ -1727,17 +1727,17 @@ sql/CMakeFiles/sql.dir/sql_help.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_
 
 sql/CMakeFiles/sql.dir/sql_insert.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_insert.cc.o: sql/sql_insert.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_insert.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_insert.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_insert.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_insert.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_insert.cc
 
 sql/CMakeFiles/sql.dir/sql_insert.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_insert.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_insert.cc > CMakeFiles/sql.dir/sql_insert.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_insert.cc > CMakeFiles/sql.dir/sql_insert.cc.i
 
 sql/CMakeFiles/sql.dir/sql_insert.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_insert.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_insert.cc -o CMakeFiles/sql.dir/sql_insert.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_insert.cc -o CMakeFiles/sql.dir/sql_insert.cc.s
 
 sql/CMakeFiles/sql.dir/sql_insert.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_insert.cc.o.requires
@@ -1750,17 +1750,17 @@ sql/CMakeFiles/sql.dir/sql_insert.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/sql_lex.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_lex.cc.o: sql/sql_lex.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_lex.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_lex.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_lex.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_lex.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_lex.cc
 
 sql/CMakeFiles/sql.dir/sql_lex.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_lex.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_lex.cc > CMakeFiles/sql.dir/sql_lex.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_lex.cc > CMakeFiles/sql.dir/sql_lex.cc.i
 
 sql/CMakeFiles/sql.dir/sql_lex.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_lex.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_lex.cc -o CMakeFiles/sql.dir/sql_lex.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_lex.cc -o CMakeFiles/sql.dir/sql_lex.cc.s
 
 sql/CMakeFiles/sql.dir/sql_lex.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_lex.cc.o.requires
@@ -1773,17 +1773,17 @@ sql/CMakeFiles/sql.dir/sql_lex.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_l
 
 sql/CMakeFiles/sql.dir/sql_list.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_list.cc.o: sql/sql_list.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_list.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_list.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_list.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_list.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_list.cc
 
 sql/CMakeFiles/sql.dir/sql_list.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_list.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_list.cc > CMakeFiles/sql.dir/sql_list.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_list.cc > CMakeFiles/sql.dir/sql_list.cc.i
 
 sql/CMakeFiles/sql.dir/sql_list.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_list.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_list.cc -o CMakeFiles/sql.dir/sql_list.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_list.cc -o CMakeFiles/sql.dir/sql_list.cc.s
 
 sql/CMakeFiles/sql.dir/sql_list.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_list.cc.o.requires
@@ -1796,17 +1796,17 @@ sql/CMakeFiles/sql.dir/sql_list.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_
 
 sql/CMakeFiles/sql.dir/sql_load.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_load.cc.o: sql/sql_load.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_load.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_load.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_load.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_load.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_load.cc
 
 sql/CMakeFiles/sql.dir/sql_load.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_load.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_load.cc > CMakeFiles/sql.dir/sql_load.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_load.cc > CMakeFiles/sql.dir/sql_load.cc.i
 
 sql/CMakeFiles/sql.dir/sql_load.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_load.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_load.cc -o CMakeFiles/sql.dir/sql_load.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_load.cc -o CMakeFiles/sql.dir/sql_load.cc.s
 
 sql/CMakeFiles/sql.dir/sql_load.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_load.cc.o.requires
@@ -1819,17 +1819,17 @@ sql/CMakeFiles/sql.dir/sql_load.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_
 
 sql/CMakeFiles/sql.dir/sql_manager.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_manager.cc.o: sql/sql_manager.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_manager.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_manager.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_manager.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_manager.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_manager.cc
 
 sql/CMakeFiles/sql.dir/sql_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_manager.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_manager.cc > CMakeFiles/sql.dir/sql_manager.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_manager.cc > CMakeFiles/sql.dir/sql_manager.cc.i
 
 sql/CMakeFiles/sql.dir/sql_manager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_manager.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_manager.cc -o CMakeFiles/sql.dir/sql_manager.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_manager.cc -o CMakeFiles/sql.dir/sql_manager.cc.s
 
 sql/CMakeFiles/sql.dir/sql_manager.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_manager.cc.o.requires
@@ -1842,17 +1842,17 @@ sql/CMakeFiles/sql.dir/sql_manager.cc.o.provides.build: sql/CMakeFiles/sql.dir/s
 
 sql/CMakeFiles/sql.dir/sql_parse.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_parse.cc.o: sql/sql_parse.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_parse.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_parse.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_parse.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_parse.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_parse.cc
 
 sql/CMakeFiles/sql.dir/sql_parse.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_parse.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_parse.cc > CMakeFiles/sql.dir/sql_parse.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_parse.cc > CMakeFiles/sql.dir/sql_parse.cc.i
 
 sql/CMakeFiles/sql.dir/sql_parse.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_parse.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_parse.cc -o CMakeFiles/sql.dir/sql_parse.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_parse.cc -o CMakeFiles/sql.dir/sql_parse.cc.s
 
 sql/CMakeFiles/sql.dir/sql_parse.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_parse.cc.o.requires
@@ -1865,17 +1865,17 @@ sql/CMakeFiles/sql.dir/sql_parse.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql
 
 sql/CMakeFiles/sql.dir/sql_partition.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_partition.cc.o: sql/sql_partition.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_partition.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_partition.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_partition.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_partition.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_partition.cc
 
 sql/CMakeFiles/sql.dir/sql_partition.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_partition.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_partition.cc > CMakeFiles/sql.dir/sql_partition.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_partition.cc > CMakeFiles/sql.dir/sql_partition.cc.i
 
 sql/CMakeFiles/sql.dir/sql_partition.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_partition.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_partition.cc -o CMakeFiles/sql.dir/sql_partition.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_partition.cc -o CMakeFiles/sql.dir/sql_partition.cc.s
 
 sql/CMakeFiles/sql.dir/sql_partition.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_partition.cc.o.requires
@@ -1888,17 +1888,17 @@ sql/CMakeFiles/sql.dir/sql_partition.cc.o.provides.build: sql/CMakeFiles/sql.dir
 
 sql/CMakeFiles/sql.dir/sql_plugin.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_plugin.cc.o: sql/sql_plugin.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_plugin.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_plugin.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_plugin.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_plugin.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_plugin.cc
 
 sql/CMakeFiles/sql.dir/sql_plugin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_plugin.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_plugin.cc > CMakeFiles/sql.dir/sql_plugin.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_plugin.cc > CMakeFiles/sql.dir/sql_plugin.cc.i
 
 sql/CMakeFiles/sql.dir/sql_plugin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_plugin.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_plugin.cc -o CMakeFiles/sql.dir/sql_plugin.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_plugin.cc -o CMakeFiles/sql.dir/sql_plugin.cc.s
 
 sql/CMakeFiles/sql.dir/sql_plugin.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_plugin.cc.o.requires
@@ -1911,17 +1911,17 @@ sql/CMakeFiles/sql.dir/sql_plugin.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/sql_prepare.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_prepare.cc.o: sql/sql_prepare.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_prepare.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_prepare.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_prepare.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_prepare.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_prepare.cc
 
 sql/CMakeFiles/sql.dir/sql_prepare.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_prepare.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_prepare.cc > CMakeFiles/sql.dir/sql_prepare.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_prepare.cc > CMakeFiles/sql.dir/sql_prepare.cc.i
 
 sql/CMakeFiles/sql.dir/sql_prepare.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_prepare.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_prepare.cc -o CMakeFiles/sql.dir/sql_prepare.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_prepare.cc -o CMakeFiles/sql.dir/sql_prepare.cc.s
 
 sql/CMakeFiles/sql.dir/sql_prepare.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_prepare.cc.o.requires
@@ -1934,17 +1934,17 @@ sql/CMakeFiles/sql.dir/sql_prepare.cc.o.provides.build: sql/CMakeFiles/sql.dir/s
 
 sql/CMakeFiles/sql.dir/sql_rename.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_rename.cc.o: sql/sql_rename.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_rename.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_rename.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_rename.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_rename.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_rename.cc
 
 sql/CMakeFiles/sql.dir/sql_rename.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_rename.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_rename.cc > CMakeFiles/sql.dir/sql_rename.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_rename.cc > CMakeFiles/sql.dir/sql_rename.cc.i
 
 sql/CMakeFiles/sql.dir/sql_rename.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_rename.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_rename.cc -o CMakeFiles/sql.dir/sql_rename.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_rename.cc -o CMakeFiles/sql.dir/sql_rename.cc.s
 
 sql/CMakeFiles/sql.dir/sql_rename.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_rename.cc.o.requires
@@ -1957,17 +1957,17 @@ sql/CMakeFiles/sql.dir/sql_rename.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/debug_sync.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/debug_sync.cc.o: sql/debug_sync.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/debug_sync.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/debug_sync.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/debug_sync.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/debug_sync.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/debug_sync.cc
 
 sql/CMakeFiles/sql.dir/debug_sync.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/debug_sync.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/debug_sync.cc > CMakeFiles/sql.dir/debug_sync.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/debug_sync.cc > CMakeFiles/sql.dir/debug_sync.cc.i
 
 sql/CMakeFiles/sql.dir/debug_sync.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/debug_sync.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/debug_sync.cc -o CMakeFiles/sql.dir/debug_sync.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/debug_sync.cc -o CMakeFiles/sql.dir/debug_sync.cc.s
 
 sql/CMakeFiles/sql.dir/debug_sync.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/debug_sync.cc.o.requires
@@ -1980,17 +1980,17 @@ sql/CMakeFiles/sql.dir/debug_sync.cc.o.provides.build: sql/CMakeFiles/sql.dir/de
 
 sql/CMakeFiles/sql.dir/sql_repl.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_repl.cc.o: sql/sql_repl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_85)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_repl.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_repl.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_repl.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_repl.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_repl.cc
 
 sql/CMakeFiles/sql.dir/sql_repl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_repl.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_repl.cc > CMakeFiles/sql.dir/sql_repl.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_repl.cc > CMakeFiles/sql.dir/sql_repl.cc.i
 
 sql/CMakeFiles/sql.dir/sql_repl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_repl.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_repl.cc -o CMakeFiles/sql.dir/sql_repl.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_repl.cc -o CMakeFiles/sql.dir/sql_repl.cc.s
 
 sql/CMakeFiles/sql.dir/sql_repl.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_repl.cc.o.requires
@@ -2003,17 +2003,17 @@ sql/CMakeFiles/sql.dir/sql_repl.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_
 
 sql/CMakeFiles/sql.dir/sql_select.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_select.cc.o: sql/sql_select.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_86)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_select.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_select.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_select.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_select.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_select.cc
 
 sql/CMakeFiles/sql.dir/sql_select.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_select.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_select.cc > CMakeFiles/sql.dir/sql_select.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_select.cc > CMakeFiles/sql.dir/sql_select.cc.i
 
 sql/CMakeFiles/sql.dir/sql_select.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_select.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_select.cc -o CMakeFiles/sql.dir/sql_select.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_select.cc -o CMakeFiles/sql.dir/sql_select.cc.s
 
 sql/CMakeFiles/sql.dir/sql_select.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_select.cc.o.requires
@@ -2026,17 +2026,17 @@ sql/CMakeFiles/sql.dir/sql_select.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/sql_show.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_show.cc.o: sql/sql_show.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_87)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_show.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_show.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_show.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_show.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_show.cc
 
 sql/CMakeFiles/sql.dir/sql_show.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_show.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_show.cc > CMakeFiles/sql.dir/sql_show.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_show.cc > CMakeFiles/sql.dir/sql_show.cc.i
 
 sql/CMakeFiles/sql.dir/sql_show.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_show.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_show.cc -o CMakeFiles/sql.dir/sql_show.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_show.cc -o CMakeFiles/sql.dir/sql_show.cc.s
 
 sql/CMakeFiles/sql.dir/sql_show.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_show.cc.o.requires
@@ -2049,17 +2049,17 @@ sql/CMakeFiles/sql.dir/sql_show.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_
 
 sql/CMakeFiles/sql.dir/sql_state.c.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_state.c.o: sql/sql_state.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_88)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object sql/CMakeFiles/sql.dir/sql_state.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/sql_state.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_state.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/sql_state.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_state.c
 
 sql/CMakeFiles/sql.dir/sql_state.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sql.dir/sql_state.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_state.c > CMakeFiles/sql.dir/sql_state.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_state.c > CMakeFiles/sql.dir/sql_state.c.i
 
 sql/CMakeFiles/sql.dir/sql_state.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sql.dir/sql_state.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_state.c -o CMakeFiles/sql.dir/sql_state.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_state.c -o CMakeFiles/sql.dir/sql_state.c.s
 
 sql/CMakeFiles/sql.dir/sql_state.c.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_state.c.o.requires
@@ -2072,17 +2072,17 @@ sql/CMakeFiles/sql.dir/sql_state.c.o.provides.build: sql/CMakeFiles/sql.dir/sql_
 
 sql/CMakeFiles/sql.dir/sql_string.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_string.cc.o: sql/sql_string.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_89)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_string.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_string.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_string.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_string.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_string.cc
 
 sql/CMakeFiles/sql.dir/sql_string.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_string.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_string.cc > CMakeFiles/sql.dir/sql_string.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_string.cc > CMakeFiles/sql.dir/sql_string.cc.i
 
 sql/CMakeFiles/sql.dir/sql_string.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_string.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_string.cc -o CMakeFiles/sql.dir/sql_string.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_string.cc -o CMakeFiles/sql.dir/sql_string.cc.s
 
 sql/CMakeFiles/sql.dir/sql_string.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_string.cc.o.requires
@@ -2095,17 +2095,17 @@ sql/CMakeFiles/sql.dir/sql_string.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/sql_table.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_table.cc.o: sql/sql_table.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_90)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_table.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_table.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_table.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_table.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_table.cc
 
 sql/CMakeFiles/sql.dir/sql_table.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_table.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_table.cc > CMakeFiles/sql.dir/sql_table.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_table.cc > CMakeFiles/sql.dir/sql_table.cc.i
 
 sql/CMakeFiles/sql.dir/sql_table.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_table.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_table.cc -o CMakeFiles/sql.dir/sql_table.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_table.cc -o CMakeFiles/sql.dir/sql_table.cc.s
 
 sql/CMakeFiles/sql.dir/sql_table.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_table.cc.o.requires
@@ -2118,17 +2118,17 @@ sql/CMakeFiles/sql.dir/sql_table.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql
 
 sql/CMakeFiles/sql.dir/sql_test.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_test.cc.o: sql/sql_test.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_91)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_test.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_test.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_test.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_test.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_test.cc
 
 sql/CMakeFiles/sql.dir/sql_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_test.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_test.cc > CMakeFiles/sql.dir/sql_test.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_test.cc > CMakeFiles/sql.dir/sql_test.cc.i
 
 sql/CMakeFiles/sql.dir/sql_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_test.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_test.cc -o CMakeFiles/sql.dir/sql_test.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_test.cc -o CMakeFiles/sql.dir/sql_test.cc.s
 
 sql/CMakeFiles/sql.dir/sql_test.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_test.cc.o.requires
@@ -2141,17 +2141,17 @@ sql/CMakeFiles/sql.dir/sql_test.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_
 
 sql/CMakeFiles/sql.dir/sql_trigger.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_trigger.cc.o: sql/sql_trigger.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_92)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_92)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_trigger.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_trigger.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_trigger.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_trigger.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_trigger.cc
 
 sql/CMakeFiles/sql.dir/sql_trigger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_trigger.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_trigger.cc > CMakeFiles/sql.dir/sql_trigger.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_trigger.cc > CMakeFiles/sql.dir/sql_trigger.cc.i
 
 sql/CMakeFiles/sql.dir/sql_trigger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_trigger.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_trigger.cc -o CMakeFiles/sql.dir/sql_trigger.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_trigger.cc -o CMakeFiles/sql.dir/sql_trigger.cc.s
 
 sql/CMakeFiles/sql.dir/sql_trigger.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_trigger.cc.o.requires
@@ -2164,17 +2164,17 @@ sql/CMakeFiles/sql.dir/sql_trigger.cc.o.provides.build: sql/CMakeFiles/sql.dir/s
 
 sql/CMakeFiles/sql.dir/sql_udf.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_udf.cc.o: sql/sql_udf.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_93)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_93)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_udf.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_udf.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_udf.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_udf.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_udf.cc
 
 sql/CMakeFiles/sql.dir/sql_udf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_udf.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_udf.cc > CMakeFiles/sql.dir/sql_udf.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_udf.cc > CMakeFiles/sql.dir/sql_udf.cc.i
 
 sql/CMakeFiles/sql.dir/sql_udf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_udf.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_udf.cc -o CMakeFiles/sql.dir/sql_udf.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_udf.cc -o CMakeFiles/sql.dir/sql_udf.cc.s
 
 sql/CMakeFiles/sql.dir/sql_udf.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_udf.cc.o.requires
@@ -2187,17 +2187,17 @@ sql/CMakeFiles/sql.dir/sql_udf.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_u
 
 sql/CMakeFiles/sql.dir/sql_union.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_union.cc.o: sql/sql_union.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_94)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_94)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_union.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_union.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_union.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_union.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_union.cc
 
 sql/CMakeFiles/sql.dir/sql_union.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_union.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_union.cc > CMakeFiles/sql.dir/sql_union.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_union.cc > CMakeFiles/sql.dir/sql_union.cc.i
 
 sql/CMakeFiles/sql.dir/sql_union.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_union.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_union.cc -o CMakeFiles/sql.dir/sql_union.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_union.cc -o CMakeFiles/sql.dir/sql_union.cc.s
 
 sql/CMakeFiles/sql.dir/sql_union.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_union.cc.o.requires
@@ -2210,17 +2210,17 @@ sql/CMakeFiles/sql.dir/sql_union.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql
 
 sql/CMakeFiles/sql.dir/sql_update.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_update.cc.o: sql/sql_update.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_95)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_95)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_update.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_update.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_update.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_update.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_update.cc
 
 sql/CMakeFiles/sql.dir/sql_update.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_update.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_update.cc > CMakeFiles/sql.dir/sql_update.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_update.cc > CMakeFiles/sql.dir/sql_update.cc.i
 
 sql/CMakeFiles/sql.dir/sql_update.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_update.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_update.cc -o CMakeFiles/sql.dir/sql_update.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_update.cc -o CMakeFiles/sql.dir/sql_update.cc.s
 
 sql/CMakeFiles/sql.dir/sql_update.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_update.cc.o.requires
@@ -2233,17 +2233,17 @@ sql/CMakeFiles/sql.dir/sql_update.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/sql_view.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_view.cc.o: sql/sql_view.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_96)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_96)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_view.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_view.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_view.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_view.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_view.cc
 
 sql/CMakeFiles/sql.dir/sql_view.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_view.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_view.cc > CMakeFiles/sql.dir/sql_view.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_view.cc > CMakeFiles/sql.dir/sql_view.cc.i
 
 sql/CMakeFiles/sql.dir/sql_view.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_view.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_view.cc -o CMakeFiles/sql.dir/sql_view.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_view.cc -o CMakeFiles/sql.dir/sql_view.cc.s
 
 sql/CMakeFiles/sql.dir/sql_view.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_view.cc.o.requires
@@ -2256,17 +2256,17 @@ sql/CMakeFiles/sql.dir/sql_view.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_
 
 sql/CMakeFiles/sql.dir/strfunc.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/strfunc.cc.o: sql/strfunc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_97)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_97)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/strfunc.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/strfunc.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/strfunc.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/strfunc.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/strfunc.cc
 
 sql/CMakeFiles/sql.dir/strfunc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/strfunc.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/strfunc.cc > CMakeFiles/sql.dir/strfunc.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/strfunc.cc > CMakeFiles/sql.dir/strfunc.cc.i
 
 sql/CMakeFiles/sql.dir/strfunc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/strfunc.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/strfunc.cc -o CMakeFiles/sql.dir/strfunc.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/strfunc.cc -o CMakeFiles/sql.dir/strfunc.cc.s
 
 sql/CMakeFiles/sql.dir/strfunc.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/strfunc.cc.o.requires
@@ -2279,17 +2279,17 @@ sql/CMakeFiles/sql.dir/strfunc.cc.o.provides.build: sql/CMakeFiles/sql.dir/strfu
 
 sql/CMakeFiles/sql.dir/table.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/table.cc.o: sql/table.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_98)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_98)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/table.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/table.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/table.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/table.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/table.cc
 
 sql/CMakeFiles/sql.dir/table.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/table.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/table.cc > CMakeFiles/sql.dir/table.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/table.cc > CMakeFiles/sql.dir/table.cc.i
 
 sql/CMakeFiles/sql.dir/table.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/table.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/table.cc -o CMakeFiles/sql.dir/table.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/table.cc -o CMakeFiles/sql.dir/table.cc.s
 
 sql/CMakeFiles/sql.dir/table.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/table.cc.o.requires
@@ -2302,17 +2302,17 @@ sql/CMakeFiles/sql.dir/table.cc.o.provides.build: sql/CMakeFiles/sql.dir/table.c
 
 sql/CMakeFiles/sql.dir/thr_malloc.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/thr_malloc.cc.o: sql/thr_malloc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_99)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_99)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/thr_malloc.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/thr_malloc.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/thr_malloc.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/thr_malloc.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/thr_malloc.cc
 
 sql/CMakeFiles/sql.dir/thr_malloc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/thr_malloc.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/thr_malloc.cc > CMakeFiles/sql.dir/thr_malloc.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/thr_malloc.cc > CMakeFiles/sql.dir/thr_malloc.cc.i
 
 sql/CMakeFiles/sql.dir/thr_malloc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/thr_malloc.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/thr_malloc.cc -o CMakeFiles/sql.dir/thr_malloc.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/thr_malloc.cc -o CMakeFiles/sql.dir/thr_malloc.cc.s
 
 sql/CMakeFiles/sql.dir/thr_malloc.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/thr_malloc.cc.o.requires
@@ -2325,17 +2325,17 @@ sql/CMakeFiles/sql.dir/thr_malloc.cc.o.provides.build: sql/CMakeFiles/sql.dir/th
 
 sql/CMakeFiles/sql.dir/sql_time.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_time.cc.o: sql/sql_time.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_100)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_100)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_time.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_time.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_time.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_time.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_time.cc
 
 sql/CMakeFiles/sql.dir/sql_time.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_time.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_time.cc > CMakeFiles/sql.dir/sql_time.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_time.cc > CMakeFiles/sql.dir/sql_time.cc.i
 
 sql/CMakeFiles/sql.dir/sql_time.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_time.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_time.cc -o CMakeFiles/sql.dir/sql_time.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_time.cc -o CMakeFiles/sql.dir/sql_time.cc.s
 
 sql/CMakeFiles/sql.dir/sql_time.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_time.cc.o.requires
@@ -2348,17 +2348,17 @@ sql/CMakeFiles/sql.dir/sql_time.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_
 
 sql/CMakeFiles/sql.dir/tztime.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/tztime.cc.o: sql/tztime.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_101)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_101)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/tztime.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/tztime.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/tztime.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/tztime.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/tztime.cc
 
 sql/CMakeFiles/sql.dir/tztime.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/tztime.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/tztime.cc > CMakeFiles/sql.dir/tztime.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/tztime.cc > CMakeFiles/sql.dir/tztime.cc.i
 
 sql/CMakeFiles/sql.dir/tztime.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/tztime.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/tztime.cc -o CMakeFiles/sql.dir/tztime.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/tztime.cc -o CMakeFiles/sql.dir/tztime.cc.s
 
 sql/CMakeFiles/sql.dir/tztime.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/tztime.cc.o.requires
@@ -2371,17 +2371,17 @@ sql/CMakeFiles/sql.dir/tztime.cc.o.provides.build: sql/CMakeFiles/sql.dir/tztime
 
 sql/CMakeFiles/sql.dir/uniques.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/uniques.cc.o: sql/uniques.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_102)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_102)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/uniques.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/uniques.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/uniques.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/uniques.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/uniques.cc
 
 sql/CMakeFiles/sql.dir/uniques.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/uniques.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/uniques.cc > CMakeFiles/sql.dir/uniques.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/uniques.cc > CMakeFiles/sql.dir/uniques.cc.i
 
 sql/CMakeFiles/sql.dir/uniques.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/uniques.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/uniques.cc -o CMakeFiles/sql.dir/uniques.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/uniques.cc -o CMakeFiles/sql.dir/uniques.cc.s
 
 sql/CMakeFiles/sql.dir/uniques.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/uniques.cc.o.requires
@@ -2394,17 +2394,17 @@ sql/CMakeFiles/sql.dir/uniques.cc.o.provides.build: sql/CMakeFiles/sql.dir/uniqu
 
 sql/CMakeFiles/sql.dir/unireg.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/unireg.cc.o: sql/unireg.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_103)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_103)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/unireg.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/unireg.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/unireg.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/unireg.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/unireg.cc
 
 sql/CMakeFiles/sql.dir/unireg.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/unireg.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/unireg.cc > CMakeFiles/sql.dir/unireg.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/unireg.cc > CMakeFiles/sql.dir/unireg.cc.i
 
 sql/CMakeFiles/sql.dir/unireg.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/unireg.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/unireg.cc -o CMakeFiles/sql.dir/unireg.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/unireg.cc -o CMakeFiles/sql.dir/unireg.cc.s
 
 sql/CMakeFiles/sql.dir/unireg.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/unireg.cc.o.requires
@@ -2417,17 +2417,17 @@ sql/CMakeFiles/sql.dir/unireg.cc.o.provides.build: sql/CMakeFiles/sql.dir/unireg
 
 sql/CMakeFiles/sql.dir/item_xmlfunc.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/item_xmlfunc.cc.o: sql/item_xmlfunc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_104)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_104)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/item_xmlfunc.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_xmlfunc.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/item_xmlfunc.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/item_xmlfunc.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_xmlfunc.cc
 
 sql/CMakeFiles/sql.dir/item_xmlfunc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/item_xmlfunc.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/item_xmlfunc.cc > CMakeFiles/sql.dir/item_xmlfunc.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_xmlfunc.cc > CMakeFiles/sql.dir/item_xmlfunc.cc.i
 
 sql/CMakeFiles/sql.dir/item_xmlfunc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/item_xmlfunc.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/item_xmlfunc.cc -o CMakeFiles/sql.dir/item_xmlfunc.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/item_xmlfunc.cc -o CMakeFiles/sql.dir/item_xmlfunc.cc.s
 
 sql/CMakeFiles/sql.dir/item_xmlfunc.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/item_xmlfunc.cc.o.requires
@@ -2440,17 +2440,17 @@ sql/CMakeFiles/sql.dir/item_xmlfunc.cc.o.provides.build: sql/CMakeFiles/sql.dir/
 
 sql/CMakeFiles/sql.dir/rpl_tblmap.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/rpl_tblmap.cc.o: sql/rpl_tblmap.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_105)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_105)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/rpl_tblmap.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_tblmap.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_tblmap.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_tblmap.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_tblmap.cc
 
 sql/CMakeFiles/sql.dir/rpl_tblmap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/rpl_tblmap.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_tblmap.cc > CMakeFiles/sql.dir/rpl_tblmap.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_tblmap.cc > CMakeFiles/sql.dir/rpl_tblmap.cc.i
 
 sql/CMakeFiles/sql.dir/rpl_tblmap.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/rpl_tblmap.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_tblmap.cc -o CMakeFiles/sql.dir/rpl_tblmap.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_tblmap.cc -o CMakeFiles/sql.dir/rpl_tblmap.cc.s
 
 sql/CMakeFiles/sql.dir/rpl_tblmap.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/rpl_tblmap.cc.o.requires
@@ -2463,17 +2463,17 @@ sql/CMakeFiles/sql.dir/rpl_tblmap.cc.o.provides.build: sql/CMakeFiles/sql.dir/rp
 
 sql/CMakeFiles/sql.dir/sql_binlog.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_binlog.cc.o: sql/sql_binlog.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_106)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_106)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_binlog.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_binlog.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_binlog.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_binlog.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_binlog.cc
 
 sql/CMakeFiles/sql.dir/sql_binlog.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_binlog.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_binlog.cc > CMakeFiles/sql.dir/sql_binlog.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_binlog.cc > CMakeFiles/sql.dir/sql_binlog.cc.i
 
 sql/CMakeFiles/sql.dir/sql_binlog.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_binlog.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_binlog.cc -o CMakeFiles/sql.dir/sql_binlog.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_binlog.cc -o CMakeFiles/sql.dir/sql_binlog.cc.s
 
 sql/CMakeFiles/sql.dir/sql_binlog.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_binlog.cc.o.requires
@@ -2486,17 +2486,17 @@ sql/CMakeFiles/sql.dir/sql_binlog.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/event_scheduler.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/event_scheduler.cc.o: sql/event_scheduler.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_107)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_107)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/event_scheduler.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/event_scheduler.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/event_scheduler.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/event_scheduler.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_scheduler.cc
 
 sql/CMakeFiles/sql.dir/event_scheduler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/event_scheduler.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/event_scheduler.cc > CMakeFiles/sql.dir/event_scheduler.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_scheduler.cc > CMakeFiles/sql.dir/event_scheduler.cc.i
 
 sql/CMakeFiles/sql.dir/event_scheduler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/event_scheduler.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/event_scheduler.cc -o CMakeFiles/sql.dir/event_scheduler.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_scheduler.cc -o CMakeFiles/sql.dir/event_scheduler.cc.s
 
 sql/CMakeFiles/sql.dir/event_scheduler.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/event_scheduler.cc.o.requires
@@ -2509,17 +2509,17 @@ sql/CMakeFiles/sql.dir/event_scheduler.cc.o.provides.build: sql/CMakeFiles/sql.d
 
 sql/CMakeFiles/sql.dir/event_data_objects.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/event_data_objects.cc.o: sql/event_data_objects.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_108)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_108)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/event_data_objects.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/event_data_objects.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/event_data_objects.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/event_data_objects.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_data_objects.cc
 
 sql/CMakeFiles/sql.dir/event_data_objects.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/event_data_objects.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/event_data_objects.cc > CMakeFiles/sql.dir/event_data_objects.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_data_objects.cc > CMakeFiles/sql.dir/event_data_objects.cc.i
 
 sql/CMakeFiles/sql.dir/event_data_objects.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/event_data_objects.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/event_data_objects.cc -o CMakeFiles/sql.dir/event_data_objects.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_data_objects.cc -o CMakeFiles/sql.dir/event_data_objects.cc.s
 
 sql/CMakeFiles/sql.dir/event_data_objects.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/event_data_objects.cc.o.requires
@@ -2532,17 +2532,17 @@ sql/CMakeFiles/sql.dir/event_data_objects.cc.o.provides.build: sql/CMakeFiles/sq
 
 sql/CMakeFiles/sql.dir/event_queue.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/event_queue.cc.o: sql/event_queue.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_109)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_109)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/event_queue.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/event_queue.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/event_queue.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/event_queue.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_queue.cc
 
 sql/CMakeFiles/sql.dir/event_queue.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/event_queue.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/event_queue.cc > CMakeFiles/sql.dir/event_queue.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_queue.cc > CMakeFiles/sql.dir/event_queue.cc.i
 
 sql/CMakeFiles/sql.dir/event_queue.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/event_queue.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/event_queue.cc -o CMakeFiles/sql.dir/event_queue.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_queue.cc -o CMakeFiles/sql.dir/event_queue.cc.s
 
 sql/CMakeFiles/sql.dir/event_queue.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/event_queue.cc.o.requires
@@ -2555,17 +2555,17 @@ sql/CMakeFiles/sql.dir/event_queue.cc.o.provides.build: sql/CMakeFiles/sql.dir/e
 
 sql/CMakeFiles/sql.dir/event_db_repository.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/event_db_repository.cc.o: sql/event_db_repository.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_110)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_110)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/event_db_repository.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/event_db_repository.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/event_db_repository.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/event_db_repository.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_db_repository.cc
 
 sql/CMakeFiles/sql.dir/event_db_repository.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/event_db_repository.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/event_db_repository.cc > CMakeFiles/sql.dir/event_db_repository.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_db_repository.cc > CMakeFiles/sql.dir/event_db_repository.cc.i
 
 sql/CMakeFiles/sql.dir/event_db_repository.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/event_db_repository.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/event_db_repository.cc -o CMakeFiles/sql.dir/event_db_repository.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_db_repository.cc -o CMakeFiles/sql.dir/event_db_repository.cc.s
 
 sql/CMakeFiles/sql.dir/event_db_repository.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/event_db_repository.cc.o.requires
@@ -2578,17 +2578,17 @@ sql/CMakeFiles/sql.dir/event_db_repository.cc.o.provides.build: sql/CMakeFiles/s
 
 sql/CMakeFiles/sql.dir/sql_tablespace.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_tablespace.cc.o: sql/sql_tablespace.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_111)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_111)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_tablespace.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_tablespace.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_tablespace.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_tablespace.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_tablespace.cc
 
 sql/CMakeFiles/sql.dir/sql_tablespace.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_tablespace.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_tablespace.cc > CMakeFiles/sql.dir/sql_tablespace.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_tablespace.cc > CMakeFiles/sql.dir/sql_tablespace.cc.i
 
 sql/CMakeFiles/sql.dir/sql_tablespace.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_tablespace.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_tablespace.cc -o CMakeFiles/sql.dir/sql_tablespace.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_tablespace.cc -o CMakeFiles/sql.dir/sql_tablespace.cc.s
 
 sql/CMakeFiles/sql.dir/sql_tablespace.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_tablespace.cc.o.requires
@@ -2601,17 +2601,17 @@ sql/CMakeFiles/sql.dir/sql_tablespace.cc.o.provides.build: sql/CMakeFiles/sql.di
 
 sql/CMakeFiles/sql.dir/events.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/events.cc.o: sql/events.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_112)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_112)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/events.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/events.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/events.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/events.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/events.cc
 
 sql/CMakeFiles/sql.dir/events.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/events.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/events.cc > CMakeFiles/sql.dir/events.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/events.cc > CMakeFiles/sql.dir/events.cc.i
 
 sql/CMakeFiles/sql.dir/events.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/events.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/events.cc -o CMakeFiles/sql.dir/events.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/events.cc -o CMakeFiles/sql.dir/events.cc.s
 
 sql/CMakeFiles/sql.dir/events.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/events.cc.o.requires
@@ -2624,17 +2624,17 @@ sql/CMakeFiles/sql.dir/events.cc.o.provides.build: sql/CMakeFiles/sql.dir/events
 
 sql/CMakeFiles/sql.dir/__/sql-common/my_user.c.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/__/sql-common/my_user.c.o: sql-common/my_user.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_113)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_113)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object sql/CMakeFiles/sql.dir/__/sql-common/my_user.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/sql-common/my_user.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql-common/my_user.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sql.dir/__/sql-common/my_user.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/my_user.c
 
 sql/CMakeFiles/sql.dir/__/sql-common/my_user.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sql.dir/__/sql-common/my_user.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql-common/my_user.c > CMakeFiles/sql.dir/__/sql-common/my_user.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/my_user.c > CMakeFiles/sql.dir/__/sql-common/my_user.c.i
 
 sql/CMakeFiles/sql.dir/__/sql-common/my_user.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sql.dir/__/sql-common/my_user.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql-common/my_user.c -o CMakeFiles/sql.dir/__/sql-common/my_user.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/my_user.c -o CMakeFiles/sql.dir/__/sql-common/my_user.c.s
 
 sql/CMakeFiles/sql.dir/__/sql-common/my_user.c.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/__/sql-common/my_user.c.o.requires
@@ -2647,17 +2647,17 @@ sql/CMakeFiles/sql.dir/__/sql-common/my_user.c.o.provides.build: sql/CMakeFiles/
 
 sql/CMakeFiles/sql.dir/partition_info.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/partition_info.cc.o: sql/partition_info.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_114)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_114)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/partition_info.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/partition_info.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/partition_info.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/partition_info.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/partition_info.cc
 
 sql/CMakeFiles/sql.dir/partition_info.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/partition_info.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/partition_info.cc > CMakeFiles/sql.dir/partition_info.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/partition_info.cc > CMakeFiles/sql.dir/partition_info.cc.i
 
 sql/CMakeFiles/sql.dir/partition_info.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/partition_info.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/partition_info.cc -o CMakeFiles/sql.dir/partition_info.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/partition_info.cc -o CMakeFiles/sql.dir/partition_info.cc.s
 
 sql/CMakeFiles/sql.dir/partition_info.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/partition_info.cc.o.requires
@@ -2670,17 +2670,17 @@ sql/CMakeFiles/sql.dir/partition_info.cc.o.provides.build: sql/CMakeFiles/sql.di
 
 sql/CMakeFiles/sql.dir/rpl_utility.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/rpl_utility.cc.o: sql/rpl_utility.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_115)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_115)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/rpl_utility.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_utility.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_utility.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_utility.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_utility.cc
 
 sql/CMakeFiles/sql.dir/rpl_utility.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/rpl_utility.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_utility.cc > CMakeFiles/sql.dir/rpl_utility.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_utility.cc > CMakeFiles/sql.dir/rpl_utility.cc.i
 
 sql/CMakeFiles/sql.dir/rpl_utility.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/rpl_utility.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_utility.cc -o CMakeFiles/sql.dir/rpl_utility.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_utility.cc -o CMakeFiles/sql.dir/rpl_utility.cc.s
 
 sql/CMakeFiles/sql.dir/rpl_utility.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/rpl_utility.cc.o.requires
@@ -2693,17 +2693,17 @@ sql/CMakeFiles/sql.dir/rpl_utility.cc.o.provides.build: sql/CMakeFiles/sql.dir/r
 
 sql/CMakeFiles/sql.dir/rpl_injector.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/rpl_injector.cc.o: sql/rpl_injector.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_116)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_116)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/rpl_injector.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_injector.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_injector.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_injector.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_injector.cc
 
 sql/CMakeFiles/sql.dir/rpl_injector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/rpl_injector.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_injector.cc > CMakeFiles/sql.dir/rpl_injector.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_injector.cc > CMakeFiles/sql.dir/rpl_injector.cc.i
 
 sql/CMakeFiles/sql.dir/rpl_injector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/rpl_injector.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_injector.cc -o CMakeFiles/sql.dir/rpl_injector.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_injector.cc -o CMakeFiles/sql.dir/rpl_injector.cc.s
 
 sql/CMakeFiles/sql.dir/rpl_injector.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/rpl_injector.cc.o.requires
@@ -2716,17 +2716,17 @@ sql/CMakeFiles/sql.dir/rpl_injector.cc.o.provides.build: sql/CMakeFiles/sql.dir/
 
 sql/CMakeFiles/sql.dir/sql_locale.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_locale.cc.o: sql/sql_locale.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_117)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_117)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_locale.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_locale.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_locale.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_locale.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_locale.cc
 
 sql/CMakeFiles/sql.dir/sql_locale.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_locale.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_locale.cc > CMakeFiles/sql.dir/sql_locale.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_locale.cc > CMakeFiles/sql.dir/sql_locale.cc.i
 
 sql/CMakeFiles/sql.dir/sql_locale.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_locale.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_locale.cc -o CMakeFiles/sql.dir/sql_locale.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_locale.cc -o CMakeFiles/sql.dir/sql_locale.cc.s
 
 sql/CMakeFiles/sql.dir/sql_locale.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_locale.cc.o.requires
@@ -2739,17 +2739,17 @@ sql/CMakeFiles/sql.dir/sql_locale.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/rpl_rli.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/rpl_rli.cc.o: sql/rpl_rli.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_118)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_118)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/rpl_rli.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_rli.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_rli.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_rli.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_rli.cc
 
 sql/CMakeFiles/sql.dir/rpl_rli.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/rpl_rli.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_rli.cc > CMakeFiles/sql.dir/rpl_rli.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_rli.cc > CMakeFiles/sql.dir/rpl_rli.cc.i
 
 sql/CMakeFiles/sql.dir/rpl_rli.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/rpl_rli.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_rli.cc -o CMakeFiles/sql.dir/rpl_rli.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_rli.cc -o CMakeFiles/sql.dir/rpl_rli.cc.s
 
 sql/CMakeFiles/sql.dir/rpl_rli.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/rpl_rli.cc.o.requires
@@ -2762,17 +2762,17 @@ sql/CMakeFiles/sql.dir/rpl_rli.cc.o.provides.build: sql/CMakeFiles/sql.dir/rpl_r
 
 sql/CMakeFiles/sql.dir/rpl_mi.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/rpl_mi.cc.o: sql/rpl_mi.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_119)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_119)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/rpl_mi.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_mi.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_mi.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_mi.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_mi.cc
 
 sql/CMakeFiles/sql.dir/rpl_mi.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/rpl_mi.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_mi.cc > CMakeFiles/sql.dir/rpl_mi.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_mi.cc > CMakeFiles/sql.dir/rpl_mi.cc.i
 
 sql/CMakeFiles/sql.dir/rpl_mi.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/rpl_mi.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_mi.cc -o CMakeFiles/sql.dir/rpl_mi.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_mi.cc -o CMakeFiles/sql.dir/rpl_mi.cc.s
 
 sql/CMakeFiles/sql.dir/rpl_mi.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/rpl_mi.cc.o.requires
@@ -2785,17 +2785,17 @@ sql/CMakeFiles/sql.dir/rpl_mi.cc.o.provides.build: sql/CMakeFiles/sql.dir/rpl_mi
 
 sql/CMakeFiles/sql.dir/sql_servers.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_servers.cc.o: sql/sql_servers.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_120)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_120)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_servers.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_servers.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_servers.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_servers.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_servers.cc
 
 sql/CMakeFiles/sql.dir/sql_servers.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_servers.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_servers.cc > CMakeFiles/sql.dir/sql_servers.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_servers.cc > CMakeFiles/sql.dir/sql_servers.cc.i
 
 sql/CMakeFiles/sql.dir/sql_servers.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_servers.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_servers.cc -o CMakeFiles/sql.dir/sql_servers.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_servers.cc -o CMakeFiles/sql.dir/sql_servers.cc.s
 
 sql/CMakeFiles/sql.dir/sql_servers.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_servers.cc.o.requires
@@ -2808,17 +2808,17 @@ sql/CMakeFiles/sql.dir/sql_servers.cc.o.provides.build: sql/CMakeFiles/sql.dir/s
 
 sql/CMakeFiles/sql.dir/sql_audit.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_audit.cc.o: sql/sql_audit.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_121)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_121)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_audit.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_audit.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_audit.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_audit.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_audit.cc
 
 sql/CMakeFiles/sql.dir/sql_audit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_audit.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_audit.cc > CMakeFiles/sql.dir/sql_audit.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_audit.cc > CMakeFiles/sql.dir/sql_audit.cc.i
 
 sql/CMakeFiles/sql.dir/sql_audit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_audit.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_audit.cc -o CMakeFiles/sql.dir/sql_audit.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_audit.cc -o CMakeFiles/sql.dir/sql_audit.cc.s
 
 sql/CMakeFiles/sql.dir/sql_audit.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_audit.cc.o.requires
@@ -2831,17 +2831,17 @@ sql/CMakeFiles/sql.dir/sql_audit.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql
 
 sql/CMakeFiles/sql.dir/sql_connect.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_connect.cc.o: sql/sql_connect.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_122)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_122)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_connect.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_connect.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_connect.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_connect.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_connect.cc
 
 sql/CMakeFiles/sql.dir/sql_connect.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_connect.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_connect.cc > CMakeFiles/sql.dir/sql_connect.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_connect.cc > CMakeFiles/sql.dir/sql_connect.cc.i
 
 sql/CMakeFiles/sql.dir/sql_connect.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_connect.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_connect.cc -o CMakeFiles/sql.dir/sql_connect.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_connect.cc -o CMakeFiles/sql.dir/sql_connect.cc.s
 
 sql/CMakeFiles/sql.dir/sql_connect.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_connect.cc.o.requires
@@ -2854,17 +2854,17 @@ sql/CMakeFiles/sql.dir/sql_connect.cc.o.provides.build: sql/CMakeFiles/sql.dir/s
 
 sql/CMakeFiles/sql.dir/scheduler.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/scheduler.cc.o: sql/scheduler.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_123)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_123)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/scheduler.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/scheduler.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/scheduler.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/scheduler.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/scheduler.cc
 
 sql/CMakeFiles/sql.dir/scheduler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/scheduler.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/scheduler.cc > CMakeFiles/sql.dir/scheduler.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/scheduler.cc > CMakeFiles/sql.dir/scheduler.cc.i
 
 sql/CMakeFiles/sql.dir/scheduler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/scheduler.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/scheduler.cc -o CMakeFiles/sql.dir/scheduler.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/scheduler.cc -o CMakeFiles/sql.dir/scheduler.cc.s
 
 sql/CMakeFiles/sql.dir/scheduler.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/scheduler.cc.o.requires
@@ -2877,17 +2877,17 @@ sql/CMakeFiles/sql.dir/scheduler.cc.o.provides.build: sql/CMakeFiles/sql.dir/sch
 
 sql/CMakeFiles/sql.dir/sql_partition_admin.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_partition_admin.cc.o: sql/sql_partition_admin.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_124)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_124)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_partition_admin.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_partition_admin.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_partition_admin.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_partition_admin.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_partition_admin.cc
 
 sql/CMakeFiles/sql.dir/sql_partition_admin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_partition_admin.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_partition_admin.cc > CMakeFiles/sql.dir/sql_partition_admin.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_partition_admin.cc > CMakeFiles/sql.dir/sql_partition_admin.cc.i
 
 sql/CMakeFiles/sql.dir/sql_partition_admin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_partition_admin.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_partition_admin.cc -o CMakeFiles/sql.dir/sql_partition_admin.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_partition_admin.cc -o CMakeFiles/sql.dir/sql_partition_admin.cc.s
 
 sql/CMakeFiles/sql.dir/sql_partition_admin.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_partition_admin.cc.o.requires
@@ -2900,17 +2900,17 @@ sql/CMakeFiles/sql.dir/sql_partition_admin.cc.o.provides.build: sql/CMakeFiles/s
 
 sql/CMakeFiles/sql.dir/sql_profile.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_profile.cc.o: sql/sql_profile.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_125)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_125)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_profile.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_profile.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_profile.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_profile.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_profile.cc
 
 sql/CMakeFiles/sql.dir/sql_profile.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_profile.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_profile.cc > CMakeFiles/sql.dir/sql_profile.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_profile.cc > CMakeFiles/sql.dir/sql_profile.cc.i
 
 sql/CMakeFiles/sql.dir/sql_profile.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_profile.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_profile.cc -o CMakeFiles/sql.dir/sql_profile.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_profile.cc -o CMakeFiles/sql.dir/sql_profile.cc.s
 
 sql/CMakeFiles/sql.dir/sql_profile.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_profile.cc.o.requires
@@ -2923,17 +2923,17 @@ sql/CMakeFiles/sql.dir/sql_profile.cc.o.provides.build: sql/CMakeFiles/sql.dir/s
 
 sql/CMakeFiles/sql.dir/event_parse_data.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/event_parse_data.cc.o: sql/event_parse_data.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_126)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_126)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/event_parse_data.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/event_parse_data.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/event_parse_data.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/event_parse_data.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_parse_data.cc
 
 sql/CMakeFiles/sql.dir/event_parse_data.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/event_parse_data.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/event_parse_data.cc > CMakeFiles/sql.dir/event_parse_data.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_parse_data.cc > CMakeFiles/sql.dir/event_parse_data.cc.i
 
 sql/CMakeFiles/sql.dir/event_parse_data.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/event_parse_data.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/event_parse_data.cc -o CMakeFiles/sql.dir/event_parse_data.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/event_parse_data.cc -o CMakeFiles/sql.dir/event_parse_data.cc.s
 
 sql/CMakeFiles/sql.dir/event_parse_data.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/event_parse_data.cc.o.requires
@@ -2946,17 +2946,17 @@ sql/CMakeFiles/sql.dir/event_parse_data.cc.o.provides.build: sql/CMakeFiles/sql.
 
 sql/CMakeFiles/sql.dir/sql_alter.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_alter.cc.o: sql/sql_alter.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_127)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_127)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_alter.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_alter.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_alter.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_alter.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_alter.cc
 
 sql/CMakeFiles/sql.dir/sql_alter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_alter.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_alter.cc > CMakeFiles/sql.dir/sql_alter.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_alter.cc > CMakeFiles/sql.dir/sql_alter.cc.i
 
 sql/CMakeFiles/sql.dir/sql_alter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_alter.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_alter.cc -o CMakeFiles/sql.dir/sql_alter.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_alter.cc -o CMakeFiles/sql.dir/sql_alter.cc.s
 
 sql/CMakeFiles/sql.dir/sql_alter.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_alter.cc.o.requires
@@ -2969,17 +2969,17 @@ sql/CMakeFiles/sql.dir/sql_alter.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql
 
 sql/CMakeFiles/sql.dir/sql_signal.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_signal.cc.o: sql/sql_signal.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_128)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_128)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_signal.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_signal.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_signal.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_signal.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_signal.cc
 
 sql/CMakeFiles/sql.dir/sql_signal.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_signal.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_signal.cc > CMakeFiles/sql.dir/sql_signal.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_signal.cc > CMakeFiles/sql.dir/sql_signal.cc.i
 
 sql/CMakeFiles/sql.dir/sql_signal.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_signal.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_signal.cc -o CMakeFiles/sql.dir/sql_signal.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_signal.cc -o CMakeFiles/sql.dir/sql_signal.cc.s
 
 sql/CMakeFiles/sql.dir/sql_signal.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_signal.cc.o.requires
@@ -2992,17 +2992,17 @@ sql/CMakeFiles/sql.dir/sql_signal.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/rpl_handler.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/rpl_handler.cc.o: sql/rpl_handler.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_129)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_129)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/rpl_handler.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_handler.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_handler.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/rpl_handler.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_handler.cc
 
 sql/CMakeFiles/sql.dir/rpl_handler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/rpl_handler.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_handler.cc > CMakeFiles/sql.dir/rpl_handler.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_handler.cc > CMakeFiles/sql.dir/rpl_handler.cc.i
 
 sql/CMakeFiles/sql.dir/rpl_handler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/rpl_handler.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/rpl_handler.cc -o CMakeFiles/sql.dir/rpl_handler.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/rpl_handler.cc -o CMakeFiles/sql.dir/rpl_handler.cc.s
 
 sql/CMakeFiles/sql.dir/rpl_handler.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/rpl_handler.cc.o.requires
@@ -3015,17 +3015,17 @@ sql/CMakeFiles/sql.dir/rpl_handler.cc.o.provides.build: sql/CMakeFiles/sql.dir/r
 
 sql/CMakeFiles/sql.dir/mdl.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/mdl.cc.o: sql/mdl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_130)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_130)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/mdl.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/mdl.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/mdl.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/mdl.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/mdl.cc
 
 sql/CMakeFiles/sql.dir/mdl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/mdl.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/mdl.cc > CMakeFiles/sql.dir/mdl.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/mdl.cc > CMakeFiles/sql.dir/mdl.cc.i
 
 sql/CMakeFiles/sql.dir/mdl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/mdl.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/mdl.cc -o CMakeFiles/sql.dir/mdl.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/mdl.cc -o CMakeFiles/sql.dir/mdl.cc.s
 
 sql/CMakeFiles/sql.dir/mdl.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/mdl.cc.o.requires
@@ -3038,17 +3038,17 @@ sql/CMakeFiles/sql.dir/mdl.cc.o.provides.build: sql/CMakeFiles/sql.dir/mdl.cc.o
 
 sql/CMakeFiles/sql.dir/sql_admin.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_admin.cc.o: sql/sql_admin.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_131)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_131)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_admin.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_admin.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_admin.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_admin.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_admin.cc
 
 sql/CMakeFiles/sql.dir/sql_admin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_admin.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_admin.cc > CMakeFiles/sql.dir/sql_admin.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_admin.cc > CMakeFiles/sql.dir/sql_admin.cc.i
 
 sql/CMakeFiles/sql.dir/sql_admin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_admin.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_admin.cc -o CMakeFiles/sql.dir/sql_admin.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_admin.cc -o CMakeFiles/sql.dir/sql_admin.cc.s
 
 sql/CMakeFiles/sql.dir/sql_admin.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_admin.cc.o.requires
@@ -3061,17 +3061,17 @@ sql/CMakeFiles/sql.dir/sql_admin.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql
 
 sql/CMakeFiles/sql.dir/transaction.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/transaction.cc.o: sql/transaction.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_132)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_132)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/transaction.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/transaction.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/transaction.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/transaction.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/transaction.cc
 
 sql/CMakeFiles/sql.dir/transaction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/transaction.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/transaction.cc > CMakeFiles/sql.dir/transaction.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/transaction.cc > CMakeFiles/sql.dir/transaction.cc.i
 
 sql/CMakeFiles/sql.dir/transaction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/transaction.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/transaction.cc -o CMakeFiles/sql.dir/transaction.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/transaction.cc -o CMakeFiles/sql.dir/transaction.cc.s
 
 sql/CMakeFiles/sql.dir/transaction.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/transaction.cc.o.requires
@@ -3084,17 +3084,17 @@ sql/CMakeFiles/sql.dir/transaction.cc.o.provides.build: sql/CMakeFiles/sql.dir/t
 
 sql/CMakeFiles/sql.dir/sys_vars.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sys_vars.cc.o: sql/sys_vars.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_133)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_133)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sys_vars.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sys_vars.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sys_vars.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sys_vars.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sys_vars.cc
 
 sql/CMakeFiles/sql.dir/sys_vars.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sys_vars.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sys_vars.cc > CMakeFiles/sql.dir/sys_vars.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sys_vars.cc > CMakeFiles/sql.dir/sys_vars.cc.i
 
 sql/CMakeFiles/sql.dir/sys_vars.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sys_vars.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sys_vars.cc -o CMakeFiles/sql.dir/sys_vars.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sys_vars.cc -o CMakeFiles/sql.dir/sys_vars.cc.s
 
 sql/CMakeFiles/sql.dir/sys_vars.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sys_vars.cc.o.requires
@@ -3107,17 +3107,17 @@ sql/CMakeFiles/sql.dir/sys_vars.cc.o.provides.build: sql/CMakeFiles/sql.dir/sys_
 
 sql/CMakeFiles/sql.dir/sql_truncate.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_truncate.cc.o: sql/sql_truncate.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_134)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_134)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_truncate.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_truncate.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_truncate.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_truncate.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_truncate.cc
 
 sql/CMakeFiles/sql.dir/sql_truncate.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_truncate.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_truncate.cc > CMakeFiles/sql.dir/sql_truncate.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_truncate.cc > CMakeFiles/sql.dir/sql_truncate.cc.i
 
 sql/CMakeFiles/sql.dir/sql_truncate.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_truncate.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_truncate.cc -o CMakeFiles/sql.dir/sql_truncate.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_truncate.cc -o CMakeFiles/sql.dir/sql_truncate.cc.s
 
 sql/CMakeFiles/sql.dir/sql_truncate.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_truncate.cc.o.requires
@@ -3130,17 +3130,17 @@ sql/CMakeFiles/sql.dir/sql_truncate.cc.o.provides.build: sql/CMakeFiles/sql.dir/
 
 sql/CMakeFiles/sql.dir/datadict.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/datadict.cc.o: sql/datadict.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_135)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_135)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/datadict.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/datadict.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/datadict.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/datadict.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/datadict.cc
 
 sql/CMakeFiles/sql.dir/datadict.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/datadict.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/datadict.cc > CMakeFiles/sql.dir/datadict.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/datadict.cc > CMakeFiles/sql.dir/datadict.cc.i
 
 sql/CMakeFiles/sql.dir/datadict.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/datadict.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/datadict.cc -o CMakeFiles/sql.dir/datadict.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/datadict.cc -o CMakeFiles/sql.dir/datadict.cc.s
 
 sql/CMakeFiles/sql.dir/datadict.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/datadict.cc.o.requires
@@ -3153,17 +3153,17 @@ sql/CMakeFiles/sql.dir/datadict.cc.o.provides.build: sql/CMakeFiles/sql.dir/data
 
 sql/CMakeFiles/sql.dir/sql_reload.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_reload.cc.o: sql/sql_reload.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_136)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_136)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_reload.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_reload.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_reload.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_reload.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_reload.cc
 
 sql/CMakeFiles/sql.dir/sql_reload.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_reload.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_reload.cc > CMakeFiles/sql.dir/sql_reload.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_reload.cc > CMakeFiles/sql.dir/sql_reload.cc.i
 
 sql/CMakeFiles/sql.dir/sql_reload.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_reload.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_reload.cc -o CMakeFiles/sql.dir/sql_reload.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_reload.cc -o CMakeFiles/sql.dir/sql_reload.cc.s
 
 sql/CMakeFiles/sql.dir/sql_reload.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_reload.cc.o.requires
@@ -3176,17 +3176,17 @@ sql/CMakeFiles/sql.dir/sql_reload.cc.o.provides.build: sql/CMakeFiles/sql.dir/sq
 
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_wrapper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_137)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_137)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_wrapper.cpp.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_wrapper.cpp
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_wrapper.cpp.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_wrapper.cpp
 
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_wrapper.cpp.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_wrapper.cpp > CMakeFiles/sql.dir/sql_wrapper.cpp.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_wrapper.cpp > CMakeFiles/sql.dir/sql_wrapper.cpp.i
 
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_wrapper.cpp.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_wrapper.cpp -o CMakeFiles/sql.dir/sql_wrapper.cpp.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_wrapper.cpp -o CMakeFiles/sql.dir/sql_wrapper.cpp.s
 
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o.requires
@@ -3199,17 +3199,17 @@ sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o.provides.build: sql/CMakeFiles/sql.dir/
 
 sql/CMakeFiles/sql.dir/sql_yacc.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_yacc.cc.o: sql/sql_yacc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_138)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_138)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_yacc.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_yacc.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_yacc.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_yacc.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_yacc.cc
 
 sql/CMakeFiles/sql.dir/sql_yacc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_yacc.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_yacc.cc > CMakeFiles/sql.dir/sql_yacc.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_yacc.cc > CMakeFiles/sql.dir/sql_yacc.cc.i
 
 sql/CMakeFiles/sql.dir/sql_yacc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_yacc.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_yacc.cc -o CMakeFiles/sql.dir/sql_yacc.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_yacc.cc -o CMakeFiles/sql.dir/sql_yacc.cc.s
 
 sql/CMakeFiles/sql.dir/sql_yacc.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_yacc.cc.o.requires
@@ -3222,17 +3222,17 @@ sql/CMakeFiles/sql.dir/sql_yacc.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_
 
 sql/CMakeFiles/sql.dir/sql_builtin.cc.o: sql/CMakeFiles/sql.dir/flags.make
 sql/CMakeFiles/sql.dir/sql_builtin.cc.o: sql/sql_builtin.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_139)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_139)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sql/CMakeFiles/sql.dir/sql_builtin.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_builtin.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/sql_builtin.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sql.dir/sql_builtin.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_builtin.cc
 
 sql/CMakeFiles/sql.dir/sql_builtin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sql.dir/sql_builtin.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/sql/sql_builtin.cc > CMakeFiles/sql.dir/sql_builtin.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_builtin.cc > CMakeFiles/sql.dir/sql_builtin.cc.i
 
 sql/CMakeFiles/sql.dir/sql_builtin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sql.dir/sql_builtin.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/sql/sql_builtin.cc -o CMakeFiles/sql.dir/sql_builtin.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_builtin.cc -o CMakeFiles/sql.dir/sql_builtin.cc.s
 
 sql/CMakeFiles/sql.dir/sql_builtin.cc.o.requires:
 .PHONY : sql/CMakeFiles/sql.dir/sql_builtin.cc.o.requires
@@ -3244,9 +3244,9 @@ sql/CMakeFiles/sql.dir/sql_builtin.cc.o.provides: sql/CMakeFiles/sql.dir/sql_bui
 sql/CMakeFiles/sql.dir/sql_builtin.cc.o.provides.build: sql/CMakeFiles/sql.dir/sql_builtin.cc.o
 
 sql/lex_hash.h: sql/gen_lex_hash
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_140)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_140)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating lex_hash.h"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && ./gen_lex_hash > lex_hash.h
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && ./gen_lex_hash > lex_hash.h
 
 # Object files for target sql
 sql_OBJECTS = \
@@ -3535,8 +3535,8 @@ sql/libsql.a: sql/CMakeFiles/sql.dir/sql_builtin.cc.o
 sql/libsql.a: sql/CMakeFiles/sql.dir/build.make
 sql/libsql.a: sql/CMakeFiles/sql.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libsql.a"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && $(CMAKE_COMMAND) -P CMakeFiles/sql.dir/cmake_clean_target.cmake
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sql.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && $(CMAKE_COMMAND) -P CMakeFiles/sql.dir/cmake_clean_target.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sql.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sql/CMakeFiles/sql.dir/build: sql/libsql.a
@@ -3684,10 +3684,10 @@ sql/CMakeFiles/sql.dir/requires: sql/CMakeFiles/sql.dir/sql_builtin.cc.o.require
 .PHONY : sql/CMakeFiles/sql.dir/requires
 
 sql/CMakeFiles/sql.dir/clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && $(CMAKE_COMMAND) -P CMakeFiles/sql.dir/cmake_clean.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && $(CMAKE_COMMAND) -P CMakeFiles/sql.dir/cmake_clean.cmake
 .PHONY : sql/CMakeFiles/sql.dir/clean
 
 sql/CMakeFiles/sql.dir/depend: sql/lex_hash.h
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/sql /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/sql /home/sravang/Projects_New/mysql-5.5_New/sql/CMakeFiles/sql.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/CMakeFiles/sql.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sql/CMakeFiles/sql.dir/depend
 

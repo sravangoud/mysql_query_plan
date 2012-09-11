@@ -17,8 +17,8 @@
 # If bzr is present, run bzr export.
 # Otherwise, just run cpack with source configuration.
 
-SET(CMAKE_SOURCE_DIR "/home/sravang/Projects_New/mysql-5.5_New")
-SET(CMAKE_BINARY_DIR "/home/sravang/Projects_New/mysql-5.5_New")
+SET(CMAKE_SOURCE_DIR "/home/sravang/Projects_New/mysql_rep/mysql_query_plan")
+SET(CMAKE_BINARY_DIR "/home/sravang/Projects_New/mysql_rep/mysql_query_plan")
 SET(CPACK_SOURCE_PACKAGE_FILE_NAME "mysql-5.5.24")
 SET(CMAKE_CPACK_COMMAND  "/usr/bin/cpack")
 SET(CMAKE_COMMAND  "/usr/bin/cmake")

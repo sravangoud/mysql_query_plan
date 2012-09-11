@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Utility rule file for GenServerSource.
 
@@ -48,9 +48,9 @@ sql/CMakeFiles/GenServerSource: sql/sql_builtin.cc
 sql/CMakeFiles/GenServerSource: sql/lex_hash.h
 
 sql/lex_hash.h: sql/gen_lex_hash
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating lex_hash.h"
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && ./gen_lex_hash > lex_hash.h
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && ./gen_lex_hash > lex_hash.h
 
 GenServerSource: sql/CMakeFiles/GenServerSource
 GenServerSource: sql/lex_hash.h
@@ -62,10 +62,10 @@ sql/CMakeFiles/GenServerSource.dir/build: GenServerSource
 .PHONY : sql/CMakeFiles/GenServerSource.dir/build
 
 sql/CMakeFiles/GenServerSource.dir/clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && $(CMAKE_COMMAND) -P CMakeFiles/GenServerSource.dir/cmake_clean.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && $(CMAKE_COMMAND) -P CMakeFiles/GenServerSource.dir/cmake_clean.cmake
 .PHONY : sql/CMakeFiles/GenServerSource.dir/clean
 
 sql/CMakeFiles/GenServerSource.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/sql /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/sql /home/sravang/Projects_New/mysql-5.5_New/sql/CMakeFiles/GenServerSource.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/CMakeFiles/GenServerSource.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sql/CMakeFiles/GenServerSource.dir/depend
 

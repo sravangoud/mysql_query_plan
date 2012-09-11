@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/perfschema/unittest/pfs-t.cc
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/perfschema/unittest/pfs-t.cc
 my_global.h
 -
 my_pthread.h
@@ -26,11 +26,11 @@ string.h
 memory.h
 -
 stub_print_error.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/perfschema/unittest/stub_print_error.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/perfschema/unittest/stub_print_error.h
 stub_server_misc.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/perfschema/unittest/stub_server_misc.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/perfschema/unittest/stub_server_misc.h
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/perfschema/unittest/stub_print_error.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/perfschema/unittest/stub_print_error.h
 my_global.h
 -
 my_sys.h
@@ -38,7 +38,7 @@ my_sys.h
 pfs_global.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/perfschema/unittest/stub_server_misc.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/perfschema/unittest/stub_server_misc.h
 
 include/atomic/gcc_builtins.h
 

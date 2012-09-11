@@ -1,4 +1,4 @@
-# Install script for directory: /home/sravang/Projects_New/mysql-5.5_New/packaging/WiX
+# Install script for directory: /home/sravang/Projects_New/mysql_rep/mysql_query_plan/packaging/WiX
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

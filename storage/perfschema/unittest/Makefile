@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql-5.5_New/CPackSourceConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles /home/sravang/Projects_New/mysql-5.5_New/storage/perfschema/unittest/CMakeFiles/progress.marks
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/perfschema/unittest/CMakeFiles/progress.marks
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/clean
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/clean
 .PHONY : clean
 
 # The main clean target
@@ -153,22 +153,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 storage/perfschema/unittest/CMakeFiles/pfs-t.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/CMakeFiles/pfs-t.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/CMakeFiles/pfs-t.dir/rule
 .PHONY : storage/perfschema/unittest/CMakeFiles/pfs-t.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ pfs-t: storage/perfschema/unittest/CMakeFiles/pfs-t.dir/rule
 
 # fast build rule for target.
 pfs-t/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs-t.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs-t.dir/build
 .PHONY : pfs-t/fast
 
 # Convenience name for target.
 storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/rule
 .PHONY : storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/rule
 
 # Convenience name for target.
@@ -191,12 +191,12 @@ pfs_instr-oom-t: storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/rule
 
 # fast build rule for target.
 pfs_instr-oom-t/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/build
 .PHONY : pfs_instr-oom-t/fast
 
 # Convenience name for target.
 storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/rule
 .PHONY : storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/rule
 
 # Convenience name for target.
@@ -205,12 +205,12 @@ pfs_instr-t: storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/rule
 
 # fast build rule for target.
 pfs_instr-t/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/build
 .PHONY : pfs_instr-t/fast
 
 # Convenience name for target.
 storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/rule
 .PHONY : storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/rule
 
 # Convenience name for target.
@@ -219,12 +219,12 @@ pfs_instr_class-oom-t: storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oo
 
 # fast build rule for target.
 pfs_instr_class-oom-t/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/build
 .PHONY : pfs_instr_class-oom-t/fast
 
 # Convenience name for target.
 storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/rule
 .PHONY : storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/rule
 
 # Convenience name for target.
@@ -233,7 +233,7 @@ pfs_instr_class-t: storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/
 
 # fast build rule for target.
 pfs_instr_class-t/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/build
 .PHONY : pfs_instr_class-t/fast
 
 pfs-t.o: pfs-t.cc.o
@@ -241,7 +241,7 @@ pfs-t.o: pfs-t.cc.o
 
 # target to build an object file
 pfs-t.cc.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs-t.dir/pfs-t.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs-t.dir/pfs-t.cc.o
 .PHONY : pfs-t.cc.o
 
 pfs-t.i: pfs-t.cc.i
@@ -249,7 +249,7 @@ pfs-t.i: pfs-t.cc.i
 
 # target to preprocess a source file
 pfs-t.cc.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs-t.dir/pfs-t.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs-t.dir/pfs-t.cc.i
 .PHONY : pfs-t.cc.i
 
 pfs-t.s: pfs-t.cc.s
@@ -257,7 +257,7 @@ pfs-t.s: pfs-t.cc.s
 
 # target to generate assembly for a file
 pfs-t.cc.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs-t.dir/pfs-t.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs-t.dir/pfs-t.cc.s
 .PHONY : pfs-t.cc.s
 
 pfs_instr-oom-t.o: pfs_instr-oom-t.cc.o
@@ -265,7 +265,7 @@ pfs_instr-oom-t.o: pfs_instr-oom-t.cc.o
 
 # target to build an object file
 pfs_instr-oom-t.cc.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/pfs_instr-oom-t.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/pfs_instr-oom-t.cc.o
 .PHONY : pfs_instr-oom-t.cc.o
 
 pfs_instr-oom-t.i: pfs_instr-oom-t.cc.i
@@ -273,7 +273,7 @@ pfs_instr-oom-t.i: pfs_instr-oom-t.cc.i
 
 # target to preprocess a source file
 pfs_instr-oom-t.cc.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/pfs_instr-oom-t.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/pfs_instr-oom-t.cc.i
 .PHONY : pfs_instr-oom-t.cc.i
 
 pfs_instr-oom-t.s: pfs_instr-oom-t.cc.s
@@ -281,7 +281,7 @@ pfs_instr-oom-t.s: pfs_instr-oom-t.cc.s
 
 # target to generate assembly for a file
 pfs_instr-oom-t.cc.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/pfs_instr-oom-t.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-oom-t.dir/pfs_instr-oom-t.cc.s
 .PHONY : pfs_instr-oom-t.cc.s
 
 pfs_instr-t.o: pfs_instr-t.cc.o
@@ -289,7 +289,7 @@ pfs_instr-t.o: pfs_instr-t.cc.o
 
 # target to build an object file
 pfs_instr-t.cc.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/pfs_instr-t.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/pfs_instr-t.cc.o
 .PHONY : pfs_instr-t.cc.o
 
 pfs_instr-t.i: pfs_instr-t.cc.i
@@ -297,7 +297,7 @@ pfs_instr-t.i: pfs_instr-t.cc.i
 
 # target to preprocess a source file
 pfs_instr-t.cc.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/pfs_instr-t.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/pfs_instr-t.cc.i
 .PHONY : pfs_instr-t.cc.i
 
 pfs_instr-t.s: pfs_instr-t.cc.s
@@ -305,7 +305,7 @@ pfs_instr-t.s: pfs_instr-t.cc.s
 
 # target to generate assembly for a file
 pfs_instr-t.cc.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/pfs_instr-t.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr-t.dir/pfs_instr-t.cc.s
 .PHONY : pfs_instr-t.cc.s
 
 pfs_instr_class-oom-t.o: pfs_instr_class-oom-t.cc.o
@@ -313,7 +313,7 @@ pfs_instr_class-oom-t.o: pfs_instr_class-oom-t.cc.o
 
 # target to build an object file
 pfs_instr_class-oom-t.cc.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/pfs_instr_class-oom-t.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/pfs_instr_class-oom-t.cc.o
 .PHONY : pfs_instr_class-oom-t.cc.o
 
 pfs_instr_class-oom-t.i: pfs_instr_class-oom-t.cc.i
@@ -321,7 +321,7 @@ pfs_instr_class-oom-t.i: pfs_instr_class-oom-t.cc.i
 
 # target to preprocess a source file
 pfs_instr_class-oom-t.cc.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/pfs_instr_class-oom-t.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/pfs_instr_class-oom-t.cc.i
 .PHONY : pfs_instr_class-oom-t.cc.i
 
 pfs_instr_class-oom-t.s: pfs_instr_class-oom-t.cc.s
@@ -329,7 +329,7 @@ pfs_instr_class-oom-t.s: pfs_instr_class-oom-t.cc.s
 
 # target to generate assembly for a file
 pfs_instr_class-oom-t.cc.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/pfs_instr_class-oom-t.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-oom-t.dir/pfs_instr_class-oom-t.cc.s
 .PHONY : pfs_instr_class-oom-t.cc.s
 
 pfs_instr_class-t.o: pfs_instr_class-t.cc.o
@@ -337,7 +337,7 @@ pfs_instr_class-t.o: pfs_instr_class-t.cc.o
 
 # target to build an object file
 pfs_instr_class-t.cc.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/pfs_instr_class-t.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/pfs_instr_class-t.cc.o
 .PHONY : pfs_instr_class-t.cc.o
 
 pfs_instr_class-t.i: pfs_instr_class-t.cc.i
@@ -345,7 +345,7 @@ pfs_instr_class-t.i: pfs_instr_class-t.cc.i
 
 # target to preprocess a source file
 pfs_instr_class-t.cc.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/pfs_instr_class-t.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/pfs_instr_class-t.cc.i
 .PHONY : pfs_instr_class-t.cc.i
 
 pfs_instr_class-t.s: pfs_instr_class-t.cc.s
@@ -353,7 +353,7 @@ pfs_instr_class-t.s: pfs_instr_class-t.cc.s
 
 # target to generate assembly for a file
 pfs_instr_class-t.cc.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/pfs_instr_class-t.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/build.make storage/perfschema/unittest/CMakeFiles/pfs_instr_class-t.dir/pfs_instr_class-t.cc.s
 .PHONY : pfs_instr_class-t.cc.s
 
 # Help Target
@@ -402,6 +402,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

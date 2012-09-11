@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Include any dependencies generated for this target.
 include mysys/CMakeFiles/mysys.dir/depend.make
@@ -48,17 +48,17 @@ include mysys/CMakeFiles/mysys.dir/flags.make
 
 mysys/CMakeFiles/mysys.dir/array.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/array.c.o: mysys/array.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/array.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/array.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/array.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/array.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/array.c
 
 mysys/CMakeFiles/mysys.dir/array.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/array.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/array.c > CMakeFiles/mysys.dir/array.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/array.c > CMakeFiles/mysys.dir/array.c.i
 
 mysys/CMakeFiles/mysys.dir/array.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/array.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/array.c -o CMakeFiles/mysys.dir/array.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/array.c -o CMakeFiles/mysys.dir/array.c.s
 
 mysys/CMakeFiles/mysys.dir/array.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/array.c.o.requires
@@ -71,17 +71,17 @@ mysys/CMakeFiles/mysys.dir/array.c.o.provides.build: mysys/CMakeFiles/mysys.dir/
 
 mysys/CMakeFiles/mysys.dir/charset-def.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/charset-def.c.o: mysys/charset-def.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/charset-def.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/charset-def.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/charset-def.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/charset-def.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/charset-def.c
 
 mysys/CMakeFiles/mysys.dir/charset-def.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/charset-def.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/charset-def.c > CMakeFiles/mysys.dir/charset-def.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/charset-def.c > CMakeFiles/mysys.dir/charset-def.c.i
 
 mysys/CMakeFiles/mysys.dir/charset-def.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/charset-def.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/charset-def.c -o CMakeFiles/mysys.dir/charset-def.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/charset-def.c -o CMakeFiles/mysys.dir/charset-def.c.s
 
 mysys/CMakeFiles/mysys.dir/charset-def.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/charset-def.c.o.requires
@@ -94,17 +94,17 @@ mysys/CMakeFiles/mysys.dir/charset-def.c.o.provides.build: mysys/CMakeFiles/mysy
 
 mysys/CMakeFiles/mysys.dir/charset.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/charset.c.o: mysys/charset.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/charset.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/charset.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/charset.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/charset.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/charset.c
 
 mysys/CMakeFiles/mysys.dir/charset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/charset.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/charset.c > CMakeFiles/mysys.dir/charset.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/charset.c > CMakeFiles/mysys.dir/charset.c.i
 
 mysys/CMakeFiles/mysys.dir/charset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/charset.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/charset.c -o CMakeFiles/mysys.dir/charset.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/charset.c -o CMakeFiles/mysys.dir/charset.c.s
 
 mysys/CMakeFiles/mysys.dir/charset.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/charset.c.o.requires
@@ -117,17 +117,17 @@ mysys/CMakeFiles/mysys.dir/charset.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/checksum.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/checksum.c.o: mysys/checksum.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/checksum.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/checksum.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/checksum.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/checksum.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/checksum.c
 
 mysys/CMakeFiles/mysys.dir/checksum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/checksum.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/checksum.c > CMakeFiles/mysys.dir/checksum.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/checksum.c > CMakeFiles/mysys.dir/checksum.c.i
 
 mysys/CMakeFiles/mysys.dir/checksum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/checksum.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/checksum.c -o CMakeFiles/mysys.dir/checksum.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/checksum.c -o CMakeFiles/mysys.dir/checksum.c.s
 
 mysys/CMakeFiles/mysys.dir/checksum.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/checksum.c.o.requires
@@ -140,17 +140,17 @@ mysys/CMakeFiles/mysys.dir/checksum.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/default.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/default.c.o: mysys/default.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/default.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/default.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/default.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/default.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/default.c
 
 mysys/CMakeFiles/mysys.dir/default.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/default.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/default.c > CMakeFiles/mysys.dir/default.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/default.c > CMakeFiles/mysys.dir/default.c.i
 
 mysys/CMakeFiles/mysys.dir/default.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/default.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/default.c -o CMakeFiles/mysys.dir/default.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/default.c -o CMakeFiles/mysys.dir/default.c.s
 
 mysys/CMakeFiles/mysys.dir/default.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/default.c.o.requires
@@ -163,17 +163,17 @@ mysys/CMakeFiles/mysys.dir/default.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/errors.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/errors.c.o: mysys/errors.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/errors.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/errors.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/errors.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/errors.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/errors.c
 
 mysys/CMakeFiles/mysys.dir/errors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/errors.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/errors.c > CMakeFiles/mysys.dir/errors.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/errors.c > CMakeFiles/mysys.dir/errors.c.i
 
 mysys/CMakeFiles/mysys.dir/errors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/errors.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/errors.c -o CMakeFiles/mysys.dir/errors.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/errors.c -o CMakeFiles/mysys.dir/errors.c.s
 
 mysys/CMakeFiles/mysys.dir/errors.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/errors.c.o.requires
@@ -186,17 +186,17 @@ mysys/CMakeFiles/mysys.dir/errors.c.o.provides.build: mysys/CMakeFiles/mysys.dir
 
 mysys/CMakeFiles/mysys.dir/hash.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/hash.c.o: mysys/hash.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/hash.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/hash.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/hash.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/hash.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/hash.c
 
 mysys/CMakeFiles/mysys.dir/hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/hash.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/hash.c > CMakeFiles/mysys.dir/hash.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/hash.c > CMakeFiles/mysys.dir/hash.c.i
 
 mysys/CMakeFiles/mysys.dir/hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/hash.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/hash.c -o CMakeFiles/mysys.dir/hash.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/hash.c -o CMakeFiles/mysys.dir/hash.c.s
 
 mysys/CMakeFiles/mysys.dir/hash.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/hash.c.o.requires
@@ -209,17 +209,17 @@ mysys/CMakeFiles/mysys.dir/hash.c.o.provides.build: mysys/CMakeFiles/mysys.dir/h
 
 mysys/CMakeFiles/mysys.dir/list.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/list.c.o: mysys/list.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/list.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/list.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/list.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/list.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/list.c
 
 mysys/CMakeFiles/mysys.dir/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/list.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/list.c > CMakeFiles/mysys.dir/list.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/list.c > CMakeFiles/mysys.dir/list.c.i
 
 mysys/CMakeFiles/mysys.dir/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/list.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/list.c -o CMakeFiles/mysys.dir/list.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/list.c -o CMakeFiles/mysys.dir/list.c.s
 
 mysys/CMakeFiles/mysys.dir/list.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/list.c.o.requires
@@ -232,17 +232,17 @@ mysys/CMakeFiles/mysys.dir/list.c.o.provides.build: mysys/CMakeFiles/mysys.dir/l
 
 mysys/CMakeFiles/mysys.dir/md5.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/md5.c.o: mysys/md5.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/md5.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/md5.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/md5.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/md5.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/md5.c
 
 mysys/CMakeFiles/mysys.dir/md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/md5.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/md5.c > CMakeFiles/mysys.dir/md5.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/md5.c > CMakeFiles/mysys.dir/md5.c.i
 
 mysys/CMakeFiles/mysys.dir/md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/md5.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/md5.c -o CMakeFiles/mysys.dir/md5.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/md5.c -o CMakeFiles/mysys.dir/md5.c.s
 
 mysys/CMakeFiles/mysys.dir/md5.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/md5.c.o.requires
@@ -255,17 +255,17 @@ mysys/CMakeFiles/mysys.dir/md5.c.o.provides.build: mysys/CMakeFiles/mysys.dir/md
 
 mysys/CMakeFiles/mysys.dir/mf_cache.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_cache.c.o: mysys/mf_cache.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_cache.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_cache.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_cache.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_cache.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_cache.c
 
 mysys/CMakeFiles/mysys.dir/mf_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_cache.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_cache.c > CMakeFiles/mysys.dir/mf_cache.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_cache.c > CMakeFiles/mysys.dir/mf_cache.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_cache.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_cache.c -o CMakeFiles/mysys.dir/mf_cache.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_cache.c -o CMakeFiles/mysys.dir/mf_cache.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_cache.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_cache.c.o.requires
@@ -278,17 +278,17 @@ mysys/CMakeFiles/mysys.dir/mf_cache.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/mf_dirname.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_dirname.c.o: mysys/mf_dirname.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_dirname.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_dirname.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_dirname.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_dirname.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_dirname.c
 
 mysys/CMakeFiles/mysys.dir/mf_dirname.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_dirname.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_dirname.c > CMakeFiles/mysys.dir/mf_dirname.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_dirname.c > CMakeFiles/mysys.dir/mf_dirname.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_dirname.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_dirname.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_dirname.c -o CMakeFiles/mysys.dir/mf_dirname.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_dirname.c -o CMakeFiles/mysys.dir/mf_dirname.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_dirname.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_dirname.c.o.requires
@@ -301,17 +301,17 @@ mysys/CMakeFiles/mysys.dir/mf_dirname.c.o.provides.build: mysys/CMakeFiles/mysys
 
 mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.o: mysys/mf_fn_ext.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_fn_ext.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_fn_ext.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_fn_ext.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_fn_ext.c
 
 mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_fn_ext.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_fn_ext.c > CMakeFiles/mysys.dir/mf_fn_ext.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_fn_ext.c > CMakeFiles/mysys.dir/mf_fn_ext.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_fn_ext.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_fn_ext.c -o CMakeFiles/mysys.dir/mf_fn_ext.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_fn_ext.c -o CMakeFiles/mysys.dir/mf_fn_ext.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.o.requires
@@ -324,17 +324,17 @@ mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/mf_format.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_format.c.o: mysys/mf_format.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_format.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_format.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_format.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_format.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_format.c
 
 mysys/CMakeFiles/mysys.dir/mf_format.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_format.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_format.c > CMakeFiles/mysys.dir/mf_format.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_format.c > CMakeFiles/mysys.dir/mf_format.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_format.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_format.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_format.c -o CMakeFiles/mysys.dir/mf_format.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_format.c -o CMakeFiles/mysys.dir/mf_format.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_format.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_format.c.o.requires
@@ -347,17 +347,17 @@ mysys/CMakeFiles/mysys.dir/mf_format.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/mf_getdate.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_getdate.c.o: mysys/mf_getdate.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_getdate.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_getdate.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_getdate.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_getdate.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_getdate.c
 
 mysys/CMakeFiles/mysys.dir/mf_getdate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_getdate.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_getdate.c > CMakeFiles/mysys.dir/mf_getdate.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_getdate.c > CMakeFiles/mysys.dir/mf_getdate.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_getdate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_getdate.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_getdate.c -o CMakeFiles/mysys.dir/mf_getdate.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_getdate.c -o CMakeFiles/mysys.dir/mf_getdate.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_getdate.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_getdate.c.o.requires
@@ -370,17 +370,17 @@ mysys/CMakeFiles/mysys.dir/mf_getdate.c.o.provides.build: mysys/CMakeFiles/mysys
 
 mysys/CMakeFiles/mysys.dir/mf_iocache.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_iocache.c.o: mysys/mf_iocache.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_iocache.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_iocache.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_iocache.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_iocache.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_iocache.c
 
 mysys/CMakeFiles/mysys.dir/mf_iocache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_iocache.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_iocache.c > CMakeFiles/mysys.dir/mf_iocache.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_iocache.c > CMakeFiles/mysys.dir/mf_iocache.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_iocache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_iocache.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_iocache.c -o CMakeFiles/mysys.dir/mf_iocache.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_iocache.c -o CMakeFiles/mysys.dir/mf_iocache.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_iocache.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_iocache.c.o.requires
@@ -393,17 +393,17 @@ mysys/CMakeFiles/mysys.dir/mf_iocache.c.o.provides.build: mysys/CMakeFiles/mysys
 
 mysys/CMakeFiles/mysys.dir/mf_iocache2.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_iocache2.c.o: mysys/mf_iocache2.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_iocache2.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_iocache2.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_iocache2.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_iocache2.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_iocache2.c
 
 mysys/CMakeFiles/mysys.dir/mf_iocache2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_iocache2.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_iocache2.c > CMakeFiles/mysys.dir/mf_iocache2.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_iocache2.c > CMakeFiles/mysys.dir/mf_iocache2.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_iocache2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_iocache2.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_iocache2.c -o CMakeFiles/mysys.dir/mf_iocache2.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_iocache2.c -o CMakeFiles/mysys.dir/mf_iocache2.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_iocache2.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_iocache2.c.o.requires
@@ -416,17 +416,17 @@ mysys/CMakeFiles/mysys.dir/mf_iocache2.c.o.provides.build: mysys/CMakeFiles/mysy
 
 mysys/CMakeFiles/mysys.dir/mf_keycache.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_keycache.c.o: mysys/mf_keycache.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_keycache.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_keycache.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_keycache.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_keycache.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_keycache.c
 
 mysys/CMakeFiles/mysys.dir/mf_keycache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_keycache.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_keycache.c > CMakeFiles/mysys.dir/mf_keycache.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_keycache.c > CMakeFiles/mysys.dir/mf_keycache.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_keycache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_keycache.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_keycache.c -o CMakeFiles/mysys.dir/mf_keycache.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_keycache.c -o CMakeFiles/mysys.dir/mf_keycache.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_keycache.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_keycache.c.o.requires
@@ -439,17 +439,17 @@ mysys/CMakeFiles/mysys.dir/mf_keycache.c.o.provides.build: mysys/CMakeFiles/mysy
 
 mysys/CMakeFiles/mysys.dir/mf_keycaches.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_keycaches.c.o: mysys/mf_keycaches.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_keycaches.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_keycaches.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_keycaches.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_keycaches.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_keycaches.c
 
 mysys/CMakeFiles/mysys.dir/mf_keycaches.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_keycaches.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_keycaches.c > CMakeFiles/mysys.dir/mf_keycaches.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_keycaches.c > CMakeFiles/mysys.dir/mf_keycaches.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_keycaches.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_keycaches.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_keycaches.c -o CMakeFiles/mysys.dir/mf_keycaches.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_keycaches.c -o CMakeFiles/mysys.dir/mf_keycaches.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_keycaches.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_keycaches.c.o.requires
@@ -462,17 +462,17 @@ mysys/CMakeFiles/mysys.dir/mf_keycaches.c.o.provides.build: mysys/CMakeFiles/mys
 
 mysys/CMakeFiles/mysys.dir/mf_loadpath.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_loadpath.c.o: mysys/mf_loadpath.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_loadpath.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_loadpath.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_loadpath.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_loadpath.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_loadpath.c
 
 mysys/CMakeFiles/mysys.dir/mf_loadpath.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_loadpath.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_loadpath.c > CMakeFiles/mysys.dir/mf_loadpath.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_loadpath.c > CMakeFiles/mysys.dir/mf_loadpath.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_loadpath.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_loadpath.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_loadpath.c -o CMakeFiles/mysys.dir/mf_loadpath.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_loadpath.c -o CMakeFiles/mysys.dir/mf_loadpath.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_loadpath.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_loadpath.c.o.requires
@@ -485,17 +485,17 @@ mysys/CMakeFiles/mysys.dir/mf_loadpath.c.o.provides.build: mysys/CMakeFiles/mysy
 
 mysys/CMakeFiles/mysys.dir/mf_pack.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_pack.c.o: mysys/mf_pack.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_pack.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_pack.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_pack.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_pack.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_pack.c
 
 mysys/CMakeFiles/mysys.dir/mf_pack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_pack.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_pack.c > CMakeFiles/mysys.dir/mf_pack.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_pack.c > CMakeFiles/mysys.dir/mf_pack.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_pack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_pack.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_pack.c -o CMakeFiles/mysys.dir/mf_pack.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_pack.c -o CMakeFiles/mysys.dir/mf_pack.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_pack.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_pack.c.o.requires
@@ -508,17 +508,17 @@ mysys/CMakeFiles/mysys.dir/mf_pack.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/mf_path.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_path.c.o: mysys/mf_path.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_path.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_path.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_path.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_path.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_path.c
 
 mysys/CMakeFiles/mysys.dir/mf_path.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_path.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_path.c > CMakeFiles/mysys.dir/mf_path.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_path.c > CMakeFiles/mysys.dir/mf_path.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_path.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_path.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_path.c -o CMakeFiles/mysys.dir/mf_path.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_path.c -o CMakeFiles/mysys.dir/mf_path.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_path.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_path.c.o.requires
@@ -531,17 +531,17 @@ mysys/CMakeFiles/mysys.dir/mf_path.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/mf_qsort.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_qsort.c.o: mysys/mf_qsort.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_qsort.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_qsort.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_qsort.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_qsort.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_qsort.c
 
 mysys/CMakeFiles/mysys.dir/mf_qsort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_qsort.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_qsort.c > CMakeFiles/mysys.dir/mf_qsort.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_qsort.c > CMakeFiles/mysys.dir/mf_qsort.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_qsort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_qsort.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_qsort.c -o CMakeFiles/mysys.dir/mf_qsort.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_qsort.c -o CMakeFiles/mysys.dir/mf_qsort.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_qsort.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_qsort.c.o.requires
@@ -554,17 +554,17 @@ mysys/CMakeFiles/mysys.dir/mf_qsort.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/mf_qsort2.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_qsort2.c.o: mysys/mf_qsort2.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_qsort2.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_qsort2.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_qsort2.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_qsort2.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_qsort2.c
 
 mysys/CMakeFiles/mysys.dir/mf_qsort2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_qsort2.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_qsort2.c > CMakeFiles/mysys.dir/mf_qsort2.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_qsort2.c > CMakeFiles/mysys.dir/mf_qsort2.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_qsort2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_qsort2.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_qsort2.c -o CMakeFiles/mysys.dir/mf_qsort2.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_qsort2.c -o CMakeFiles/mysys.dir/mf_qsort2.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_qsort2.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_qsort2.c.o.requires
@@ -577,17 +577,17 @@ mysys/CMakeFiles/mysys.dir/mf_qsort2.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/mf_radix.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_radix.c.o: mysys/mf_radix.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_radix.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_radix.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_radix.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_radix.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_radix.c
 
 mysys/CMakeFiles/mysys.dir/mf_radix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_radix.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_radix.c > CMakeFiles/mysys.dir/mf_radix.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_radix.c > CMakeFiles/mysys.dir/mf_radix.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_radix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_radix.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_radix.c -o CMakeFiles/mysys.dir/mf_radix.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_radix.c -o CMakeFiles/mysys.dir/mf_radix.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_radix.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_radix.c.o.requires
@@ -600,17 +600,17 @@ mysys/CMakeFiles/mysys.dir/mf_radix.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/mf_same.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_same.c.o: mysys/mf_same.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_same.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_same.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_same.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_same.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_same.c
 
 mysys/CMakeFiles/mysys.dir/mf_same.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_same.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_same.c > CMakeFiles/mysys.dir/mf_same.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_same.c > CMakeFiles/mysys.dir/mf_same.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_same.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_same.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_same.c -o CMakeFiles/mysys.dir/mf_same.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_same.c -o CMakeFiles/mysys.dir/mf_same.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_same.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_same.c.o.requires
@@ -623,17 +623,17 @@ mysys/CMakeFiles/mysys.dir/mf_same.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/mf_sort.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_sort.c.o: mysys/mf_sort.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_sort.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_sort.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_sort.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_sort.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_sort.c
 
 mysys/CMakeFiles/mysys.dir/mf_sort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_sort.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_sort.c > CMakeFiles/mysys.dir/mf_sort.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_sort.c > CMakeFiles/mysys.dir/mf_sort.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_sort.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_sort.c -o CMakeFiles/mysys.dir/mf_sort.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_sort.c -o CMakeFiles/mysys.dir/mf_sort.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_sort.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_sort.c.o.requires
@@ -646,17 +646,17 @@ mysys/CMakeFiles/mysys.dir/mf_sort.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/mf_soundex.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_soundex.c.o: mysys/mf_soundex.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_soundex.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_soundex.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_soundex.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_soundex.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_soundex.c
 
 mysys/CMakeFiles/mysys.dir/mf_soundex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_soundex.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_soundex.c > CMakeFiles/mysys.dir/mf_soundex.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_soundex.c > CMakeFiles/mysys.dir/mf_soundex.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_soundex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_soundex.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_soundex.c -o CMakeFiles/mysys.dir/mf_soundex.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_soundex.c -o CMakeFiles/mysys.dir/mf_soundex.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_soundex.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_soundex.c.o.requires
@@ -669,17 +669,17 @@ mysys/CMakeFiles/mysys.dir/mf_soundex.c.o.provides.build: mysys/CMakeFiles/mysys
 
 mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.o: mysys/mf_arr_appstr.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_arr_appstr.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_arr_appstr.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_arr_appstr.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_arr_appstr.c
 
 mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_arr_appstr.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_arr_appstr.c > CMakeFiles/mysys.dir/mf_arr_appstr.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_arr_appstr.c > CMakeFiles/mysys.dir/mf_arr_appstr.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_arr_appstr.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_arr_appstr.c -o CMakeFiles/mysys.dir/mf_arr_appstr.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_arr_appstr.c -o CMakeFiles/mysys.dir/mf_arr_appstr.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.o.requires
@@ -692,17 +692,17 @@ mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.o.provides.build: mysys/CMakeFiles/my
 
 mysys/CMakeFiles/mysys.dir/mf_tempdir.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_tempdir.c.o: mysys/mf_tempdir.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_tempdir.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_tempdir.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_tempdir.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_tempdir.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_tempdir.c
 
 mysys/CMakeFiles/mysys.dir/mf_tempdir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_tempdir.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_tempdir.c > CMakeFiles/mysys.dir/mf_tempdir.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_tempdir.c > CMakeFiles/mysys.dir/mf_tempdir.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_tempdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_tempdir.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_tempdir.c -o CMakeFiles/mysys.dir/mf_tempdir.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_tempdir.c -o CMakeFiles/mysys.dir/mf_tempdir.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_tempdir.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_tempdir.c.o.requires
@@ -715,17 +715,17 @@ mysys/CMakeFiles/mysys.dir/mf_tempdir.c.o.provides.build: mysys/CMakeFiles/mysys
 
 mysys/CMakeFiles/mysys.dir/mf_tempfile.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_tempfile.c.o: mysys/mf_tempfile.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_tempfile.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_tempfile.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_tempfile.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_tempfile.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_tempfile.c
 
 mysys/CMakeFiles/mysys.dir/mf_tempfile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_tempfile.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_tempfile.c > CMakeFiles/mysys.dir/mf_tempfile.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_tempfile.c > CMakeFiles/mysys.dir/mf_tempfile.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_tempfile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_tempfile.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_tempfile.c -o CMakeFiles/mysys.dir/mf_tempfile.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_tempfile.c -o CMakeFiles/mysys.dir/mf_tempfile.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_tempfile.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_tempfile.c.o.requires
@@ -738,17 +738,17 @@ mysys/CMakeFiles/mysys.dir/mf_tempfile.c.o.provides.build: mysys/CMakeFiles/mysy
 
 mysys/CMakeFiles/mysys.dir/mf_unixpath.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_unixpath.c.o: mysys/mf_unixpath.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_unixpath.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_unixpath.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_unixpath.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_unixpath.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_unixpath.c
 
 mysys/CMakeFiles/mysys.dir/mf_unixpath.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_unixpath.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_unixpath.c > CMakeFiles/mysys.dir/mf_unixpath.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_unixpath.c > CMakeFiles/mysys.dir/mf_unixpath.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_unixpath.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_unixpath.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_unixpath.c -o CMakeFiles/mysys.dir/mf_unixpath.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_unixpath.c -o CMakeFiles/mysys.dir/mf_unixpath.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_unixpath.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_unixpath.c.o.requires
@@ -761,17 +761,17 @@ mysys/CMakeFiles/mysys.dir/mf_unixpath.c.o.provides.build: mysys/CMakeFiles/mysy
 
 mysys/CMakeFiles/mysys.dir/mf_wcomp.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_wcomp.c.o: mysys/mf_wcomp.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_wcomp.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_wcomp.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_wcomp.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mf_wcomp.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_wcomp.c
 
 mysys/CMakeFiles/mysys.dir/mf_wcomp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_wcomp.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_wcomp.c > CMakeFiles/mysys.dir/mf_wcomp.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_wcomp.c > CMakeFiles/mysys.dir/mf_wcomp.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_wcomp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_wcomp.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mf_wcomp.c -o CMakeFiles/mysys.dir/mf_wcomp.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mf_wcomp.c -o CMakeFiles/mysys.dir/mf_wcomp.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_wcomp.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_wcomp.c.o.requires
@@ -784,17 +784,17 @@ mysys/CMakeFiles/mysys.dir/mf_wcomp.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/mulalloc.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mulalloc.c.o: mysys/mulalloc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mulalloc.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mulalloc.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/mulalloc.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/mulalloc.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mulalloc.c
 
 mysys/CMakeFiles/mysys.dir/mulalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mulalloc.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/mulalloc.c > CMakeFiles/mysys.dir/mulalloc.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mulalloc.c > CMakeFiles/mysys.dir/mulalloc.c.i
 
 mysys/CMakeFiles/mysys.dir/mulalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mulalloc.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/mulalloc.c -o CMakeFiles/mysys.dir/mulalloc.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mulalloc.c -o CMakeFiles/mysys.dir/mulalloc.c.s
 
 mysys/CMakeFiles/mysys.dir/mulalloc.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mulalloc.c.o.requires
@@ -807,17 +807,17 @@ mysys/CMakeFiles/mysys.dir/mulalloc.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_access.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_access.c.o: mysys/my_access.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_access.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_access.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_access.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_access.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_access.c
 
 mysys/CMakeFiles/mysys.dir/my_access.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_access.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_access.c > CMakeFiles/mysys.dir/my_access.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_access.c > CMakeFiles/mysys.dir/my_access.c.i
 
 mysys/CMakeFiles/mysys.dir/my_access.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_access.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_access.c -o CMakeFiles/mysys.dir/my_access.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_access.c -o CMakeFiles/mysys.dir/my_access.c.s
 
 mysys/CMakeFiles/mysys.dir/my_access.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_access.c.o.requires
@@ -830,17 +830,17 @@ mysys/CMakeFiles/mysys.dir/my_access.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/my_aes.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_aes.c.o: mysys/my_aes.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_aes.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_aes.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_aes.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_aes.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_aes.c
 
 mysys/CMakeFiles/mysys.dir/my_aes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_aes.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_aes.c > CMakeFiles/mysys.dir/my_aes.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_aes.c > CMakeFiles/mysys.dir/my_aes.c.i
 
 mysys/CMakeFiles/mysys.dir/my_aes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_aes.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_aes.c -o CMakeFiles/mysys.dir/my_aes.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_aes.c -o CMakeFiles/mysys.dir/my_aes.c.s
 
 mysys/CMakeFiles/mysys.dir/my_aes.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_aes.c.o.requires
@@ -853,17 +853,17 @@ mysys/CMakeFiles/mysys.dir/my_aes.c.o.provides.build: mysys/CMakeFiles/mysys.dir
 
 mysys/CMakeFiles/mysys.dir/my_alloc.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_alloc.c.o: mysys/my_alloc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_alloc.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_alloc.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_alloc.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_alloc.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_alloc.c
 
 mysys/CMakeFiles/mysys.dir/my_alloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_alloc.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_alloc.c > CMakeFiles/mysys.dir/my_alloc.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_alloc.c > CMakeFiles/mysys.dir/my_alloc.c.i
 
 mysys/CMakeFiles/mysys.dir/my_alloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_alloc.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_alloc.c -o CMakeFiles/mysys.dir/my_alloc.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_alloc.c -o CMakeFiles/mysys.dir/my_alloc.c.s
 
 mysys/CMakeFiles/mysys.dir/my_alloc.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_alloc.c.o.requires
@@ -876,17 +876,17 @@ mysys/CMakeFiles/mysys.dir/my_alloc.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_bit.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_bit.c.o: mysys/my_bit.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_bit.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_bit.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_bit.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_bit.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_bit.c
 
 mysys/CMakeFiles/mysys.dir/my_bit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_bit.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_bit.c > CMakeFiles/mysys.dir/my_bit.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_bit.c > CMakeFiles/mysys.dir/my_bit.c.i
 
 mysys/CMakeFiles/mysys.dir/my_bit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_bit.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_bit.c -o CMakeFiles/mysys.dir/my_bit.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_bit.c -o CMakeFiles/mysys.dir/my_bit.c.s
 
 mysys/CMakeFiles/mysys.dir/my_bit.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_bit.c.o.requires
@@ -899,17 +899,17 @@ mysys/CMakeFiles/mysys.dir/my_bit.c.o.provides.build: mysys/CMakeFiles/mysys.dir
 
 mysys/CMakeFiles/mysys.dir/my_bitmap.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_bitmap.c.o: mysys/my_bitmap.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_bitmap.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_bitmap.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_bitmap.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_bitmap.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_bitmap.c
 
 mysys/CMakeFiles/mysys.dir/my_bitmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_bitmap.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_bitmap.c > CMakeFiles/mysys.dir/my_bitmap.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_bitmap.c > CMakeFiles/mysys.dir/my_bitmap.c.i
 
 mysys/CMakeFiles/mysys.dir/my_bitmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_bitmap.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_bitmap.c -o CMakeFiles/mysys.dir/my_bitmap.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_bitmap.c -o CMakeFiles/mysys.dir/my_bitmap.c.s
 
 mysys/CMakeFiles/mysys.dir/my_bitmap.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_bitmap.c.o.requires
@@ -922,17 +922,17 @@ mysys/CMakeFiles/mysys.dir/my_bitmap.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/my_chsize.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_chsize.c.o: mysys/my_chsize.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_chsize.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_chsize.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_chsize.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_chsize.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_chsize.c
 
 mysys/CMakeFiles/mysys.dir/my_chsize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_chsize.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_chsize.c > CMakeFiles/mysys.dir/my_chsize.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_chsize.c > CMakeFiles/mysys.dir/my_chsize.c.i
 
 mysys/CMakeFiles/mysys.dir/my_chsize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_chsize.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_chsize.c -o CMakeFiles/mysys.dir/my_chsize.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_chsize.c -o CMakeFiles/mysys.dir/my_chsize.c.s
 
 mysys/CMakeFiles/mysys.dir/my_chsize.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_chsize.c.o.requires
@@ -945,17 +945,17 @@ mysys/CMakeFiles/mysys.dir/my_chsize.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/my_compress.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_compress.c.o: mysys/my_compress.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_compress.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_compress.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_compress.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_compress.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_compress.c
 
 mysys/CMakeFiles/mysys.dir/my_compress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_compress.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_compress.c > CMakeFiles/mysys.dir/my_compress.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_compress.c > CMakeFiles/mysys.dir/my_compress.c.i
 
 mysys/CMakeFiles/mysys.dir/my_compress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_compress.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_compress.c -o CMakeFiles/mysys.dir/my_compress.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_compress.c -o CMakeFiles/mysys.dir/my_compress.c.s
 
 mysys/CMakeFiles/mysys.dir/my_compress.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_compress.c.o.requires
@@ -968,17 +968,17 @@ mysys/CMakeFiles/mysys.dir/my_compress.c.o.provides.build: mysys/CMakeFiles/mysy
 
 mysys/CMakeFiles/mysys.dir/my_copy.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_copy.c.o: mysys/my_copy.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_copy.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_copy.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_copy.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_copy.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_copy.c
 
 mysys/CMakeFiles/mysys.dir/my_copy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_copy.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_copy.c > CMakeFiles/mysys.dir/my_copy.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_copy.c > CMakeFiles/mysys.dir/my_copy.c.i
 
 mysys/CMakeFiles/mysys.dir/my_copy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_copy.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_copy.c -o CMakeFiles/mysys.dir/my_copy.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_copy.c -o CMakeFiles/mysys.dir/my_copy.c.s
 
 mysys/CMakeFiles/mysys.dir/my_copy.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_copy.c.o.requires
@@ -991,17 +991,17 @@ mysys/CMakeFiles/mysys.dir/my_copy.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_create.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_create.c.o: mysys/my_create.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_create.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_create.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_create.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_create.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_create.c
 
 mysys/CMakeFiles/mysys.dir/my_create.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_create.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_create.c > CMakeFiles/mysys.dir/my_create.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_create.c > CMakeFiles/mysys.dir/my_create.c.i
 
 mysys/CMakeFiles/mysys.dir/my_create.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_create.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_create.c -o CMakeFiles/mysys.dir/my_create.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_create.c -o CMakeFiles/mysys.dir/my_create.c.s
 
 mysys/CMakeFiles/mysys.dir/my_create.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_create.c.o.requires
@@ -1014,17 +1014,17 @@ mysys/CMakeFiles/mysys.dir/my_create.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/my_delete.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_delete.c.o: mysys/my_delete.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_delete.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_delete.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_delete.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_delete.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_delete.c
 
 mysys/CMakeFiles/mysys.dir/my_delete.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_delete.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_delete.c > CMakeFiles/mysys.dir/my_delete.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_delete.c > CMakeFiles/mysys.dir/my_delete.c.i
 
 mysys/CMakeFiles/mysys.dir/my_delete.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_delete.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_delete.c -o CMakeFiles/mysys.dir/my_delete.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_delete.c -o CMakeFiles/mysys.dir/my_delete.c.s
 
 mysys/CMakeFiles/mysys.dir/my_delete.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_delete.c.o.requires
@@ -1037,17 +1037,17 @@ mysys/CMakeFiles/mysys.dir/my_delete.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/my_div.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_div.c.o: mysys/my_div.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_div.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_div.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_div.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_div.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_div.c
 
 mysys/CMakeFiles/mysys.dir/my_div.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_div.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_div.c > CMakeFiles/mysys.dir/my_div.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_div.c > CMakeFiles/mysys.dir/my_div.c.i
 
 mysys/CMakeFiles/mysys.dir/my_div.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_div.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_div.c -o CMakeFiles/mysys.dir/my_div.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_div.c -o CMakeFiles/mysys.dir/my_div.c.s
 
 mysys/CMakeFiles/mysys.dir/my_div.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_div.c.o.requires
@@ -1060,17 +1060,17 @@ mysys/CMakeFiles/mysys.dir/my_div.c.o.provides.build: mysys/CMakeFiles/mysys.dir
 
 mysys/CMakeFiles/mysys.dir/my_error.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_error.c.o: mysys/my_error.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_error.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_error.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_error.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_error.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_error.c
 
 mysys/CMakeFiles/mysys.dir/my_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_error.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_error.c > CMakeFiles/mysys.dir/my_error.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_error.c > CMakeFiles/mysys.dir/my_error.c.i
 
 mysys/CMakeFiles/mysys.dir/my_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_error.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_error.c -o CMakeFiles/mysys.dir/my_error.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_error.c -o CMakeFiles/mysys.dir/my_error.c.s
 
 mysys/CMakeFiles/mysys.dir/my_error.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_error.c.o.requires
@@ -1083,17 +1083,17 @@ mysys/CMakeFiles/mysys.dir/my_error.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_file.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_file.c.o: mysys/my_file.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_file.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_file.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_file.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_file.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_file.c
 
 mysys/CMakeFiles/mysys.dir/my_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_file.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_file.c > CMakeFiles/mysys.dir/my_file.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_file.c > CMakeFiles/mysys.dir/my_file.c.i
 
 mysys/CMakeFiles/mysys.dir/my_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_file.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_file.c -o CMakeFiles/mysys.dir/my_file.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_file.c -o CMakeFiles/mysys.dir/my_file.c.s
 
 mysys/CMakeFiles/mysys.dir/my_file.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_file.c.o.requires
@@ -1106,17 +1106,17 @@ mysys/CMakeFiles/mysys.dir/my_file.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_fopen.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_fopen.c.o: mysys/my_fopen.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_fopen.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_fopen.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_fopen.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_fopen.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_fopen.c
 
 mysys/CMakeFiles/mysys.dir/my_fopen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_fopen.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_fopen.c > CMakeFiles/mysys.dir/my_fopen.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_fopen.c > CMakeFiles/mysys.dir/my_fopen.c.i
 
 mysys/CMakeFiles/mysys.dir/my_fopen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_fopen.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_fopen.c -o CMakeFiles/mysys.dir/my_fopen.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_fopen.c -o CMakeFiles/mysys.dir/my_fopen.c.s
 
 mysys/CMakeFiles/mysys.dir/my_fopen.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_fopen.c.o.requires
@@ -1129,17 +1129,17 @@ mysys/CMakeFiles/mysys.dir/my_fopen.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_fstream.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_fstream.c.o: mysys/my_fstream.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_fstream.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_fstream.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_fstream.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_fstream.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_fstream.c
 
 mysys/CMakeFiles/mysys.dir/my_fstream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_fstream.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_fstream.c > CMakeFiles/mysys.dir/my_fstream.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_fstream.c > CMakeFiles/mysys.dir/my_fstream.c.i
 
 mysys/CMakeFiles/mysys.dir/my_fstream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_fstream.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_fstream.c -o CMakeFiles/mysys.dir/my_fstream.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_fstream.c -o CMakeFiles/mysys.dir/my_fstream.c.s
 
 mysys/CMakeFiles/mysys.dir/my_fstream.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_fstream.c.o.requires
@@ -1152,17 +1152,17 @@ mysys/CMakeFiles/mysys.dir/my_fstream.c.o.provides.build: mysys/CMakeFiles/mysys
 
 mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.o: mysys/my_gethwaddr.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_gethwaddr.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_gethwaddr.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_gethwaddr.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_gethwaddr.c
 
 mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_gethwaddr.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_gethwaddr.c > CMakeFiles/mysys.dir/my_gethwaddr.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_gethwaddr.c > CMakeFiles/mysys.dir/my_gethwaddr.c.i
 
 mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_gethwaddr.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_gethwaddr.c -o CMakeFiles/mysys.dir/my_gethwaddr.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_gethwaddr.c -o CMakeFiles/mysys.dir/my_gethwaddr.c.s
 
 mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.o.requires
@@ -1175,17 +1175,17 @@ mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.o.provides.build: mysys/CMakeFiles/mys
 
 mysys/CMakeFiles/mysys.dir/my_getopt.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_getopt.c.o: mysys/my_getopt.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_getopt.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_getopt.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getopt.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_getopt.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getopt.c
 
 mysys/CMakeFiles/mysys.dir/my_getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_getopt.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getopt.c > CMakeFiles/mysys.dir/my_getopt.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getopt.c > CMakeFiles/mysys.dir/my_getopt.c.i
 
 mysys/CMakeFiles/mysys.dir/my_getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_getopt.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getopt.c -o CMakeFiles/mysys.dir/my_getopt.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getopt.c -o CMakeFiles/mysys.dir/my_getopt.c.s
 
 mysys/CMakeFiles/mysys.dir/my_getopt.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_getopt.c.o.requires
@@ -1198,17 +1198,17 @@ mysys/CMakeFiles/mysys.dir/my_getopt.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/my_getsystime.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_getsystime.c.o: mysys/my_getsystime.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_getsystime.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_getsystime.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getsystime.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_getsystime.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getsystime.c
 
 mysys/CMakeFiles/mysys.dir/my_getsystime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_getsystime.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getsystime.c > CMakeFiles/mysys.dir/my_getsystime.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getsystime.c > CMakeFiles/mysys.dir/my_getsystime.c.i
 
 mysys/CMakeFiles/mysys.dir/my_getsystime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_getsystime.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getsystime.c -o CMakeFiles/mysys.dir/my_getsystime.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getsystime.c -o CMakeFiles/mysys.dir/my_getsystime.c.s
 
 mysys/CMakeFiles/mysys.dir/my_getsystime.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_getsystime.c.o.requires
@@ -1221,17 +1221,17 @@ mysys/CMakeFiles/mysys.dir/my_getsystime.c.o.provides.build: mysys/CMakeFiles/my
 
 mysys/CMakeFiles/mysys.dir/my_getwd.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_getwd.c.o: mysys/my_getwd.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_getwd.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_getwd.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getwd.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_getwd.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getwd.c
 
 mysys/CMakeFiles/mysys.dir/my_getwd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_getwd.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getwd.c > CMakeFiles/mysys.dir/my_getwd.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getwd.c > CMakeFiles/mysys.dir/my_getwd.c.i
 
 mysys/CMakeFiles/mysys.dir/my_getwd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_getwd.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getwd.c -o CMakeFiles/mysys.dir/my_getwd.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getwd.c -o CMakeFiles/mysys.dir/my_getwd.c.s
 
 mysys/CMakeFiles/mysys.dir/my_getwd.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_getwd.c.o.requires
@@ -1244,17 +1244,17 @@ mysys/CMakeFiles/mysys.dir/my_getwd.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_compare.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_compare.c.o: mysys/my_compare.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_compare.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_compare.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_compare.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_compare.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_compare.c
 
 mysys/CMakeFiles/mysys.dir/my_compare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_compare.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_compare.c > CMakeFiles/mysys.dir/my_compare.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_compare.c > CMakeFiles/mysys.dir/my_compare.c.i
 
 mysys/CMakeFiles/mysys.dir/my_compare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_compare.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_compare.c -o CMakeFiles/mysys.dir/my_compare.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_compare.c -o CMakeFiles/mysys.dir/my_compare.c.s
 
 mysys/CMakeFiles/mysys.dir/my_compare.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_compare.c.o.requires
@@ -1267,17 +1267,17 @@ mysys/CMakeFiles/mysys.dir/my_compare.c.o.provides.build: mysys/CMakeFiles/mysys
 
 mysys/CMakeFiles/mysys.dir/my_init.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_init.c.o: mysys/my_init.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_init.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_init.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_init.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_init.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_init.c
 
 mysys/CMakeFiles/mysys.dir/my_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_init.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_init.c > CMakeFiles/mysys.dir/my_init.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_init.c > CMakeFiles/mysys.dir/my_init.c.i
 
 mysys/CMakeFiles/mysys.dir/my_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_init.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_init.c -o CMakeFiles/mysys.dir/my_init.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_init.c -o CMakeFiles/mysys.dir/my_init.c.s
 
 mysys/CMakeFiles/mysys.dir/my_init.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_init.c.o.requires
@@ -1290,17 +1290,17 @@ mysys/CMakeFiles/mysys.dir/my_init.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_lib.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_lib.c.o: mysys/my_lib.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_lib.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_lib.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_lib.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_lib.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_lib.c
 
 mysys/CMakeFiles/mysys.dir/my_lib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_lib.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_lib.c > CMakeFiles/mysys.dir/my_lib.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_lib.c > CMakeFiles/mysys.dir/my_lib.c.i
 
 mysys/CMakeFiles/mysys.dir/my_lib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_lib.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_lib.c -o CMakeFiles/mysys.dir/my_lib.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_lib.c -o CMakeFiles/mysys.dir/my_lib.c.s
 
 mysys/CMakeFiles/mysys.dir/my_lib.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_lib.c.o.requires
@@ -1313,17 +1313,17 @@ mysys/CMakeFiles/mysys.dir/my_lib.c.o.provides.build: mysys/CMakeFiles/mysys.dir
 
 mysys/CMakeFiles/mysys.dir/my_lock.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_lock.c.o: mysys/my_lock.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_lock.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_lock.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_lock.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_lock.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_lock.c
 
 mysys/CMakeFiles/mysys.dir/my_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_lock.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_lock.c > CMakeFiles/mysys.dir/my_lock.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_lock.c > CMakeFiles/mysys.dir/my_lock.c.i
 
 mysys/CMakeFiles/mysys.dir/my_lock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_lock.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_lock.c -o CMakeFiles/mysys.dir/my_lock.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_lock.c -o CMakeFiles/mysys.dir/my_lock.c.s
 
 mysys/CMakeFiles/mysys.dir/my_lock.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_lock.c.o.requires
@@ -1336,17 +1336,17 @@ mysys/CMakeFiles/mysys.dir/my_lock.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_malloc.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_malloc.c.o: mysys/my_malloc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_malloc.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_malloc.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_malloc.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_malloc.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_malloc.c
 
 mysys/CMakeFiles/mysys.dir/my_malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_malloc.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_malloc.c > CMakeFiles/mysys.dir/my_malloc.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_malloc.c > CMakeFiles/mysys.dir/my_malloc.c.i
 
 mysys/CMakeFiles/mysys.dir/my_malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_malloc.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_malloc.c -o CMakeFiles/mysys.dir/my_malloc.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_malloc.c -o CMakeFiles/mysys.dir/my_malloc.c.s
 
 mysys/CMakeFiles/mysys.dir/my_malloc.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_malloc.c.o.requires
@@ -1359,17 +1359,17 @@ mysys/CMakeFiles/mysys.dir/my_malloc.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/my_mess.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_mess.c.o: mysys/my_mess.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_mess.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_mess.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_mess.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_mess.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_mess.c
 
 mysys/CMakeFiles/mysys.dir/my_mess.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_mess.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_mess.c > CMakeFiles/mysys.dir/my_mess.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_mess.c > CMakeFiles/mysys.dir/my_mess.c.i
 
 mysys/CMakeFiles/mysys.dir/my_mess.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_mess.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_mess.c -o CMakeFiles/mysys.dir/my_mess.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_mess.c -o CMakeFiles/mysys.dir/my_mess.c.s
 
 mysys/CMakeFiles/mysys.dir/my_mess.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_mess.c.o.requires
@@ -1382,17 +1382,17 @@ mysys/CMakeFiles/mysys.dir/my_mess.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_mkdir.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_mkdir.c.o: mysys/my_mkdir.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_mkdir.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_mkdir.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_mkdir.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_mkdir.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_mkdir.c
 
 mysys/CMakeFiles/mysys.dir/my_mkdir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_mkdir.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_mkdir.c > CMakeFiles/mysys.dir/my_mkdir.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_mkdir.c > CMakeFiles/mysys.dir/my_mkdir.c.i
 
 mysys/CMakeFiles/mysys.dir/my_mkdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_mkdir.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_mkdir.c -o CMakeFiles/mysys.dir/my_mkdir.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_mkdir.c -o CMakeFiles/mysys.dir/my_mkdir.c.s
 
 mysys/CMakeFiles/mysys.dir/my_mkdir.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_mkdir.c.o.requires
@@ -1405,17 +1405,17 @@ mysys/CMakeFiles/mysys.dir/my_mkdir.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_mmap.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_mmap.c.o: mysys/my_mmap.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_mmap.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_mmap.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_mmap.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_mmap.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_mmap.c
 
 mysys/CMakeFiles/mysys.dir/my_mmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_mmap.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_mmap.c > CMakeFiles/mysys.dir/my_mmap.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_mmap.c > CMakeFiles/mysys.dir/my_mmap.c.i
 
 mysys/CMakeFiles/mysys.dir/my_mmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_mmap.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_mmap.c -o CMakeFiles/mysys.dir/my_mmap.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_mmap.c -o CMakeFiles/mysys.dir/my_mmap.c.s
 
 mysys/CMakeFiles/mysys.dir/my_mmap.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_mmap.c.o.requires
@@ -1428,17 +1428,17 @@ mysys/CMakeFiles/mysys.dir/my_mmap.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_once.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_once.c.o: mysys/my_once.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_once.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_once.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_once.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_once.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_once.c
 
 mysys/CMakeFiles/mysys.dir/my_once.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_once.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_once.c > CMakeFiles/mysys.dir/my_once.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_once.c > CMakeFiles/mysys.dir/my_once.c.i
 
 mysys/CMakeFiles/mysys.dir/my_once.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_once.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_once.c -o CMakeFiles/mysys.dir/my_once.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_once.c -o CMakeFiles/mysys.dir/my_once.c.s
 
 mysys/CMakeFiles/mysys.dir/my_once.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_once.c.o.requires
@@ -1451,17 +1451,17 @@ mysys/CMakeFiles/mysys.dir/my_once.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_open.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_open.c.o: mysys/my_open.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_open.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_open.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_open.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_open.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_open.c
 
 mysys/CMakeFiles/mysys.dir/my_open.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_open.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_open.c > CMakeFiles/mysys.dir/my_open.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_open.c > CMakeFiles/mysys.dir/my_open.c.i
 
 mysys/CMakeFiles/mysys.dir/my_open.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_open.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_open.c -o CMakeFiles/mysys.dir/my_open.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_open.c -o CMakeFiles/mysys.dir/my_open.c.s
 
 mysys/CMakeFiles/mysys.dir/my_open.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_open.c.o.requires
@@ -1474,17 +1474,17 @@ mysys/CMakeFiles/mysys.dir/my_open.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_pread.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_pread.c.o: mysys/my_pread.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_pread.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_pread.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_pread.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_pread.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_pread.c
 
 mysys/CMakeFiles/mysys.dir/my_pread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_pread.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_pread.c > CMakeFiles/mysys.dir/my_pread.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_pread.c > CMakeFiles/mysys.dir/my_pread.c.i
 
 mysys/CMakeFiles/mysys.dir/my_pread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_pread.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_pread.c -o CMakeFiles/mysys.dir/my_pread.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_pread.c -o CMakeFiles/mysys.dir/my_pread.c.s
 
 mysys/CMakeFiles/mysys.dir/my_pread.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_pread.c.o.requires
@@ -1497,17 +1497,17 @@ mysys/CMakeFiles/mysys.dir/my_pread.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_pthread.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_pthread.c.o: mysys/my_pthread.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_pthread.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_pthread.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_pthread.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_pthread.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_pthread.c
 
 mysys/CMakeFiles/mysys.dir/my_pthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_pthread.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_pthread.c > CMakeFiles/mysys.dir/my_pthread.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_pthread.c > CMakeFiles/mysys.dir/my_pthread.c.i
 
 mysys/CMakeFiles/mysys.dir/my_pthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_pthread.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_pthread.c -o CMakeFiles/mysys.dir/my_pthread.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_pthread.c -o CMakeFiles/mysys.dir/my_pthread.c.s
 
 mysys/CMakeFiles/mysys.dir/my_pthread.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_pthread.c.o.requires
@@ -1520,17 +1520,17 @@ mysys/CMakeFiles/mysys.dir/my_pthread.c.o.provides.build: mysys/CMakeFiles/mysys
 
 mysys/CMakeFiles/mysys.dir/my_quick.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_quick.c.o: mysys/my_quick.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_quick.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_quick.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_quick.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_quick.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_quick.c
 
 mysys/CMakeFiles/mysys.dir/my_quick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_quick.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_quick.c > CMakeFiles/mysys.dir/my_quick.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_quick.c > CMakeFiles/mysys.dir/my_quick.c.i
 
 mysys/CMakeFiles/mysys.dir/my_quick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_quick.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_quick.c -o CMakeFiles/mysys.dir/my_quick.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_quick.c -o CMakeFiles/mysys.dir/my_quick.c.s
 
 mysys/CMakeFiles/mysys.dir/my_quick.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_quick.c.o.requires
@@ -1543,17 +1543,17 @@ mysys/CMakeFiles/mysys.dir/my_quick.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_read.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_read.c.o: mysys/my_read.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_read.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_read.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_read.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_read.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_read.c
 
 mysys/CMakeFiles/mysys.dir/my_read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_read.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_read.c > CMakeFiles/mysys.dir/my_read.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_read.c > CMakeFiles/mysys.dir/my_read.c.i
 
 mysys/CMakeFiles/mysys.dir/my_read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_read.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_read.c -o CMakeFiles/mysys.dir/my_read.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_read.c -o CMakeFiles/mysys.dir/my_read.c.s
 
 mysys/CMakeFiles/mysys.dir/my_read.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_read.c.o.requires
@@ -1566,17 +1566,17 @@ mysys/CMakeFiles/mysys.dir/my_read.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_redel.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_redel.c.o: mysys/my_redel.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_redel.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_redel.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_redel.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_redel.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_redel.c
 
 mysys/CMakeFiles/mysys.dir/my_redel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_redel.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_redel.c > CMakeFiles/mysys.dir/my_redel.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_redel.c > CMakeFiles/mysys.dir/my_redel.c.i
 
 mysys/CMakeFiles/mysys.dir/my_redel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_redel.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_redel.c -o CMakeFiles/mysys.dir/my_redel.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_redel.c -o CMakeFiles/mysys.dir/my_redel.c.s
 
 mysys/CMakeFiles/mysys.dir/my_redel.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_redel.c.o.requires
@@ -1589,17 +1589,17 @@ mysys/CMakeFiles/mysys.dir/my_redel.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_rename.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_rename.c.o: mysys/my_rename.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_rename.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_rename.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_rename.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_rename.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_rename.c
 
 mysys/CMakeFiles/mysys.dir/my_rename.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_rename.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_rename.c > CMakeFiles/mysys.dir/my_rename.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_rename.c > CMakeFiles/mysys.dir/my_rename.c.i
 
 mysys/CMakeFiles/mysys.dir/my_rename.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_rename.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_rename.c -o CMakeFiles/mysys.dir/my_rename.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_rename.c -o CMakeFiles/mysys.dir/my_rename.c.s
 
 mysys/CMakeFiles/mysys.dir/my_rename.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_rename.c.o.requires
@@ -1612,17 +1612,17 @@ mysys/CMakeFiles/mysys.dir/my_rename.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/my_seek.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_seek.c.o: mysys/my_seek.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_seek.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_seek.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_seek.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_seek.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_seek.c
 
 mysys/CMakeFiles/mysys.dir/my_seek.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_seek.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_seek.c > CMakeFiles/mysys.dir/my_seek.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_seek.c > CMakeFiles/mysys.dir/my_seek.c.i
 
 mysys/CMakeFiles/mysys.dir/my_seek.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_seek.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_seek.c -o CMakeFiles/mysys.dir/my_seek.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_seek.c -o CMakeFiles/mysys.dir/my_seek.c.s
 
 mysys/CMakeFiles/mysys.dir/my_seek.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_seek.c.o.requires
@@ -1635,17 +1635,17 @@ mysys/CMakeFiles/mysys.dir/my_seek.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_sleep.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_sleep.c.o: mysys/my_sleep.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_sleep.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_sleep.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_sleep.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_sleep.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_sleep.c
 
 mysys/CMakeFiles/mysys.dir/my_sleep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_sleep.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_sleep.c > CMakeFiles/mysys.dir/my_sleep.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_sleep.c > CMakeFiles/mysys.dir/my_sleep.c.i
 
 mysys/CMakeFiles/mysys.dir/my_sleep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_sleep.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_sleep.c -o CMakeFiles/mysys.dir/my_sleep.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_sleep.c -o CMakeFiles/mysys.dir/my_sleep.c.s
 
 mysys/CMakeFiles/mysys.dir/my_sleep.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_sleep.c.o.requires
@@ -1658,17 +1658,17 @@ mysys/CMakeFiles/mysys.dir/my_sleep.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_static.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_static.c.o: mysys/my_static.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_static.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_static.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_static.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_static.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_static.c
 
 mysys/CMakeFiles/mysys.dir/my_static.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_static.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_static.c > CMakeFiles/mysys.dir/my_static.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_static.c > CMakeFiles/mysys.dir/my_static.c.i
 
 mysys/CMakeFiles/mysys.dir/my_static.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_static.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_static.c -o CMakeFiles/mysys.dir/my_static.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_static.c -o CMakeFiles/mysys.dir/my_static.c.s
 
 mysys/CMakeFiles/mysys.dir/my_static.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_static.c.o.requires
@@ -1681,17 +1681,17 @@ mysys/CMakeFiles/mysys.dir/my_static.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/my_symlink.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_symlink.c.o: mysys/my_symlink.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_symlink.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_symlink.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_symlink.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_symlink.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_symlink.c
 
 mysys/CMakeFiles/mysys.dir/my_symlink.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_symlink.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_symlink.c > CMakeFiles/mysys.dir/my_symlink.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_symlink.c > CMakeFiles/mysys.dir/my_symlink.c.i
 
 mysys/CMakeFiles/mysys.dir/my_symlink.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_symlink.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_symlink.c -o CMakeFiles/mysys.dir/my_symlink.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_symlink.c -o CMakeFiles/mysys.dir/my_symlink.c.s
 
 mysys/CMakeFiles/mysys.dir/my_symlink.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_symlink.c.o.requires
@@ -1704,17 +1704,17 @@ mysys/CMakeFiles/mysys.dir/my_symlink.c.o.provides.build: mysys/CMakeFiles/mysys
 
 mysys/CMakeFiles/mysys.dir/my_symlink2.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_symlink2.c.o: mysys/my_symlink2.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_symlink2.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_symlink2.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_symlink2.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_symlink2.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_symlink2.c
 
 mysys/CMakeFiles/mysys.dir/my_symlink2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_symlink2.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_symlink2.c > CMakeFiles/mysys.dir/my_symlink2.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_symlink2.c > CMakeFiles/mysys.dir/my_symlink2.c.i
 
 mysys/CMakeFiles/mysys.dir/my_symlink2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_symlink2.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_symlink2.c -o CMakeFiles/mysys.dir/my_symlink2.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_symlink2.c -o CMakeFiles/mysys.dir/my_symlink2.c.s
 
 mysys/CMakeFiles/mysys.dir/my_symlink2.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_symlink2.c.o.requires
@@ -1727,17 +1727,17 @@ mysys/CMakeFiles/mysys.dir/my_symlink2.c.o.provides.build: mysys/CMakeFiles/mysy
 
 mysys/CMakeFiles/mysys.dir/my_sync.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_sync.c.o: mysys/my_sync.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_sync.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_sync.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_sync.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_sync.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_sync.c
 
 mysys/CMakeFiles/mysys.dir/my_sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_sync.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_sync.c > CMakeFiles/mysys.dir/my_sync.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_sync.c > CMakeFiles/mysys.dir/my_sync.c.i
 
 mysys/CMakeFiles/mysys.dir/my_sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_sync.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_sync.c -o CMakeFiles/mysys.dir/my_sync.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_sync.c -o CMakeFiles/mysys.dir/my_sync.c.s
 
 mysys/CMakeFiles/mysys.dir/my_sync.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_sync.c.o.requires
@@ -1750,17 +1750,17 @@ mysys/CMakeFiles/mysys.dir/my_sync.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_thr_init.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_thr_init.c.o: mysys/my_thr_init.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_thr_init.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_thr_init.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_thr_init.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_thr_init.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_thr_init.c
 
 mysys/CMakeFiles/mysys.dir/my_thr_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_thr_init.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_thr_init.c > CMakeFiles/mysys.dir/my_thr_init.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_thr_init.c > CMakeFiles/mysys.dir/my_thr_init.c.i
 
 mysys/CMakeFiles/mysys.dir/my_thr_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_thr_init.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_thr_init.c -o CMakeFiles/mysys.dir/my_thr_init.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_thr_init.c -o CMakeFiles/mysys.dir/my_thr_init.c.s
 
 mysys/CMakeFiles/mysys.dir/my_thr_init.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_thr_init.c.o.requires
@@ -1773,17 +1773,17 @@ mysys/CMakeFiles/mysys.dir/my_thr_init.c.o.provides.build: mysys/CMakeFiles/mysy
 
 mysys/CMakeFiles/mysys.dir/my_write.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_write.c.o: mysys/my_write.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_write.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_write.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_write.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_write.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_write.c
 
 mysys/CMakeFiles/mysys.dir/my_write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_write.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_write.c > CMakeFiles/mysys.dir/my_write.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_write.c > CMakeFiles/mysys.dir/my_write.c.i
 
 mysys/CMakeFiles/mysys.dir/my_write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_write.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_write.c -o CMakeFiles/mysys.dir/my_write.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_write.c -o CMakeFiles/mysys.dir/my_write.c.s
 
 mysys/CMakeFiles/mysys.dir/my_write.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_write.c.o.requires
@@ -1796,17 +1796,17 @@ mysys/CMakeFiles/mysys.dir/my_write.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/ptr_cmp.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/ptr_cmp.c.o: mysys/ptr_cmp.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/ptr_cmp.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/ptr_cmp.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/ptr_cmp.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/ptr_cmp.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/ptr_cmp.c
 
 mysys/CMakeFiles/mysys.dir/ptr_cmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/ptr_cmp.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/ptr_cmp.c > CMakeFiles/mysys.dir/ptr_cmp.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/ptr_cmp.c > CMakeFiles/mysys.dir/ptr_cmp.c.i
 
 mysys/CMakeFiles/mysys.dir/ptr_cmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/ptr_cmp.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/ptr_cmp.c -o CMakeFiles/mysys.dir/ptr_cmp.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/ptr_cmp.c -o CMakeFiles/mysys.dir/ptr_cmp.c.s
 
 mysys/CMakeFiles/mysys.dir/ptr_cmp.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/ptr_cmp.c.o.requires
@@ -1819,17 +1819,17 @@ mysys/CMakeFiles/mysys.dir/ptr_cmp.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/queues.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/queues.c.o: mysys/queues.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/queues.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/queues.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/queues.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/queues.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/queues.c
 
 mysys/CMakeFiles/mysys.dir/queues.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/queues.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/queues.c > CMakeFiles/mysys.dir/queues.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/queues.c > CMakeFiles/mysys.dir/queues.c.i
 
 mysys/CMakeFiles/mysys.dir/queues.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/queues.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/queues.c -o CMakeFiles/mysys.dir/queues.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/queues.c -o CMakeFiles/mysys.dir/queues.c.s
 
 mysys/CMakeFiles/mysys.dir/queues.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/queues.c.o.requires
@@ -1842,17 +1842,17 @@ mysys/CMakeFiles/mysys.dir/queues.c.o.provides.build: mysys/CMakeFiles/mysys.dir
 
 mysys/CMakeFiles/mysys.dir/stacktrace.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/stacktrace.c.o: mysys/stacktrace.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/stacktrace.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/stacktrace.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/stacktrace.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/stacktrace.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/stacktrace.c
 
 mysys/CMakeFiles/mysys.dir/stacktrace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/stacktrace.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/stacktrace.c > CMakeFiles/mysys.dir/stacktrace.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/stacktrace.c > CMakeFiles/mysys.dir/stacktrace.c.i
 
 mysys/CMakeFiles/mysys.dir/stacktrace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/stacktrace.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/stacktrace.c -o CMakeFiles/mysys.dir/stacktrace.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/stacktrace.c -o CMakeFiles/mysys.dir/stacktrace.c.s
 
 mysys/CMakeFiles/mysys.dir/stacktrace.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/stacktrace.c.o.requires
@@ -1865,17 +1865,17 @@ mysys/CMakeFiles/mysys.dir/stacktrace.c.o.provides.build: mysys/CMakeFiles/mysys
 
 mysys/CMakeFiles/mysys.dir/rijndael.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/rijndael.c.o: mysys/rijndael.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/rijndael.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/rijndael.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/rijndael.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/rijndael.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/rijndael.c
 
 mysys/CMakeFiles/mysys.dir/rijndael.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/rijndael.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/rijndael.c > CMakeFiles/mysys.dir/rijndael.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/rijndael.c > CMakeFiles/mysys.dir/rijndael.c.i
 
 mysys/CMakeFiles/mysys.dir/rijndael.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/rijndael.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/rijndael.c -o CMakeFiles/mysys.dir/rijndael.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/rijndael.c -o CMakeFiles/mysys.dir/rijndael.c.s
 
 mysys/CMakeFiles/mysys.dir/rijndael.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/rijndael.c.o.requires
@@ -1888,17 +1888,17 @@ mysys/CMakeFiles/mysys.dir/rijndael.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/sha1.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/sha1.c.o: mysys/sha1.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/sha1.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/sha1.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/sha1.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/sha1.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/sha1.c
 
 mysys/CMakeFiles/mysys.dir/sha1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/sha1.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/sha1.c > CMakeFiles/mysys.dir/sha1.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/sha1.c > CMakeFiles/mysys.dir/sha1.c.i
 
 mysys/CMakeFiles/mysys.dir/sha1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/sha1.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/sha1.c -o CMakeFiles/mysys.dir/sha1.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/sha1.c -o CMakeFiles/mysys.dir/sha1.c.s
 
 mysys/CMakeFiles/mysys.dir/sha1.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/sha1.c.o.requires
@@ -1911,17 +1911,17 @@ mysys/CMakeFiles/mysys.dir/sha1.c.o.provides.build: mysys/CMakeFiles/mysys.dir/s
 
 mysys/CMakeFiles/mysys.dir/string.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/string.c.o: mysys/string.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/string.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/string.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/string.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/string.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/string.c
 
 mysys/CMakeFiles/mysys.dir/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/string.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/string.c > CMakeFiles/mysys.dir/string.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/string.c > CMakeFiles/mysys.dir/string.c.i
 
 mysys/CMakeFiles/mysys.dir/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/string.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/string.c -o CMakeFiles/mysys.dir/string.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/string.c -o CMakeFiles/mysys.dir/string.c.s
 
 mysys/CMakeFiles/mysys.dir/string.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/string.c.o.requires
@@ -1934,17 +1934,17 @@ mysys/CMakeFiles/mysys.dir/string.c.o.provides.build: mysys/CMakeFiles/mysys.dir
 
 mysys/CMakeFiles/mysys.dir/thr_alarm.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/thr_alarm.c.o: mysys/thr_alarm.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/thr_alarm.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/thr_alarm.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_alarm.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/thr_alarm.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_alarm.c
 
 mysys/CMakeFiles/mysys.dir/thr_alarm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/thr_alarm.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_alarm.c > CMakeFiles/mysys.dir/thr_alarm.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_alarm.c > CMakeFiles/mysys.dir/thr_alarm.c.i
 
 mysys/CMakeFiles/mysys.dir/thr_alarm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/thr_alarm.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_alarm.c -o CMakeFiles/mysys.dir/thr_alarm.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_alarm.c -o CMakeFiles/mysys.dir/thr_alarm.c.s
 
 mysys/CMakeFiles/mysys.dir/thr_alarm.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/thr_alarm.c.o.requires
@@ -1957,17 +1957,17 @@ mysys/CMakeFiles/mysys.dir/thr_alarm.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/thr_lock.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/thr_lock.c.o: mysys/thr_lock.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/thr_lock.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/thr_lock.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_lock.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/thr_lock.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_lock.c
 
 mysys/CMakeFiles/mysys.dir/thr_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/thr_lock.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_lock.c > CMakeFiles/mysys.dir/thr_lock.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_lock.c > CMakeFiles/mysys.dir/thr_lock.c.i
 
 mysys/CMakeFiles/mysys.dir/thr_lock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/thr_lock.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_lock.c -o CMakeFiles/mysys.dir/thr_lock.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_lock.c -o CMakeFiles/mysys.dir/thr_lock.c.s
 
 mysys/CMakeFiles/mysys.dir/thr_lock.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/thr_lock.c.o.requires
@@ -1980,17 +1980,17 @@ mysys/CMakeFiles/mysys.dir/thr_lock.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/thr_mutex.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/thr_mutex.c.o: mysys/thr_mutex.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_85)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/thr_mutex.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/thr_mutex.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_mutex.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/thr_mutex.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_mutex.c
 
 mysys/CMakeFiles/mysys.dir/thr_mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/thr_mutex.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_mutex.c > CMakeFiles/mysys.dir/thr_mutex.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_mutex.c > CMakeFiles/mysys.dir/thr_mutex.c.i
 
 mysys/CMakeFiles/mysys.dir/thr_mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/thr_mutex.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_mutex.c -o CMakeFiles/mysys.dir/thr_mutex.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_mutex.c -o CMakeFiles/mysys.dir/thr_mutex.c.s
 
 mysys/CMakeFiles/mysys.dir/thr_mutex.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/thr_mutex.c.o.requires
@@ -2003,17 +2003,17 @@ mysys/CMakeFiles/mysys.dir/thr_mutex.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/thr_rwlock.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/thr_rwlock.c.o: mysys/thr_rwlock.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_86)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/thr_rwlock.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/thr_rwlock.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_rwlock.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/thr_rwlock.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_rwlock.c
 
 mysys/CMakeFiles/mysys.dir/thr_rwlock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/thr_rwlock.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_rwlock.c > CMakeFiles/mysys.dir/thr_rwlock.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_rwlock.c > CMakeFiles/mysys.dir/thr_rwlock.c.i
 
 mysys/CMakeFiles/mysys.dir/thr_rwlock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/thr_rwlock.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/thr_rwlock.c -o CMakeFiles/mysys.dir/thr_rwlock.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/thr_rwlock.c -o CMakeFiles/mysys.dir/thr_rwlock.c.s
 
 mysys/CMakeFiles/mysys.dir/thr_rwlock.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/thr_rwlock.c.o.requires
@@ -2026,17 +2026,17 @@ mysys/CMakeFiles/mysys.dir/thr_rwlock.c.o.provides.build: mysys/CMakeFiles/mysys
 
 mysys/CMakeFiles/mysys.dir/tree.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/tree.c.o: mysys/tree.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_87)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/tree.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/tree.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/tree.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/tree.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/tree.c
 
 mysys/CMakeFiles/mysys.dir/tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/tree.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/tree.c > CMakeFiles/mysys.dir/tree.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/tree.c > CMakeFiles/mysys.dir/tree.c.i
 
 mysys/CMakeFiles/mysys.dir/tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/tree.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/tree.c -o CMakeFiles/mysys.dir/tree.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/tree.c -o CMakeFiles/mysys.dir/tree.c.s
 
 mysys/CMakeFiles/mysys.dir/tree.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/tree.c.o.requires
@@ -2049,17 +2049,17 @@ mysys/CMakeFiles/mysys.dir/tree.c.o.provides.build: mysys/CMakeFiles/mysys.dir/t
 
 mysys/CMakeFiles/mysys.dir/typelib.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/typelib.c.o: mysys/typelib.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_88)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/typelib.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/typelib.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/typelib.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/typelib.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/typelib.c
 
 mysys/CMakeFiles/mysys.dir/typelib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/typelib.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/typelib.c > CMakeFiles/mysys.dir/typelib.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/typelib.c > CMakeFiles/mysys.dir/typelib.c.i
 
 mysys/CMakeFiles/mysys.dir/typelib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/typelib.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/typelib.c -o CMakeFiles/mysys.dir/typelib.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/typelib.c -o CMakeFiles/mysys.dir/typelib.c.s
 
 mysys/CMakeFiles/mysys.dir/typelib.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/typelib.c.o.requires
@@ -2072,17 +2072,17 @@ mysys/CMakeFiles/mysys.dir/typelib.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/base64.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/base64.c.o: mysys/base64.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_89)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/base64.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/base64.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/base64.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/base64.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/base64.c
 
 mysys/CMakeFiles/mysys.dir/base64.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/base64.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/base64.c > CMakeFiles/mysys.dir/base64.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/base64.c > CMakeFiles/mysys.dir/base64.c.i
 
 mysys/CMakeFiles/mysys.dir/base64.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/base64.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/base64.c -o CMakeFiles/mysys.dir/base64.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/base64.c -o CMakeFiles/mysys.dir/base64.c.s
 
 mysys/CMakeFiles/mysys.dir/base64.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/base64.c.o.requires
@@ -2095,17 +2095,17 @@ mysys/CMakeFiles/mysys.dir/base64.c.o.provides.build: mysys/CMakeFiles/mysys.dir
 
 mysys/CMakeFiles/mysys.dir/my_memmem.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_memmem.c.o: mysys/my_memmem.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_90)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_memmem.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_memmem.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_memmem.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_memmem.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_memmem.c
 
 mysys/CMakeFiles/mysys.dir/my_memmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_memmem.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_memmem.c > CMakeFiles/mysys.dir/my_memmem.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_memmem.c > CMakeFiles/mysys.dir/my_memmem.c.i
 
 mysys/CMakeFiles/mysys.dir/my_memmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_memmem.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_memmem.c -o CMakeFiles/mysys.dir/my_memmem.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_memmem.c -o CMakeFiles/mysys.dir/my_memmem.c.s
 
 mysys/CMakeFiles/mysys.dir/my_memmem.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_memmem.c.o.requires
@@ -2118,17 +2118,17 @@ mysys/CMakeFiles/mysys.dir/my_memmem.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/my_getpagesize.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_getpagesize.c.o: mysys/my_getpagesize.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_91)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_getpagesize.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_getpagesize.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getpagesize.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_getpagesize.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getpagesize.c
 
 mysys/CMakeFiles/mysys.dir/my_getpagesize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_getpagesize.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getpagesize.c > CMakeFiles/mysys.dir/my_getpagesize.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getpagesize.c > CMakeFiles/mysys.dir/my_getpagesize.c.i
 
 mysys/CMakeFiles/mysys.dir/my_getpagesize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_getpagesize.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getpagesize.c -o CMakeFiles/mysys.dir/my_getpagesize.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getpagesize.c -o CMakeFiles/mysys.dir/my_getpagesize.c.s
 
 mysys/CMakeFiles/mysys.dir/my_getpagesize.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_getpagesize.c.o.requires
@@ -2141,17 +2141,17 @@ mysys/CMakeFiles/mysys.dir/my_getpagesize.c.o.provides.build: mysys/CMakeFiles/m
 
 mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.o: mysys/lf_alloc-pin.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_92)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_92)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/lf_alloc-pin.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/lf_alloc-pin.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/lf_alloc-pin.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/lf_alloc-pin.c
 
 mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/lf_alloc-pin.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/lf_alloc-pin.c > CMakeFiles/mysys.dir/lf_alloc-pin.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/lf_alloc-pin.c > CMakeFiles/mysys.dir/lf_alloc-pin.c.i
 
 mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/lf_alloc-pin.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/lf_alloc-pin.c -o CMakeFiles/mysys.dir/lf_alloc-pin.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/lf_alloc-pin.c -o CMakeFiles/mysys.dir/lf_alloc-pin.c.s
 
 mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.o.requires
@@ -2164,17 +2164,17 @@ mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.o.provides.build: mysys/CMakeFiles/mys
 
 mysys/CMakeFiles/mysys.dir/lf_dynarray.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/lf_dynarray.c.o: mysys/lf_dynarray.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_93)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_93)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/lf_dynarray.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/lf_dynarray.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/lf_dynarray.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/lf_dynarray.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/lf_dynarray.c
 
 mysys/CMakeFiles/mysys.dir/lf_dynarray.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/lf_dynarray.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/lf_dynarray.c > CMakeFiles/mysys.dir/lf_dynarray.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/lf_dynarray.c > CMakeFiles/mysys.dir/lf_dynarray.c.i
 
 mysys/CMakeFiles/mysys.dir/lf_dynarray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/lf_dynarray.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/lf_dynarray.c -o CMakeFiles/mysys.dir/lf_dynarray.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/lf_dynarray.c -o CMakeFiles/mysys.dir/lf_dynarray.c.s
 
 mysys/CMakeFiles/mysys.dir/lf_dynarray.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/lf_dynarray.c.o.requires
@@ -2187,17 +2187,17 @@ mysys/CMakeFiles/mysys.dir/lf_dynarray.c.o.provides.build: mysys/CMakeFiles/mysy
 
 mysys/CMakeFiles/mysys.dir/lf_hash.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/lf_hash.c.o: mysys/lf_hash.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_94)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_94)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/lf_hash.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/lf_hash.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/lf_hash.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/lf_hash.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/lf_hash.c
 
 mysys/CMakeFiles/mysys.dir/lf_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/lf_hash.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/lf_hash.c > CMakeFiles/mysys.dir/lf_hash.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/lf_hash.c > CMakeFiles/mysys.dir/lf_hash.c.i
 
 mysys/CMakeFiles/mysys.dir/lf_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/lf_hash.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/lf_hash.c -o CMakeFiles/mysys.dir/lf_hash.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/lf_hash.c -o CMakeFiles/mysys.dir/lf_hash.c.s
 
 mysys/CMakeFiles/mysys.dir/lf_hash.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/lf_hash.c.o.requires
@@ -2210,17 +2210,17 @@ mysys/CMakeFiles/mysys.dir/lf_hash.c.o.provides.build: mysys/CMakeFiles/mysys.di
 
 mysys/CMakeFiles/mysys.dir/my_atomic.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_atomic.c.o: mysys/my_atomic.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_95)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_95)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_atomic.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_atomic.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_atomic.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_atomic.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_atomic.c
 
 mysys/CMakeFiles/mysys.dir/my_atomic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_atomic.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_atomic.c > CMakeFiles/mysys.dir/my_atomic.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_atomic.c > CMakeFiles/mysys.dir/my_atomic.c.i
 
 mysys/CMakeFiles/mysys.dir/my_atomic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_atomic.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_atomic.c -o CMakeFiles/mysys.dir/my_atomic.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_atomic.c -o CMakeFiles/mysys.dir/my_atomic.c.s
 
 mysys/CMakeFiles/mysys.dir/my_atomic.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_atomic.c.o.requires
@@ -2233,17 +2233,17 @@ mysys/CMakeFiles/mysys.dir/my_atomic.c.o.provides.build: mysys/CMakeFiles/mysys.
 
 mysys/CMakeFiles/mysys.dir/my_getncpus.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_getncpus.c.o: mysys/my_getncpus.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_96)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_96)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_getncpus.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_getncpus.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getncpus.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_getncpus.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getncpus.c
 
 mysys/CMakeFiles/mysys.dir/my_getncpus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_getncpus.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getncpus.c > CMakeFiles/mysys.dir/my_getncpus.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getncpus.c > CMakeFiles/mysys.dir/my_getncpus.c.i
 
 mysys/CMakeFiles/mysys.dir/my_getncpus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_getncpus.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_getncpus.c -o CMakeFiles/mysys.dir/my_getncpus.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_getncpus.c -o CMakeFiles/mysys.dir/my_getncpus.c.s
 
 mysys/CMakeFiles/mysys.dir/my_getncpus.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_getncpus.c.o.requires
@@ -2256,17 +2256,17 @@ mysys/CMakeFiles/mysys.dir/my_getncpus.c.o.provides.build: mysys/CMakeFiles/mysy
 
 mysys/CMakeFiles/mysys.dir/my_rdtsc.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_rdtsc.c.o: mysys/my_rdtsc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_97)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_97)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_rdtsc.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_rdtsc.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_rdtsc.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_rdtsc.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_rdtsc.c
 
 mysys/CMakeFiles/mysys.dir/my_rdtsc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_rdtsc.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_rdtsc.c > CMakeFiles/mysys.dir/my_rdtsc.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_rdtsc.c > CMakeFiles/mysys.dir/my_rdtsc.c.i
 
 mysys/CMakeFiles/mysys.dir/my_rdtsc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_rdtsc.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_rdtsc.c -o CMakeFiles/mysys.dir/my_rdtsc.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_rdtsc.c -o CMakeFiles/mysys.dir/my_rdtsc.c.s
 
 mysys/CMakeFiles/mysys.dir/my_rdtsc.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_rdtsc.c.o.requires
@@ -2279,17 +2279,17 @@ mysys/CMakeFiles/mysys.dir/my_rdtsc.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_alarm.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_alarm.c.o: mysys/my_alarm.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_98)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_98)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_alarm.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_alarm.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_alarm.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_alarm.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_alarm.c
 
 mysys/CMakeFiles/mysys.dir/my_alarm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_alarm.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_alarm.c > CMakeFiles/mysys.dir/my_alarm.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_alarm.c > CMakeFiles/mysys.dir/my_alarm.c.i
 
 mysys/CMakeFiles/mysys.dir/my_alarm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_alarm.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_alarm.c -o CMakeFiles/mysys.dir/my_alarm.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_alarm.c -o CMakeFiles/mysys.dir/my_alarm.c.s
 
 mysys/CMakeFiles/mysys.dir/my_alarm.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_alarm.c.o.requires
@@ -2302,17 +2302,17 @@ mysys/CMakeFiles/mysys.dir/my_alarm.c.o.provides.build: mysys/CMakeFiles/mysys.d
 
 mysys/CMakeFiles/mysys.dir/my_largepage.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_largepage.c.o: mysys/my_largepage.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_99)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_99)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_largepage.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_largepage.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_largepage.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_largepage.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_largepage.c
 
 mysys/CMakeFiles/mysys.dir/my_largepage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_largepage.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_largepage.c > CMakeFiles/mysys.dir/my_largepage.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_largepage.c > CMakeFiles/mysys.dir/my_largepage.c.i
 
 mysys/CMakeFiles/mysys.dir/my_largepage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_largepage.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_largepage.c -o CMakeFiles/mysys.dir/my_largepage.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_largepage.c -o CMakeFiles/mysys.dir/my_largepage.c.s
 
 mysys/CMakeFiles/mysys.dir/my_largepage.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_largepage.c.o.requires
@@ -2325,17 +2325,17 @@ mysys/CMakeFiles/mysys.dir/my_largepage.c.o.provides.build: mysys/CMakeFiles/mys
 
 mysys/CMakeFiles/mysys.dir/my_lockmem.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_lockmem.c.o: mysys/my_lockmem.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_100)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_100)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_lockmem.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_lockmem.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/mysys/my_lockmem.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/mysys.dir/my_lockmem.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_lockmem.c
 
 mysys/CMakeFiles/mysys.dir/my_lockmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_lockmem.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/mysys/my_lockmem.c > CMakeFiles/mysys.dir/my_lockmem.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_lockmem.c > CMakeFiles/mysys.dir/my_lockmem.c.i
 
 mysys/CMakeFiles/mysys.dir/my_lockmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_lockmem.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/mysys/my_lockmem.c -o CMakeFiles/mysys.dir/my_lockmem.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/my_lockmem.c -o CMakeFiles/mysys.dir/my_lockmem.c.s
 
 mysys/CMakeFiles/mysys.dir/my_lockmem.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_lockmem.c.o.requires
@@ -2555,8 +2555,8 @@ mysys/libmysys.a: mysys/CMakeFiles/mysys.dir/my_lockmem.c.o
 mysys/libmysys.a: mysys/CMakeFiles/mysys.dir/build.make
 mysys/libmysys.a: mysys/CMakeFiles/mysys.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libmysys.a"
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && $(CMAKE_COMMAND) -P CMakeFiles/mysys.dir/cmake_clean_target.cmake
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysys.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && $(CMAKE_COMMAND) -P CMakeFiles/mysys.dir/cmake_clean_target.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysys.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 mysys/CMakeFiles/mysys.dir/build: mysys/libmysys.a
@@ -2665,10 +2665,10 @@ mysys/CMakeFiles/mysys.dir/requires: mysys/CMakeFiles/mysys.dir/my_lockmem.c.o.r
 .PHONY : mysys/CMakeFiles/mysys.dir/requires
 
 mysys/CMakeFiles/mysys.dir/clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysys && $(CMAKE_COMMAND) -P CMakeFiles/mysys.dir/cmake_clean.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys && $(CMAKE_COMMAND) -P CMakeFiles/mysys.dir/cmake_clean.cmake
 .PHONY : mysys/CMakeFiles/mysys.dir/clean
 
 mysys/CMakeFiles/mysys.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/mysys /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/mysys /home/sravang/Projects_New/mysql-5.5_New/mysys/CMakeFiles/mysys.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/CMakeFiles/mysys.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mysys/CMakeFiles/mysys.dir/depend
 

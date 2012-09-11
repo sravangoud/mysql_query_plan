@@ -1,0 +1,7 @@
+*.[oa]
+*~
+*.so
+*.cmake
+*.make
+*.txt
+

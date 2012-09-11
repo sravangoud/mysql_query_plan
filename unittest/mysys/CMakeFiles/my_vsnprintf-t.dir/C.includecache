@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/unittest/mysys/my_vsnprintf-t.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/unittest/mysys/my_vsnprintf-t.c
 my_global.h
 -
 m_string.h

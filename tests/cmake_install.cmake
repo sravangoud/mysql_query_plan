@@ -1,4 +1,4 @@
-# Install script for directory: /home/sravang/Projects_New/mysql-5.5_New/tests
+# Install script for directory: /home/sravang/Projects_New/mysql_rep/mysql_query_plan/tests
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Test")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mysql_client_test"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/sravang/Projects_New/mysql-5.5_New/tests/mysql_client_test")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/tests/mysql_client_test")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mysql_client_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mysql_client_test")
     IF(CMAKE_INSTALL_DO_STRIP)

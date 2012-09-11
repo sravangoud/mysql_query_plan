@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Utility rule file for symlink_libmysqlclient_r.so.
 
@@ -45,10 +45,10 @@ include libmysql/CMakeFiles/symlink_libmysqlclient_r.so.dir/progress.make
 libmysql/CMakeFiles/symlink_libmysqlclient_r.so: libmysql/libmysqlclient_r.so
 
 libmysql/libmysqlclient_r.so: libmysql/libmysqlclient.so
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating libmysqlclient_r.so"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/cmake -E remove -f /home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysqlclient_r.so
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/cmake -E create_symlink libmysqlclient.so libmysqlclient_r.so
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/cmake -E remove -f /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysqlclient_r.so
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/cmake -E create_symlink libmysqlclient.so libmysqlclient_r.so
 
 symlink_libmysqlclient_r.so: libmysql/CMakeFiles/symlink_libmysqlclient_r.so
 symlink_libmysqlclient_r.so: libmysql/libmysqlclient_r.so
@@ -60,10 +60,10 @@ libmysql/CMakeFiles/symlink_libmysqlclient_r.so.dir/build: symlink_libmysqlclien
 .PHONY : libmysql/CMakeFiles/symlink_libmysqlclient_r.so.dir/build
 
 libmysql/CMakeFiles/symlink_libmysqlclient_r.so.dir/clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && $(CMAKE_COMMAND) -P CMakeFiles/symlink_libmysqlclient_r.so.dir/cmake_clean.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && $(CMAKE_COMMAND) -P CMakeFiles/symlink_libmysqlclient_r.so.dir/cmake_clean.cmake
 .PHONY : libmysql/CMakeFiles/symlink_libmysqlclient_r.so.dir/clean
 
 libmysql/CMakeFiles/symlink_libmysqlclient_r.so.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/libmysql /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/libmysql /home/sravang/Projects_New/mysql-5.5_New/libmysql/CMakeFiles/symlink_libmysqlclient_r.so.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/CMakeFiles/symlink_libmysqlclient_r.so.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libmysql/CMakeFiles/symlink_libmysqlclient_r.so.dir/depend
 

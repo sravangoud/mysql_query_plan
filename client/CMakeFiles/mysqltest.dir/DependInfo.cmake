@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sravang/Projects_New/mysql-5.5_New/client/mysqltest.cc" "/home/sravang/Projects_New/mysql-5.5_New/client/CMakeFiles/mysqltest.dir/mysqltest.cc.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/mysqltest.cc" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/CMakeFiles/mysqltest.dir/mysqltest.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,6 +16,6 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sravang/Projects_New/mysql-5.5_New/libmysql/CMakeFiles/mysqlclient.dir/DependInfo.cmake"
-  "/home/sravang/Projects_New/mysql-5.5_New/regex/CMakeFiles/regex.dir/DependInfo.cmake"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/CMakeFiles/mysqlclient.dir/DependInfo.cmake"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/regex/CMakeFiles/regex.dir/DependInfo.cmake"
   )

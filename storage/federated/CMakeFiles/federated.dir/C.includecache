@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/mysys/mysys_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mysys_priv.h
 my_global.h
 -
 my_sys.h
 -
 system_wrappers.h
-/home/sravang/Projects_New/mysql-5.5_New/mysys/system_wrappers.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/system_wrappers.h
 sys/resource.h
 -
 my_pthread.h
@@ -22,9 +22,9 @@ mysql/psi/mysql_file.h
 sys/stat.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/mysys/string.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/string.c
 mysys_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/mysys/mysys_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mysys_priv.h
 m_string.h
 -
 

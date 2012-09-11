@@ -1,4 +1,4 @@
-# Install script for directory: /home/sravang/Projects_New/mysql-5.5_New/vio
+# Install script for directory: /home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

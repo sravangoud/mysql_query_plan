@@ -2221,22 +2221,19 @@ PSI_table_share *handler::ha_table_share_psi(const TABLE_SHARE *share) const
     Try O_RDONLY if cannot open as O_RDWR
     Don't wait for locks if not HA_OPEN_WAIT_IF_LOCKED is set
 */
-int handler::ha_open(TABLE *table_arg, const char *name_org, int mode,
+int handler::ha_open(TABLE *table_arg, const char *name, int mode,
                      int test_if_locked)
 {
   int error;
   DBUG_ENTER("handler::ha_open");
   DBUG_PRINT("enter",
              ("name: %s  db_type: %d  db_stat: %d  mode: %d  lock_test: %d",
-            		 name_org, ht->db_type, table_arg->db_stat, mode,
+              name, ht->db_type, table_arg->db_stat, mode,
               test_if_locked));
 
   table= table_arg;
   DBUG_ASSERT(table->s == table_share);
   DBUG_ASSERT(alloc_root_inited(&table->mem_root));
-
-  char name[256] = "/var/lib/mysql";
-  strncat(name,name_org+1,256);
 
   if ((error=open(name,mode,test_if_locked)))
   {

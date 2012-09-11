@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Utility rule file for abi_check.
 
@@ -43,7 +43,7 @@ CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
 include CMakeFiles/abi_check.dir/progress.make
 
 CMakeFiles/abi_check:
-	/usr/bin/cmake -DCOMPILER=/usr/bin/gcc -DSOURCE_DIR=/home/sravang/Projects_New/mysql-5.5_New -DBINARY_DIR=/home/sravang/Projects_New/mysql-5.5_New "-DABI_HEADERS=/home/sravang/Projects_New/mysql-5.5_New/include/mysql/plugin_audit.h;/home/sravang/Projects_New/mysql-5.5_New/include/mysql/plugin_ftparser.h;/home/sravang/Projects_New/mysql-5.5_New/include/mysql.h;/home/sravang/Projects_New/mysql-5.5_New/include/mysql/psi/psi_abi_v1.h;/home/sravang/Projects_New/mysql-5.5_New/include/mysql/psi/psi_abi_v2.h;/home/sravang/Projects_New/mysql-5.5_New/include/mysql/client_plugin.h;/home/sravang/Projects_New/mysql-5.5_New/include/mysql/plugin_auth.h" -P /home/sravang/Projects_New/mysql-5.5_New/cmake/do_abi_check.cmake
+	/usr/bin/cmake -DCOMPILER=/usr/bin/gcc -DSOURCE_DIR=/home/sravang/Projects_New/mysql_rep/mysql_query_plan -DBINARY_DIR=/home/sravang/Projects_New/mysql_rep/mysql_query_plan "-DABI_HEADERS=/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include/mysql/plugin_audit.h;/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include/mysql/plugin_ftparser.h;/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include/mysql.h;/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include/mysql/psi/psi_abi_v1.h;/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include/mysql/psi/psi_abi_v2.h;/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include/mysql/client_plugin.h;/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include/mysql/plugin_auth.h" -P /home/sravang/Projects_New/mysql_rep/mysql_query_plan/cmake/do_abi_check.cmake
 
 abi_check: CMakeFiles/abi_check
 abi_check: CMakeFiles/abi_check.dir/build.make
@@ -58,6 +58,6 @@ CMakeFiles/abi_check.dir/clean:
 .PHONY : CMakeFiles/abi_check.dir/clean
 
 CMakeFiles/abi_check.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles/abi_check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles/abi_check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/abi_check.dir/depend
 

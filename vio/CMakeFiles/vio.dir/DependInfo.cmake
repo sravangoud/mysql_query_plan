@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/sravang/Projects_New/mysql-5.5_New/vio/vio.c" "/home/sravang/Projects_New/mysql-5.5_New/vio/CMakeFiles/vio.dir/vio.c.o"
-  "/home/sravang/Projects_New/mysql-5.5_New/vio/viosocket.c" "/home/sravang/Projects_New/mysql-5.5_New/vio/CMakeFiles/vio.dir/viosocket.c.o"
-  "/home/sravang/Projects_New/mysql-5.5_New/vio/viossl.c" "/home/sravang/Projects_New/mysql-5.5_New/vio/CMakeFiles/vio.dir/viossl.c.o"
-  "/home/sravang/Projects_New/mysql-5.5_New/vio/viosslfactories.c" "/home/sravang/Projects_New/mysql-5.5_New/vio/CMakeFiles/vio.dir/viosslfactories.c.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/vio.c" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/CMakeFiles/vio.dir/vio.c.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/viosocket.c" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/CMakeFiles/vio.dir/viosocket.c.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/viossl.c" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/CMakeFiles/vio.dir/viossl.c.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/viosslfactories.c" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/CMakeFiles/vio.dir/viosslfactories.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

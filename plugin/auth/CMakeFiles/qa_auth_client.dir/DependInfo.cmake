@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/sravang/Projects_New/mysql-5.5_New/plugin/auth/qa_auth_client.c" "/home/sravang/Projects_New/mysql-5.5_New/plugin/auth/CMakeFiles/qa_auth_client.dir/qa_auth_client.c.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/auth/qa_auth_client.c" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/auth/CMakeFiles/qa_auth_client.dir/qa_auth_client.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 
@@ -16,5 +16,5 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sravang/Projects_New/mysql-5.5_New/libservices/CMakeFiles/mysqlservices.dir/DependInfo.cmake"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/CMakeFiles/mysqlservices.dir/DependInfo.cmake"
   )

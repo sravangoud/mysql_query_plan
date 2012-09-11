@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/libservices/my_snprintf_service.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/my_snprintf_service.c
 service_versions.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/libservices/my_thread_scheduler_service.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/my_thread_scheduler_service.c
 service_versions.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/libservices/thd_alloc_service.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/thd_alloc_service.c
 service_versions.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/libservices/thd_wait_service.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/thd_wait_service.c
 service_versions.h
 -
 

@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Utility rule file for distclean.
 
@@ -43,8 +43,8 @@ CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
 include sql/CMakeFiles/distclean.dir/progress.make
 
 sql/CMakeFiles/distclean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/cmake -E echo WARNING: distclean target is not functional
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && /usr/bin/cmake -E echo Use "'bzr" "clean-tree'" with --unknown and/or --ignored parameter instead
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/cmake -E echo WARNING: distclean target is not functional
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && /usr/bin/cmake -E echo Use "'bzr" "clean-tree'" with --unknown and/or --ignored parameter instead
 
 distclean: sql/CMakeFiles/distclean
 distclean: sql/CMakeFiles/distclean.dir/build.make
@@ -55,10 +55,10 @@ sql/CMakeFiles/distclean.dir/build: distclean
 .PHONY : sql/CMakeFiles/distclean.dir/build
 
 sql/CMakeFiles/distclean.dir/clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && $(CMAKE_COMMAND) -P CMakeFiles/distclean.dir/cmake_clean.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && $(CMAKE_COMMAND) -P CMakeFiles/distclean.dir/cmake_clean.cmake
 .PHONY : sql/CMakeFiles/distclean.dir/clean
 
 sql/CMakeFiles/distclean.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/sql /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/sql /home/sravang/Projects_New/mysql-5.5_New/sql/CMakeFiles/distclean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/CMakeFiles/distclean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sql/CMakeFiles/distclean.dir/depend
 

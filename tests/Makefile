@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql-5.5_New/CPackSourceConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles /home/sravang/Projects_New/mysql-5.5_New/tests/CMakeFiles/progress.marks
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles /home/sravang/Projects_New/mysql_rep/mysql_query_plan/tests/CMakeFiles/progress.marks
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -153,22 +153,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/bug25714.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/bug25714.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/bug25714.dir/rule
 .PHONY : tests/CMakeFiles/bug25714.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ bug25714: tests/CMakeFiles/bug25714.dir/rule
 
 # fast build rule for target.
 bug25714/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f tests/CMakeFiles/bug25714.dir/build.make tests/CMakeFiles/bug25714.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f tests/CMakeFiles/bug25714.dir/build.make tests/CMakeFiles/bug25714.dir/build
 .PHONY : bug25714/fast
 
 # Convenience name for target.
 tests/CMakeFiles/mysql_client_test.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/mysql_client_test.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/mysql_client_test.dir/rule
 .PHONY : tests/CMakeFiles/mysql_client_test.dir/rule
 
 # Convenience name for target.
@@ -191,7 +191,7 @@ mysql_client_test: tests/CMakeFiles/mysql_client_test.dir/rule
 
 # fast build rule for target.
 mysql_client_test/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f tests/CMakeFiles/mysql_client_test.dir/build.make tests/CMakeFiles/mysql_client_test.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f tests/CMakeFiles/mysql_client_test.dir/build.make tests/CMakeFiles/mysql_client_test.dir/build
 .PHONY : mysql_client_test/fast
 
 bug25714.o: bug25714.c.o
@@ -199,7 +199,7 @@ bug25714.o: bug25714.c.o
 
 # target to build an object file
 bug25714.c.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f tests/CMakeFiles/bug25714.dir/build.make tests/CMakeFiles/bug25714.dir/bug25714.c.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f tests/CMakeFiles/bug25714.dir/build.make tests/CMakeFiles/bug25714.dir/bug25714.c.o
 .PHONY : bug25714.c.o
 
 bug25714.i: bug25714.c.i
@@ -207,7 +207,7 @@ bug25714.i: bug25714.c.i
 
 # target to preprocess a source file
 bug25714.c.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f tests/CMakeFiles/bug25714.dir/build.make tests/CMakeFiles/bug25714.dir/bug25714.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f tests/CMakeFiles/bug25714.dir/build.make tests/CMakeFiles/bug25714.dir/bug25714.c.i
 .PHONY : bug25714.c.i
 
 bug25714.s: bug25714.c.s
@@ -215,7 +215,7 @@ bug25714.s: bug25714.c.s
 
 # target to generate assembly for a file
 bug25714.c.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f tests/CMakeFiles/bug25714.dir/build.make tests/CMakeFiles/bug25714.dir/bug25714.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f tests/CMakeFiles/bug25714.dir/build.make tests/CMakeFiles/bug25714.dir/bug25714.c.s
 .PHONY : bug25714.c.s
 
 mysql_client_test.o: mysql_client_test.c.o
@@ -223,7 +223,7 @@ mysql_client_test.o: mysql_client_test.c.o
 
 # target to build an object file
 mysql_client_test.c.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f tests/CMakeFiles/mysql_client_test.dir/build.make tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f tests/CMakeFiles/mysql_client_test.dir/build.make tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o
 .PHONY : mysql_client_test.c.o
 
 mysql_client_test.i: mysql_client_test.c.i
@@ -231,7 +231,7 @@ mysql_client_test.i: mysql_client_test.c.i
 
 # target to preprocess a source file
 mysql_client_test.c.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f tests/CMakeFiles/mysql_client_test.dir/build.make tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f tests/CMakeFiles/mysql_client_test.dir/build.make tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.i
 .PHONY : mysql_client_test.c.i
 
 mysql_client_test.s: mysql_client_test.c.s
@@ -239,7 +239,7 @@ mysql_client_test.s: mysql_client_test.c.s
 
 # target to generate assembly for a file
 mysql_client_test.c.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f tests/CMakeFiles/mysql_client_test.dir/build.make tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f tests/CMakeFiles/mysql_client_test.dir/build.make tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.s
 .PHONY : mysql_client_test.c.s
 
 # Help Target
@@ -276,6 +276,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/heap/heapdef.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/heap/heapdef.h
 my_base.h
 -
 my_pthread.h
 -
 heap.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/heap/heap.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/heap/heap.h
 my_tree.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/heap/my_tree.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/heap/my_tree.h
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/heap/hp_test2.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/heap/hp_test2.c
 heapdef.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/heap/heapdef.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/heap/heapdef.h
 signal.h
 -
 

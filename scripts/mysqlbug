@@ -20,11 +20,11 @@
 echo "Finding system information for a MySQL bug report"
 
 VERSION="5.5.24"
-COMPILATION_COMMENT="MySQL Community Server (GPL)"
+COMPILATION_COMMENT="Source distribution"
 BUGmysql="mysql@lists.mysql.com"
 # This is set by configure
-COMP_CALL_INFO="CC='/usr/bin/gcc'  CFLAGS=' -Wall -O3 -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF'  CXX='/usr/bin/c++'  CXXFLAGS=' -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -O3 -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF'  LDFLAGS=''  ASFLAGS=''"
-COMP_RUN_INFO="CC='/usr/bin/gcc'  CFLAGS=' -Wall -O3 -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF'  CXX='/usr/bin/c++'  CXXFLAGS=' -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -O3 -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF'  LDFLAGS=''  ASFLAGS=''"
+COMP_CALL_INFO="CC='/usr/bin/gcc'  CFLAGS=' -Wall -O2 -g -DDBUG_OFF'  CXX='/usr/bin/c++'  CXXFLAGS=' -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -O2 -g -DDBUG_OFF'  LDFLAGS=''  ASFLAGS=''"
+COMP_RUN_INFO="CC='/usr/bin/gcc'  CFLAGS=' -Wall -O2 -g -DDBUG_OFF'  CXX='/usr/bin/c++'  CXXFLAGS=' -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -O2 -g -DDBUG_OFF'  LDFLAGS=''  ASFLAGS=''"
 CONFIGURE_LINE=""
 
 LIBC_INFO=""

@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/foo/ha_foo.cc
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/foo/ha_foo.cc
 sql_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/foo/sql_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/foo/sql_priv.h
 sql_class.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/foo/sql_class.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/foo/sql_class.h
 ha_foo.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/foo/ha_foo.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/foo/ha_foo.h
 probes_mysql.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/foo/probes_mysql.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/foo/probes_mysql.h
 sql_plugin.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/foo/sql_plugin.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/foo/sql_plugin.h
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/foo/ha_foo.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/foo/ha_foo.h
 my_global.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/foo/my_global.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/foo/my_global.h
 thr_lock.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/foo/thr_lock.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/foo/thr_lock.h
 handler.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/foo/handler.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/foo/handler.h
 my_base.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/foo/my_base.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/foo/my_base.h
 
 include/atomic/gcc_builtins.h
 

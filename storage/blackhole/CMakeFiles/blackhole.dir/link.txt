@@ -1,2 +1,1 @@
-/usr/bin/ar cr libblackhole.a  CMakeFiles/blackhole.dir/ha_blackhole.cc.o
-/usr/bin/ranlib libblackhole.a
+/usr/bin/c++  -fPIC  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -g -DENABLED_DEBUG_SYNC   -shared -Wl,-soname,ha_blackhole.so -o ha_blackhole.so CMakeFiles/blackhole.dir/ha_blackhole.cc.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

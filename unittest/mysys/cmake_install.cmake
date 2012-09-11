@@ -1,4 +1,4 @@
-# Install script for directory: /home/sravang/Projects_New/mysql-5.5_New/unittest/mysys
+# Install script for directory: /home/sravang/Projects_New/mysql_rep/mysql_query_plan/unittest/mysys
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql-5.5_New/CPackSourceConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles /home/sravang/Projects_New/mysql-5.5_New/storage/federated/CMakeFiles/progress.marks
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/federated/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/federated/CMakeFiles/progress.marks
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/federated/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/federated/clean
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/federated/clean
 .PHONY : clean
 
 # The main clean target
@@ -153,22 +153,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/federated/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/federated/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/federated/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/federated/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 storage/federated/CMakeFiles/federated.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 storage/federated/CMakeFiles/federated.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 storage/federated/CMakeFiles/federated.dir/rule
 .PHONY : storage/federated/CMakeFiles/federated.dir/rule
 
 # Convenience name for target.
@@ -177,15 +177,39 @@ federated: storage/federated/CMakeFiles/federated.dir/rule
 
 # fast build rule for target.
 federated/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/federated/CMakeFiles/federated.dir/build.make storage/federated/CMakeFiles/federated.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/federated/CMakeFiles/federated.dir/build.make storage/federated/CMakeFiles/federated.dir/build
 .PHONY : federated/fast
+
+__/__/mysys/string.o: __/__/mysys/string.c.o
+.PHONY : __/__/mysys/string.o
+
+# target to build an object file
+__/__/mysys/string.c.o:
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/federated/CMakeFiles/federated.dir/build.make storage/federated/CMakeFiles/federated.dir/__/__/mysys/string.c.o
+.PHONY : __/__/mysys/string.c.o
+
+__/__/mysys/string.i: __/__/mysys/string.c.i
+.PHONY : __/__/mysys/string.i
+
+# target to preprocess a source file
+__/__/mysys/string.c.i:
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/federated/CMakeFiles/federated.dir/build.make storage/federated/CMakeFiles/federated.dir/__/__/mysys/string.c.i
+.PHONY : __/__/mysys/string.c.i
+
+__/__/mysys/string.s: __/__/mysys/string.c.s
+.PHONY : __/__/mysys/string.s
+
+# target to generate assembly for a file
+__/__/mysys/string.c.s:
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/federated/CMakeFiles/federated.dir/build.make storage/federated/CMakeFiles/federated.dir/__/__/mysys/string.c.s
+.PHONY : __/__/mysys/string.c.s
 
 ha_federated.o: ha_federated.cc.o
 .PHONY : ha_federated.o
 
 # target to build an object file
 ha_federated.cc.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/federated/CMakeFiles/federated.dir/build.make storage/federated/CMakeFiles/federated.dir/ha_federated.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/federated/CMakeFiles/federated.dir/build.make storage/federated/CMakeFiles/federated.dir/ha_federated.cc.o
 .PHONY : ha_federated.cc.o
 
 ha_federated.i: ha_federated.cc.i
@@ -193,7 +217,7 @@ ha_federated.i: ha_federated.cc.i
 
 # target to preprocess a source file
 ha_federated.cc.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/federated/CMakeFiles/federated.dir/build.make storage/federated/CMakeFiles/federated.dir/ha_federated.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/federated/CMakeFiles/federated.dir/build.make storage/federated/CMakeFiles/federated.dir/ha_federated.cc.i
 .PHONY : ha_federated.cc.i
 
 ha_federated.s: ha_federated.cc.s
@@ -201,7 +225,7 @@ ha_federated.s: ha_federated.cc.s
 
 # target to generate assembly for a file
 ha_federated.cc.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f storage/federated/CMakeFiles/federated.dir/build.make storage/federated/CMakeFiles/federated.dir/ha_federated.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f storage/federated/CMakeFiles/federated.dir/build.make storage/federated/CMakeFiles/federated.dir/ha_federated.cc.s
 .PHONY : ha_federated.cc.s
 
 # Help Target
@@ -220,6 +244,9 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... __/__/mysys/string.o"
+	@echo "... __/__/mysys/string.i"
+	@echo "... __/__/mysys/string.s"
 	@echo "... ha_federated.o"
 	@echo "... ha_federated.i"
 	@echo "... ha_federated.s"
@@ -234,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

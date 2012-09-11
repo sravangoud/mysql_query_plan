@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/sql/gen_lex_hash.cc
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/gen_lex_hash.cc
 my_global.h
 -
 mysql_version.h
-/home/sravang/Projects_New/mysql-5.5_New/sql/mysql_version.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/mysql_version.h
 lex.h
-/home/sravang/Projects_New/mysql-5.5_New/sql/lex.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/lex.h
 stdlib.h
 -
 stdio.h
@@ -22,11 +22,11 @@ string.h
 welcome_copyright_notice.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/sql/lex.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/lex.h
 lex_symbol.h
-/home/sravang/Projects_New/mysql-5.5_New/sql/lex_symbol.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/lex_symbol.h
 
-/home/sravang/Projects_New/mysql-5.5_New/sql/lex_symbol.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/lex_symbol.h
 
 include/my_attribute.h
 

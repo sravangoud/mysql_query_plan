@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/heap/hp_test1.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/heap/hp_test1.c
 my_global.h
 -
 my_sys.h
@@ -14,7 +14,7 @@ my_sys.h
 m_string.h
 -
 heap.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/heap/heap.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/heap/heap.h
 
 include/heap.h
 my_base.h

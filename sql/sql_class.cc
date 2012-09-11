@@ -848,9 +848,7 @@ THD::THD()
   /* Call to init() below requires fully initialized Open_tables_state. */
   reset_open_tables_state(this);
 
-#if(1)//sravan
   init();
-#endif
 
 #if defined(ENABLED_PROFILING)
   profiling.set_thd(this);
@@ -1579,14 +1577,9 @@ bool THD::store_globals()
   */
   DBUG_ASSERT(thread_stack);
 
-  THD *thd_1 = current_thd;
-
   if (my_pthread_setspecific_ptr(THR_THD,  this) ||
       my_pthread_setspecific_ptr(THR_MALLOC, &mem_root))
     return 1;
-
-  THD *thd_2 = current_thd;
-
   /*
     mysys_var is concurrently readable by a killer thread.
     It is protected by LOCK_thd_data, it is not needed to lock while the
@@ -1597,8 +1590,6 @@ bool THD::store_globals()
     threads local storage with key THR_KEY_mysys. 
   */
   mysys_var=my_thread_var;
-
-  THD *thd_3 = current_thd;
   /*
     Let mysqld define the thread id (not mysys)
     This allows us to move THD to different threads if needed.
@@ -1606,16 +1597,11 @@ bool THD::store_globals()
   mysys_var->id= thread_id;
   real_id= pthread_self();                      // For debugging
 
-  THD *thd_4 = current_thd;
-
   /*
     We have to call thr_lock_info_init() again here as THD may have been
     created in another thread
   */
   thr_lock_info_init(&lock_info);
-
-  THD *thd_0 = current_thd;
-
   return 0;
 }
 

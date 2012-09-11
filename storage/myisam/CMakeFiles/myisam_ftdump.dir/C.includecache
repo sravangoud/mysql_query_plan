@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/ftdefs.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/ftdefs.h
 fulltext.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/fulltext.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/fulltext.h
 m_ctype.h
 -
 my_tree.h
@@ -18,27 +18,27 @@ queues.h
 mysql/plugin.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/fulltext.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/fulltext.h
 myisamdef.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisamdef.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisamdef.h
 ft_global.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/ft_global.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/ft_global.h
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/mi_extrafunc.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/mi_extrafunc.h
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisam_ftdump.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisam_ftdump.c
 ftdefs.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/ftdefs.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/ftdefs.h
 my_getopt.h
 -
 mi_extrafunc.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/mi_extrafunc.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/mi_extrafunc.h
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisamdef.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisamdef.h
 myisam.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisam.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisam.h
 myisampack.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisampack.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisampack.h
 my_tree.h
 -
 my_pthread.h

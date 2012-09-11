@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/client/client_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/client_priv.h
 my_global.h
 -
 my_sys.h
@@ -20,9 +20,9 @@ errmsg.h
 my_getopt.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/client/mysqlshow.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/mysqlshow.c
 client_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/client/client_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/client_priv.h
 my_sys.h
 -
 m_string.h

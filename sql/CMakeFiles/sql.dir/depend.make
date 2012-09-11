@@ -12614,6 +12614,7 @@ sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_plugin.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_priv.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_profile.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_select.h
+sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_show.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_string.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_trigger.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_udf.h
@@ -12623,6 +12624,7 @@ sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_yacc.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/structs.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/table.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/thr_malloc.h
+sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/tztime.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/unireg.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: include/atomic/gcc_builtins.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: include/atomic/generic-msvc.h

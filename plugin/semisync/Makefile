@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql-5.5_New/CPackSourceConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles /home/sravang/Projects_New/mysql-5.5_New/plugin/semisync/CMakeFiles/progress.marks
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles /home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/semisync/CMakeFiles/progress.marks
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/clean
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/clean
 .PHONY : clean
 
 # The main clean target
@@ -153,22 +153,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugin/semisync/CMakeFiles/semisync_master.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/CMakeFiles/semisync_master.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/CMakeFiles/semisync_master.dir/rule
 .PHONY : plugin/semisync/CMakeFiles/semisync_master.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ semisync_master: plugin/semisync/CMakeFiles/semisync_master.dir/rule
 
 # fast build rule for target.
 semisync_master/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/build
 .PHONY : semisync_master/fast
 
 # Convenience name for target.
 plugin/semisync/CMakeFiles/semisync_slave.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/CMakeFiles/semisync_slave.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/CMakeFiles/semisync_slave.dir/rule
 .PHONY : plugin/semisync/CMakeFiles/semisync_slave.dir/rule
 
 # Convenience name for target.
@@ -191,7 +191,7 @@ semisync_slave: plugin/semisync/CMakeFiles/semisync_slave.dir/rule
 
 # fast build rule for target.
 semisync_slave/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/build
 .PHONY : semisync_slave/fast
 
 semisync.o: semisync.cc.o
@@ -199,8 +199,8 @@ semisync.o: semisync.cc.o
 
 # target to build an object file
 semisync.cc.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o
 .PHONY : semisync.cc.o
 
 semisync.i: semisync.cc.i
@@ -208,8 +208,8 @@ semisync.i: semisync.cc.i
 
 # target to preprocess a source file
 semisync.cc.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.i
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.i
 .PHONY : semisync.cc.i
 
 semisync.s: semisync.cc.s
@@ -217,8 +217,8 @@ semisync.s: semisync.cc.s
 
 # target to generate assembly for a file
 semisync.cc.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.s
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.s
 .PHONY : semisync.cc.s
 
 semisync_master.o: semisync_master.cc.o
@@ -226,7 +226,7 @@ semisync_master.o: semisync_master.cc.o
 
 # target to build an object file
 semisync_master.cc.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o
 .PHONY : semisync_master.cc.o
 
 semisync_master.i: semisync_master.cc.i
@@ -234,7 +234,7 @@ semisync_master.i: semisync_master.cc.i
 
 # target to preprocess a source file
 semisync_master.cc.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.i
 .PHONY : semisync_master.cc.i
 
 semisync_master.s: semisync_master.cc.s
@@ -242,7 +242,7 @@ semisync_master.s: semisync_master.cc.s
 
 # target to generate assembly for a file
 semisync_master.cc.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.s
 .PHONY : semisync_master.cc.s
 
 semisync_master_plugin.o: semisync_master_plugin.cc.o
@@ -250,7 +250,7 @@ semisync_master_plugin.o: semisync_master_plugin.cc.o
 
 # target to build an object file
 semisync_master_plugin.cc.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o
 .PHONY : semisync_master_plugin.cc.o
 
 semisync_master_plugin.i: semisync_master_plugin.cc.i
@@ -258,7 +258,7 @@ semisync_master_plugin.i: semisync_master_plugin.cc.i
 
 # target to preprocess a source file
 semisync_master_plugin.cc.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.i
 .PHONY : semisync_master_plugin.cc.i
 
 semisync_master_plugin.s: semisync_master_plugin.cc.s
@@ -266,7 +266,7 @@ semisync_master_plugin.s: semisync_master_plugin.cc.s
 
 # target to generate assembly for a file
 semisync_master_plugin.cc.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.s
 .PHONY : semisync_master_plugin.cc.s
 
 semisync_slave.o: semisync_slave.cc.o
@@ -274,7 +274,7 @@ semisync_slave.o: semisync_slave.cc.o
 
 # target to build an object file
 semisync_slave.cc.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o
 .PHONY : semisync_slave.cc.o
 
 semisync_slave.i: semisync_slave.cc.i
@@ -282,7 +282,7 @@ semisync_slave.i: semisync_slave.cc.i
 
 # target to preprocess a source file
 semisync_slave.cc.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.i
 .PHONY : semisync_slave.cc.i
 
 semisync_slave.s: semisync_slave.cc.s
@@ -290,7 +290,7 @@ semisync_slave.s: semisync_slave.cc.s
 
 # target to generate assembly for a file
 semisync_slave.cc.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.s
 .PHONY : semisync_slave.cc.s
 
 semisync_slave_plugin.o: semisync_slave_plugin.cc.o
@@ -298,7 +298,7 @@ semisync_slave_plugin.o: semisync_slave_plugin.cc.o
 
 # target to build an object file
 semisync_slave_plugin.cc.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o
 .PHONY : semisync_slave_plugin.cc.o
 
 semisync_slave_plugin.i: semisync_slave_plugin.cc.i
@@ -306,7 +306,7 @@ semisync_slave_plugin.i: semisync_slave_plugin.cc.i
 
 # target to preprocess a source file
 semisync_slave_plugin.cc.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.i
 .PHONY : semisync_slave_plugin.cc.i
 
 semisync_slave_plugin.s: semisync_slave_plugin.cc.s
@@ -314,7 +314,7 @@ semisync_slave_plugin.s: semisync_slave_plugin.cc.s
 
 # target to generate assembly for a file
 semisync_slave_plugin.cc.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.s
 .PHONY : semisync_slave_plugin.cc.s
 
 # Help Target
@@ -360,6 +360,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/unittest/mysys/my_rdtsc-t.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/unittest/mysys/my_rdtsc-t.c
 my_global.h
-/home/sravang/Projects_New/mysql-5.5_New/unittest/mysys/my_global.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/unittest/mysys/my_global.h
 my_rdtsc.h
-/home/sravang/Projects_New/mysql-5.5_New/unittest/mysys/my_rdtsc.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/unittest/mysys/my_rdtsc.h
 tap.h
-/home/sravang/Projects_New/mysql-5.5_New/unittest/mysys/tap.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/unittest/mysys/tap.h
 
 include/my_attribute.h
 

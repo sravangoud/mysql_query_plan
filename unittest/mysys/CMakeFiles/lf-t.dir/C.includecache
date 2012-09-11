@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/unittest/mysys/lf-t.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/unittest/mysys/lf-t.c
 thr_template.c
-/home/sravang/Projects_New/mysql-5.5_New/unittest/mysys/thr_template.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/unittest/mysys/thr_template.c
 lf.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/unittest/mysys/thr_template.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/unittest/mysys/thr_template.c
 my_global.h
 -
 my_sys.h

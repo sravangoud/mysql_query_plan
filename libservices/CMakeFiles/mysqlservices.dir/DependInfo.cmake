@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/sravang/Projects_New/mysql-5.5_New/libservices/my_snprintf_service.c" "/home/sravang/Projects_New/mysql-5.5_New/libservices/CMakeFiles/mysqlservices.dir/my_snprintf_service.c.o"
-  "/home/sravang/Projects_New/mysql-5.5_New/libservices/my_thread_scheduler_service.c" "/home/sravang/Projects_New/mysql-5.5_New/libservices/CMakeFiles/mysqlservices.dir/my_thread_scheduler_service.c.o"
-  "/home/sravang/Projects_New/mysql-5.5_New/libservices/thd_alloc_service.c" "/home/sravang/Projects_New/mysql-5.5_New/libservices/CMakeFiles/mysqlservices.dir/thd_alloc_service.c.o"
-  "/home/sravang/Projects_New/mysql-5.5_New/libservices/thd_wait_service.c" "/home/sravang/Projects_New/mysql-5.5_New/libservices/CMakeFiles/mysqlservices.dir/thd_wait_service.c.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/my_snprintf_service.c" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/CMakeFiles/mysqlservices.dir/my_snprintf_service.c.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/my_thread_scheduler_service.c" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/CMakeFiles/mysqlservices.dir/my_thread_scheduler_service.c.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/thd_alloc_service.c" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/CMakeFiles/mysqlservices.dir/thd_alloc_service.c.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/thd_wait_service.c" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/CMakeFiles/mysqlservices.dir/thd_wait_service.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

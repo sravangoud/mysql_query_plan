@@ -1,1 +1,1 @@
-/usr/bin/gcc  -fPIC  -Wall -O -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DENABLED_DEBUG_SYNC   -shared -Wl,-soname,qa_auth_server.so -o qa_auth_server.so CMakeFiles/qa_auth_server.dir/qa_auth_server.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 
+/usr/bin/gcc  -fPIC  -Wall -g -DENABLED_DEBUG_SYNC   -shared -Wl,-soname,qa_auth_server.so -o qa_auth_server.so CMakeFiles/qa_auth_server.dir/qa_auth_server.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

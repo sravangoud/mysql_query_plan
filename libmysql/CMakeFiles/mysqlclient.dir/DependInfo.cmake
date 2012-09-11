@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/sravang/Projects_New/mysql-5.5_New/libmysql/mysqlclient_depends.c" "/home/sravang/Projects_New/mysql-5.5_New/libmysql/CMakeFiles/mysqlclient.dir/mysqlclient_depends.c.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/mysqlclient_depends.c" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/CMakeFiles/mysqlclient.dir/mysqlclient_depends.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

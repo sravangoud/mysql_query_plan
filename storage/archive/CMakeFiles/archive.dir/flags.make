@@ -3,11 +3,11 @@
 
 # compile C with /usr/bin/gcc
 # compile CXX with /usr/bin/c++
-C_FLAGS =  -Wall -O -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DENABLED_DEBUG_SYNC -I/home/sravang/Projects_New/mysql-5.5_New/include -I/home/sravang/Projects_New/mysql-5.5_New/sql -I/home/sravang/Projects_New/mysql-5.5_New/regex   
+C_FLAGS =  -Wall -g -DENABLED_DEBUG_SYNC -fPIC -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/regex   
 
-C_DEFINES = -DHAVE_CONFIG_H
+C_DEFINES = -Darchive_EXPORTS -DHAVE_CONFIG_H -DMYSQL_DYNAMIC_PLUGIN
 
-CXX_FLAGS =  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -O -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DENABLED_DEBUG_SYNC -I/home/sravang/Projects_New/mysql-5.5_New/include -I/home/sravang/Projects_New/mysql-5.5_New/sql -I/home/sravang/Projects_New/mysql-5.5_New/regex   
+CXX_FLAGS =  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -g -DENABLED_DEBUG_SYNC -fPIC -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/regex   
 
-CXX_DEFINES = -DHAVE_CONFIG_H
+CXX_DEFINES = -Darchive_EXPORTS -DHAVE_CONFIG_H -DMYSQL_DYNAMIC_PLUGIN
 

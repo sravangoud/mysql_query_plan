@@ -1,1 +1,1 @@
-cd /home/sravang/Projects_New/mysql-5.5_New && '/usr/bin/cpack' -G TGZ --config CPackConfig.cmake
+cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && '/usr/bin/cpack' -G TGZ --config CPackConfig.cmake

@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql-5.5_New/CPackSourceConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles /home/sravang/Projects_New/mysql-5.5_New/libservices/CMakeFiles/progress.marks
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 libservices/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/CMakeFiles/progress.marks
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 libservices/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 libservices/clean
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 libservices/clean
 .PHONY : clean
 
 # The main clean target
@@ -153,22 +153,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 libservices/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 libservices/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 libservices/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 libservices/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libservices/CMakeFiles/mysqlservices.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 libservices/CMakeFiles/mysqlservices.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 libservices/CMakeFiles/mysqlservices.dir/rule
 .PHONY : libservices/CMakeFiles/mysqlservices.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ mysqlservices: libservices/CMakeFiles/mysqlservices.dir/rule
 
 # fast build rule for target.
 mysqlservices/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/build
 .PHONY : mysqlservices/fast
 
 my_snprintf_service.o: my_snprintf_service.c.o
@@ -185,7 +185,7 @@ my_snprintf_service.o: my_snprintf_service.c.o
 
 # target to build an object file
 my_snprintf_service.c.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_snprintf_service.c.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_snprintf_service.c.o
 .PHONY : my_snprintf_service.c.o
 
 my_snprintf_service.i: my_snprintf_service.c.i
@@ -193,7 +193,7 @@ my_snprintf_service.i: my_snprintf_service.c.i
 
 # target to preprocess a source file
 my_snprintf_service.c.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_snprintf_service.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_snprintf_service.c.i
 .PHONY : my_snprintf_service.c.i
 
 my_snprintf_service.s: my_snprintf_service.c.s
@@ -201,7 +201,7 @@ my_snprintf_service.s: my_snprintf_service.c.s
 
 # target to generate assembly for a file
 my_snprintf_service.c.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_snprintf_service.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_snprintf_service.c.s
 .PHONY : my_snprintf_service.c.s
 
 my_thread_scheduler_service.o: my_thread_scheduler_service.c.o
@@ -209,7 +209,7 @@ my_thread_scheduler_service.o: my_thread_scheduler_service.c.o
 
 # target to build an object file
 my_thread_scheduler_service.c.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_thread_scheduler_service.c.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_thread_scheduler_service.c.o
 .PHONY : my_thread_scheduler_service.c.o
 
 my_thread_scheduler_service.i: my_thread_scheduler_service.c.i
@@ -217,7 +217,7 @@ my_thread_scheduler_service.i: my_thread_scheduler_service.c.i
 
 # target to preprocess a source file
 my_thread_scheduler_service.c.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_thread_scheduler_service.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_thread_scheduler_service.c.i
 .PHONY : my_thread_scheduler_service.c.i
 
 my_thread_scheduler_service.s: my_thread_scheduler_service.c.s
@@ -225,7 +225,7 @@ my_thread_scheduler_service.s: my_thread_scheduler_service.c.s
 
 # target to generate assembly for a file
 my_thread_scheduler_service.c.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_thread_scheduler_service.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/my_thread_scheduler_service.c.s
 .PHONY : my_thread_scheduler_service.c.s
 
 thd_alloc_service.o: thd_alloc_service.c.o
@@ -233,7 +233,7 @@ thd_alloc_service.o: thd_alloc_service.c.o
 
 # target to build an object file
 thd_alloc_service.c.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_alloc_service.c.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_alloc_service.c.o
 .PHONY : thd_alloc_service.c.o
 
 thd_alloc_service.i: thd_alloc_service.c.i
@@ -241,7 +241,7 @@ thd_alloc_service.i: thd_alloc_service.c.i
 
 # target to preprocess a source file
 thd_alloc_service.c.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_alloc_service.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_alloc_service.c.i
 .PHONY : thd_alloc_service.c.i
 
 thd_alloc_service.s: thd_alloc_service.c.s
@@ -249,7 +249,7 @@ thd_alloc_service.s: thd_alloc_service.c.s
 
 # target to generate assembly for a file
 thd_alloc_service.c.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_alloc_service.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_alloc_service.c.s
 .PHONY : thd_alloc_service.c.s
 
 thd_wait_service.o: thd_wait_service.c.o
@@ -257,7 +257,7 @@ thd_wait_service.o: thd_wait_service.c.o
 
 # target to build an object file
 thd_wait_service.c.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_wait_service.c.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_wait_service.c.o
 .PHONY : thd_wait_service.c.o
 
 thd_wait_service.i: thd_wait_service.c.i
@@ -265,7 +265,7 @@ thd_wait_service.i: thd_wait_service.c.i
 
 # target to preprocess a source file
 thd_wait_service.c.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_wait_service.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_wait_service.c.i
 .PHONY : thd_wait_service.c.i
 
 thd_wait_service.s: thd_wait_service.c.s
@@ -273,7 +273,7 @@ thd_wait_service.s: thd_wait_service.c.s
 
 # target to generate assembly for a file
 thd_wait_service.c.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_wait_service.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f libservices/CMakeFiles/mysqlservices.dir/build.make libservices/CMakeFiles/mysqlservices.dir/thd_wait_service.c.s
 .PHONY : thd_wait_service.c.s
 
 # Help Target
@@ -315,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

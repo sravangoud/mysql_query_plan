@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/fulltext.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/fulltext.h
 myisamdef.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisamdef.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisamdef.h
 ft_global.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/ft_global.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/ft_global.h
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/mi_extrafunc.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/mi_extrafunc.h
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisamchk.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisamchk.c
 fulltext.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/fulltext.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/fulltext.h
 m_ctype.h
 -
 stdarg.h
@@ -30,13 +30,13 @@ sys/vadvise.h
 sys/mman.h
 -
 mi_extrafunc.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/mi_extrafunc.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/mi_extrafunc.h
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisamdef.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisamdef.h
 myisam.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisam.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisam.h
 myisampack.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisampack.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisampack.h
 my_tree.h
 -
 my_pthread.h

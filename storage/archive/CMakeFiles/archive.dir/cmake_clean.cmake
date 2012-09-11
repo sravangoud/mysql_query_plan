@@ -1,8 +1,8 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/archive.dir/azio.c.o"
   "CMakeFiles/archive.dir/ha_archive.cc.o"
-  "libarchive.pdb"
-  "libarchive.a"
+  "ha_archive.pdb"
+  "ha_archive.so"
 )
 
 # Per-language clean rules from dependency scanning.

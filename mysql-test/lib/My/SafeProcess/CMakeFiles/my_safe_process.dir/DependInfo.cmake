@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sravang/Projects_New/mysql-5.5_New/mysql-test/lib/My/SafeProcess/safe_process.cc" "/home/sravang/Projects_New/mysql-5.5_New/mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/safe_process.cc.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test/lib/My/SafeProcess/safe_process.cc" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/safe_process.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

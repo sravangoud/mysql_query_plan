@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Include any dependencies generated for this target.
 include libmysql/CMakeFiles/clientlib.dir/depend.make
@@ -48,17 +48,17 @@ include libmysql/CMakeFiles/clientlib.dir/flags.make
 
 libmysql/CMakeFiles/clientlib.dir/get_password.c.o: libmysql/CMakeFiles/clientlib.dir/flags.make
 libmysql/CMakeFiles/clientlib.dir/get_password.c.o: libmysql/get_password.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libmysql/CMakeFiles/clientlib.dir/get_password.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/get_password.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/libmysql/get_password.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/get_password.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/get_password.c
 
 libmysql/CMakeFiles/clientlib.dir/get_password.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clientlib.dir/get_password.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/libmysql/get_password.c > CMakeFiles/clientlib.dir/get_password.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/get_password.c > CMakeFiles/clientlib.dir/get_password.c.i
 
 libmysql/CMakeFiles/clientlib.dir/get_password.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clientlib.dir/get_password.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/libmysql/get_password.c -o CMakeFiles/clientlib.dir/get_password.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/get_password.c -o CMakeFiles/clientlib.dir/get_password.c.s
 
 libmysql/CMakeFiles/clientlib.dir/get_password.c.o.requires:
 .PHONY : libmysql/CMakeFiles/clientlib.dir/get_password.c.o.requires
@@ -71,17 +71,17 @@ libmysql/CMakeFiles/clientlib.dir/get_password.c.o.provides.build: libmysql/CMak
 
 libmysql/CMakeFiles/clientlib.dir/libmysql.c.o: libmysql/CMakeFiles/clientlib.dir/flags.make
 libmysql/CMakeFiles/clientlib.dir/libmysql.c.o: libmysql/libmysql.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libmysql/CMakeFiles/clientlib.dir/libmysql.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/libmysql.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysql.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/libmysql.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysql.c
 
 libmysql/CMakeFiles/clientlib.dir/libmysql.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clientlib.dir/libmysql.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysql.c > CMakeFiles/clientlib.dir/libmysql.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysql.c > CMakeFiles/clientlib.dir/libmysql.c.i
 
 libmysql/CMakeFiles/clientlib.dir/libmysql.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clientlib.dir/libmysql.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysql.c -o CMakeFiles/clientlib.dir/libmysql.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysql.c -o CMakeFiles/clientlib.dir/libmysql.c.s
 
 libmysql/CMakeFiles/clientlib.dir/libmysql.c.o.requires:
 .PHONY : libmysql/CMakeFiles/clientlib.dir/libmysql.c.o.requires
@@ -94,17 +94,17 @@ libmysql/CMakeFiles/clientlib.dir/libmysql.c.o.provides.build: libmysql/CMakeFil
 
 libmysql/CMakeFiles/clientlib.dir/errmsg.c.o: libmysql/CMakeFiles/clientlib.dir/flags.make
 libmysql/CMakeFiles/clientlib.dir/errmsg.c.o: libmysql/errmsg.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libmysql/CMakeFiles/clientlib.dir/errmsg.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/errmsg.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/libmysql/errmsg.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/errmsg.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/errmsg.c
 
 libmysql/CMakeFiles/clientlib.dir/errmsg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clientlib.dir/errmsg.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/libmysql/errmsg.c > CMakeFiles/clientlib.dir/errmsg.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/errmsg.c > CMakeFiles/clientlib.dir/errmsg.c.i
 
 libmysql/CMakeFiles/clientlib.dir/errmsg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clientlib.dir/errmsg.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/libmysql/errmsg.c -o CMakeFiles/clientlib.dir/errmsg.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/errmsg.c -o CMakeFiles/clientlib.dir/errmsg.c.s
 
 libmysql/CMakeFiles/clientlib.dir/errmsg.c.o.requires:
 .PHONY : libmysql/CMakeFiles/clientlib.dir/errmsg.c.o.requires
@@ -117,17 +117,17 @@ libmysql/CMakeFiles/clientlib.dir/errmsg.c.o.provides.build: libmysql/CMakeFiles
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o: libmysql/CMakeFiles/clientlib.dir/flags.make
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o: sql-common/client.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql-common/client.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql-common/client.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql-common/client.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client.c
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clientlib.dir/__/sql-common/client.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/sql-common/client.c > CMakeFiles/clientlib.dir/__/sql-common/client.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client.c > CMakeFiles/clientlib.dir/__/sql-common/client.c.i
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clientlib.dir/__/sql-common/client.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/sql-common/client.c -o CMakeFiles/clientlib.dir/__/sql-common/client.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client.c -o CMakeFiles/clientlib.dir/__/sql-common/client.c.s
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o.requires:
 .PHONY : libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o.requires
@@ -140,17 +140,17 @@ libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o.provides.build: libmy
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.o: libmysql/CMakeFiles/clientlib.dir/flags.make
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.o: sql-common/my_time.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql-common/my_time.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql-common/my_time.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql-common/my_time.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/my_time.c
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clientlib.dir/__/sql-common/my_time.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/sql-common/my_time.c > CMakeFiles/clientlib.dir/__/sql-common/my_time.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/my_time.c > CMakeFiles/clientlib.dir/__/sql-common/my_time.c.i
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clientlib.dir/__/sql-common/my_time.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/sql-common/my_time.c -o CMakeFiles/clientlib.dir/__/sql-common/my_time.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/my_time.c -o CMakeFiles/clientlib.dir/__/sql-common/my_time.c.s
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.o.requires:
 .PHONY : libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.o.requires
@@ -163,17 +163,17 @@ libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.o.provides.build: libm
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o: libmysql/CMakeFiles/clientlib.dir/flags.make
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o: sql-common/client_plugin.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql-common/client_plugin.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client_plugin.c
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/sql-common/client_plugin.c > CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client_plugin.c > CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.i
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/sql-common/client_plugin.c -o CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/client_plugin.c -o CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.s
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o.requires:
 .PHONY : libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o.requires
@@ -186,17 +186,17 @@ libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o.provides.build
 
 libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o: libmysql/CMakeFiles/clientlib.dir/flags.make
 libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o: sql/net_serv.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/sql/net_serv.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/net_serv.cc
 
 libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clientlib.dir/__/sql/net_serv.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/sql/net_serv.cc > CMakeFiles/clientlib.dir/__/sql/net_serv.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/net_serv.cc > CMakeFiles/clientlib.dir/__/sql/net_serv.cc.i
 
 libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clientlib.dir/__/sql/net_serv.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/sql/net_serv.cc -o CMakeFiles/clientlib.dir/__/sql/net_serv.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/net_serv.cc -o CMakeFiles/clientlib.dir/__/sql/net_serv.cc.s
 
 libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o.requires:
 .PHONY : libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o.requires
@@ -209,17 +209,17 @@ libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o.provides.build: libmysql/
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.o: libmysql/CMakeFiles/clientlib.dir/flags.make
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.o: sql-common/pack.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql-common/pack.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql-common/pack.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql-common/pack.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/pack.c
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clientlib.dir/__/sql-common/pack.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/sql-common/pack.c > CMakeFiles/clientlib.dir/__/sql-common/pack.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/pack.c > CMakeFiles/clientlib.dir/__/sql-common/pack.c.i
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clientlib.dir/__/sql-common/pack.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/sql-common/pack.c -o CMakeFiles/clientlib.dir/__/sql-common/pack.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/pack.c -o CMakeFiles/clientlib.dir/__/sql-common/pack.c.s
 
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.o.requires:
 .PHONY : libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.o.requires
@@ -232,17 +232,17 @@ libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.o.provides.build: libmysq
 
 libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.o: libmysql/CMakeFiles/clientlib.dir/flags.make
 libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.o: sql/password.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql/password.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/sql/password.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -o CMakeFiles/clientlib.dir/__/sql/password.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/password.c
 
 libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clientlib.dir/__/sql/password.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql-5.5_New/sql/password.c > CMakeFiles/clientlib.dir/__/sql/password.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/password.c > CMakeFiles/clientlib.dir/__/sql/password.c.i
 
 libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clientlib.dir/__/sql/password.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql-5.5_New/sql/password.c -o CMakeFiles/clientlib.dir/__/sql/password.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -fPIC -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/password.c -o CMakeFiles/clientlib.dir/__/sql/password.c.s
 
 libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.o.requires:
 .PHONY : libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.o.requires
@@ -280,8 +280,8 @@ libmysql/libclientlib.a: libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.o
 libmysql/libclientlib.a: libmysql/CMakeFiles/clientlib.dir/build.make
 libmysql/libclientlib.a: libmysql/CMakeFiles/clientlib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libclientlib.a"
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && $(CMAKE_COMMAND) -P CMakeFiles/clientlib.dir/cmake_clean_target.cmake
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clientlib.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && $(CMAKE_COMMAND) -P CMakeFiles/clientlib.dir/cmake_clean_target.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clientlib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libmysql/CMakeFiles/clientlib.dir/build: libmysql/libclientlib.a
@@ -299,10 +299,10 @@ libmysql/CMakeFiles/clientlib.dir/requires: libmysql/CMakeFiles/clientlib.dir/__
 .PHONY : libmysql/CMakeFiles/clientlib.dir/requires
 
 libmysql/CMakeFiles/clientlib.dir/clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/libmysql && $(CMAKE_COMMAND) -P CMakeFiles/clientlib.dir/cmake_clean.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql && $(CMAKE_COMMAND) -P CMakeFiles/clientlib.dir/cmake_clean.cmake
 .PHONY : libmysql/CMakeFiles/clientlib.dir/clean
 
 libmysql/CMakeFiles/clientlib.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/libmysql /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/libmysql /home/sravang/Projects_New/mysql-5.5_New/libmysql/CMakeFiles/clientlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql /home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/CMakeFiles/clientlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libmysql/CMakeFiles/clientlib.dir/depend
 

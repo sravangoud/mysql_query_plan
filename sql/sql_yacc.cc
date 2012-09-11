@@ -1305,12 +1305,6 @@
 #include "keycaches.h"
 #include "set_var.h"
 
-//struct CustomTHD
-//{
-//	 Lex * lex;
-//};
-//#define THD CustomTHD
-
 /* this is to get the bison compilation windows warnings out */
 #ifdef _MSC_VER
 /* warning C4065: switch statement contains 'default' but no 'case' labels */

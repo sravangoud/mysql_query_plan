@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/extra/innochecksum.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/extra/innochecksum.c
 my_global.h
 -
 stdio.h

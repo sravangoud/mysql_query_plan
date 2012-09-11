@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Utility rule file for test-force.
 
@@ -43,10 +43,10 @@ CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
 include mysql-test/CMakeFiles/test-force.dir/progress.make
 
 mysql-test/CMakeFiles/test-force:
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysql-test && echo Running tests
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysql-test && echo OS=Linux
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysql-test && export MTR_BUILD_THREAD=auto
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysql-test && perl ./mysql-test-run.pl --force
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test && echo Running tests
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test && echo OS=Linux
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test && export MTR_BUILD_THREAD=auto
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test && perl ./mysql-test-run.pl --force
 
 test-force: mysql-test/CMakeFiles/test-force
 test-force: mysql-test/CMakeFiles/test-force.dir/build.make
@@ -57,10 +57,10 @@ mysql-test/CMakeFiles/test-force.dir/build: test-force
 .PHONY : mysql-test/CMakeFiles/test-force.dir/build
 
 mysql-test/CMakeFiles/test-force.dir/clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/mysql-test && $(CMAKE_COMMAND) -P CMakeFiles/test-force.dir/cmake_clean.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test && $(CMAKE_COMMAND) -P CMakeFiles/test-force.dir/cmake_clean.cmake
 .PHONY : mysql-test/CMakeFiles/test-force.dir/clean
 
 mysql-test/CMakeFiles/test-force.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/mysql-test /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/mysql-test /home/sravang/Projects_New/mysql-5.5_New/mysql-test/CMakeFiles/test-force.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test/CMakeFiles/test-force.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mysql-test/CMakeFiles/test-force.dir/depend
 

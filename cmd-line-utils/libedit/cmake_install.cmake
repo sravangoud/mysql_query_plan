@@ -1,4 +1,4 @@
-# Install script for directory: /home/sravang/Projects_New/mysql-5.5_New/cmd-line-utils/libedit
+# Install script for directory: /home/sravang/Projects_New/mysql_rep/mysql_query_plan/cmd-line-utils/libedit
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

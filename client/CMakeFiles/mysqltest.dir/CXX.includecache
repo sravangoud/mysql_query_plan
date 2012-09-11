@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/client/client_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/client_priv.h
 my_global.h
 -
 my_sys.h
@@ -20,9 +20,9 @@ errmsg.h
 my_getopt.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/client/mysqltest.cc
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/mysqltest.cc
 client_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/client/client_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/client_priv.h
 mysql_version.h
 -
 mysqld_error.h
@@ -40,7 +40,7 @@ stdarg.h
 violite.h
 -
 my_regex.h
-/home/sravang/Projects_New/mysql-5.5_New/client/my_regex.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/my_regex.h
 sys/wait.h
 -
 direct.h
@@ -54,11 +54,11 @@ welcome_copyright_notice.h
 crtdbg.h
 -
 sslopt-vars.h
-/home/sravang/Projects_New/mysql-5.5_New/client/sslopt-vars.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/sslopt-vars.h
 mysqld_ername.h
 -
 sslopt-longopts.h
-/home/sravang/Projects_New/mysql-5.5_New/client/sslopt-longopts.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/sslopt-longopts.h
 sslopt-case.h
 -
 

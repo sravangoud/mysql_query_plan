@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sravang/Projects_New/mysql-5.5_New/plugin/semisync/semisync.cc" "/home/sravang/Projects_New/mysql-5.5_New/plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o"
-  "/home/sravang/Projects_New/mysql-5.5_New/plugin/semisync/semisync_slave.cc" "/home/sravang/Projects_New/mysql-5.5_New/plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o"
-  "/home/sravang/Projects_New/mysql-5.5_New/plugin/semisync/semisync_slave_plugin.cc" "/home/sravang/Projects_New/mysql-5.5_New/plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/semisync/semisync.cc" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/semisync/semisync_slave.cc" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/semisync/semisync_slave_plugin.cc" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,5 +18,5 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sravang/Projects_New/mysql-5.5_New/libservices/CMakeFiles/mysqlservices.dir/DependInfo.cmake"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libservices/CMakeFiles/mysqlservices.dir/DependInfo.cmake"
   )

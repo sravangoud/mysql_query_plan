@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/sql/udf_example.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/udf_example.c
 stdlib.h
 -
 stdio.h

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/sql/net_serv.cc
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/net_serv.cc
 my_global.h
 -
 mysql.h
@@ -28,11 +28,11 @@ signal.h
 errno.h
 -
 probes_mysql.h
-/home/sravang/Projects_New/mysql-5.5_New/sql/probes_mysql.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/probes_mysql.h
 my_pthread.h
-/home/sravang/Projects_New/mysql-5.5_New/sql/my_pthread.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/my_pthread.h
 thr_alarm.h
-/home/sravang/Projects_New/mysql-5.5_New/sql/thr_alarm.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/thr_alarm.h
 
 include/m_ctype.h
 my_attribute.h

@@ -16,4 +16,5 @@ public:
 	virtual ~sql_wrapper();
 };
 
+
 #endif /* SQL_WRAPPER_H_ */

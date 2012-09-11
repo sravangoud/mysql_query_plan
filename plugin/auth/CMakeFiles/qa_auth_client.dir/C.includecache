@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/plugin/auth/qa_auth_client.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/auth/qa_auth_client.c
 my_global.h
 -
 mysql/plugin_auth.h

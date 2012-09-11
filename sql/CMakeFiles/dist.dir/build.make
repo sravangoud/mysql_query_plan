@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Utility rule file for dist.
 
@@ -44,7 +44,7 @@ include sql/CMakeFiles/dist.dir/progress.make
 
 sql/CMakeFiles/dist: sql/sql_yacc.cc
 sql/CMakeFiles/dist: sql/sql_yacc.h
-	/usr/bin/cmake -P /home/sravang/Projects_New/mysql-5.5_New/make_dist.cmake
+	/usr/bin/cmake -P /home/sravang/Projects_New/mysql_rep/mysql_query_plan/make_dist.cmake
 
 dist: sql/CMakeFiles/dist
 dist: sql/CMakeFiles/dist.dir/build.make
@@ -55,10 +55,10 @@ sql/CMakeFiles/dist.dir/build: dist
 .PHONY : sql/CMakeFiles/dist.dir/build
 
 sql/CMakeFiles/dist.dir/clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/sql && $(CMAKE_COMMAND) -P CMakeFiles/dist.dir/cmake_clean.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql && $(CMAKE_COMMAND) -P CMakeFiles/dist.dir/cmake_clean.cmake
 .PHONY : sql/CMakeFiles/dist.dir/clean
 
 sql/CMakeFiles/dist.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/sql /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/sql /home/sravang/Projects_New/mysql-5.5_New/sql/CMakeFiles/dist.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/CMakeFiles/dist.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sql/CMakeFiles/dist.dir/depend
 

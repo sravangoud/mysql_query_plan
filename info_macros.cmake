@@ -23,8 +23,8 @@
 # If further variables are used in this file, add them to this list.
 
 SET(VERSION "5.5.24")
-SET(CMAKE_SOURCE_DIR "/home/sravang/Projects_New/mysql-5.5_New")
-SET(CMAKE_BINARY_DIR "/home/sravang/Projects_New/mysql-5.5_New")
+SET(CMAKE_SOURCE_DIR "/home/sravang/Projects_New/mysql_rep/mysql_query_plan")
+SET(CMAKE_BINARY_DIR "/home/sravang/Projects_New/mysql_rep/mysql_query_plan")
 SET(CMAKE_GENERATOR "Unix Makefiles")
 SET(CMAKE_SIZEOF_VOID_P "8")
 SET(BZR_EXECUTABLE "BZR_EXECUTABLE-NOTFOUND")

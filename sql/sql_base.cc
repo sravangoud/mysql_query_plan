@@ -2903,7 +2903,6 @@ bool open_table(THD *thd, TABLE_LIST *table_list, MEM_ROOT *mem_root,
       ot_ctx->set_has_protection_against_grl();
     }
 
-#if(1)//sravan
     if (open_table_get_mdl_lock(thd, ot_ctx, &table_list->mdl_request,
                                 flags, &mdl_ticket) ||
         mdl_ticket == NULL)
@@ -2911,8 +2910,6 @@ bool open_table(THD *thd, TABLE_LIST *table_list, MEM_ROOT *mem_root,
       DEBUG_SYNC(thd, "before_open_table_wait_refresh");
       DBUG_RETURN(TRUE);
     }
-#endif
-
     DEBUG_SYNC(thd, "after_open_table_mdl_shared");
   }
   else
@@ -6650,20 +6647,6 @@ find_field_in_tables(THD *thd, Item_ident *item,
   const char *table_name= item->table_name;
   const char *name= item->field_name;
   uint length=(uint) strlen(name);
-
-#if(1)//sravan
-  Field *str_field = new Field_string( length,
-		  	  	  	  	  	  	  	   true,
-		  	  	  	  	  	  	  	   name,
-                                       &my_charset_bin);
-
-  str_field->table_name = &(item->table_name);
-  str_field->table =first_table->table;
-
-  return str_field;
-
-#endif
-
   char name_buff[NAME_LEN+1];
   TABLE_LIST *cur_table= first_table;
   TABLE_LIST *actual_table;

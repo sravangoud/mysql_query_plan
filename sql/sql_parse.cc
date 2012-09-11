@@ -4540,20 +4540,9 @@ bool execute_sqlcom_select(THD *thd, TABLE_LIST *all_tables)
       param->select_limit=
         new Item_int((ulonglong) thd->variables.select_limit);
   }
-#if(1)//sravan
+
   if (!(res= open_and_lock_tables(thd, all_tables, TRUE, 0)))
   {
-#else
-	  for ( TABLE_LIST * tables_temp = all_tables; tables_temp; tables_temp = tables_temp->next_global)
-	  {
-		  TABLE * pTable = new TABLE();
-		  pTable->derived_select_number =0;
-		  //pTable->
-		  tables_temp->table = pTable;
-		  pTable->s = new TABLE_SHARE();
-		  pTable->s->keys = 1;
-	  }
-#endif
     if (lex->describe)
     {
       /*
@@ -4600,9 +4589,8 @@ bool execute_sqlcom_select(THD *thd, TABLE_LIST *all_tables)
       if (result != lex->result)
         delete result;
     }
-#if(1)//sravan
   }
-#endif
+
   return res;
 }
 
@@ -5567,34 +5555,6 @@ void mysql_parse(THD *thd, char *rawbuf, uint length,
 
   DBUG_EXECUTE_IF("parser_debug", turn_parser_debug_on(););
 
-#if(1)//sravan
-  THD *thd_temp= current_thd;
-
-  lex_start(thd);
-  //mysql_reset_thd_for_next_command(thd);
-
-  my_pthread_setspecific_ptr(THR_THD, thd);
-
-  system_charset_info= &my_charset_utf8_general_ci;
-  table_alias_charset = &my_charset_utf8_general_ci;
-
-  char * db_name = "sravan";
-  thd->set_db(db_name, strlen(db_name));
-  bool err= parse_sql(thd, parser_state, NULL);
-#else
-
-  my_pthread_setspecific_ptr(THR_THD, thd);
-
-  system_charset_info= &my_charset_utf8_general_ci;
-  table_alias_charset = &my_charset_utf8_general_ci;
-
-  char * db_name = "sravan";
-  thd->set_db(db_name, strlen(db_name));
-
-#endif
-
-
-
   /*
     Warning.
     The purpose of query_cache_send_result_to_client() is to lookup the
@@ -5611,8 +5571,6 @@ void mysql_parse(THD *thd, char *rawbuf, uint length,
     is required for the cache to work properly.
     FIXME: cleanup the dependencies in the code to simplify this.
   */
-
-#if(0)//sravan
   lex_start(thd);
   mysql_reset_thd_for_next_command(thd);
 
@@ -5685,8 +5643,6 @@ void mysql_parse(THD *thd, char *rawbuf, uint length,
     thd->cleanup_after_query();
     DBUG_ASSERT(thd->change_list.is_empty());
   }
-
-#endif
 
   DBUG_VOID_RETURN;
 }

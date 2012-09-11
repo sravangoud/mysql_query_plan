@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/client/client_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/client_priv.h
 my_global.h
 -
 my_sys.h
@@ -20,7 +20,7 @@ errmsg.h
 my_getopt.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/client/mysqldump.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/mysqldump.c
 my_global.h
 -
 my_sys.h
@@ -36,13 +36,13 @@ hash.h
 stdarg.h
 -
 client_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/client/client_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/client_priv.h
 mysql.h
-/home/sravang/Projects_New/mysql-5.5_New/client/mysql.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/mysql.h
 mysql_version.h
-/home/sravang/Projects_New/mysql-5.5_New/client/mysql_version.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/mysql_version.h
 mysqld_error.h
-/home/sravang/Projects_New/mysql-5.5_New/client/mysqld_error.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/mysqld_error.h
 welcome_copyright_notice.h
 -
 welcome_copyright_notice.h
@@ -52,6 +52,14 @@ sslopt-vars.h
 sslopt-longopts.h
 -
 sslopt-case.h
+-
+
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql-common/my_user.c
+my_user.h
+-
+m_string.h
+-
+mysql_com.h
 -
 
 include/errmsg.h

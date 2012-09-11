@@ -1,5 +1,5 @@
 ===== Information about the build process: =====
-Build was run at 2012-09-06 17:54:21 on host 'sravang-g'
+Build was run at 2012-09-11 19:35:23 on host 'sravang-g'
 
 Build was done on  Linux-3.2.0-27-generic using x86_64
 Build was done using cmake 2.8.7 
@@ -7,9 +7,9 @@ Build was done using cmake 2.8.7
 ===== Compiler flags used (from the 'sql/' subdirectory): =====
 # compile C with /usr/bin/gcc
 # compile CXX with /usr/bin/c++
-C_FLAGS =  -Wall -O -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DENABLED_DEBUG_SYNC -I/home/sravang/Projects_New/mysql-5.5_New/include -I/home/sravang/Projects_New/mysql-5.5_New/sql -I/home/sravang/Projects_New/mysql-5.5_New/regex   
+C_FLAGS =  -Wall -g -DENABLED_DEBUG_SYNC -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/regex   
 C_DEFINES = -DHAVE_CONFIG_H -DMYSQL_SERVER -DHAVE_EVENT_SCHEDULER
-CXX_FLAGS =  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -O -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DENABLED_DEBUG_SYNC -I/home/sravang/Projects_New/mysql-5.5_New/include -I/home/sravang/Projects_New/mysql-5.5_New/sql -I/home/sravang/Projects_New/mysql-5.5_New/regex   
+CXX_FLAGS =  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -g -DENABLED_DEBUG_SYNC -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql -I/home/sravang/Projects_New/mysql_rep/mysql_query_plan/regex   
 CXX_DEFINES = -DHAVE_CONFIG_H -DMYSQL_SERVER -DHAVE_EVENT_SCHEDULER
 
 Pointer size: 8
@@ -25,19 +25,17 @@ COMMUNITY_BUILD:BOOL=ON
 ENABLED_PROFILING:BOOL=ON
 ENABLE_DEBUG_SYNC:BOOL=ON
 ENABLE_GCOV:BOOL=OFF
-FEATURE_SET:STRING=community
 INSTALL_LAYOUT:STRING=STANDALONE
 MYSQL_DATADIR:PATH=/usr/local/mysql/data
 MYSQL_MAINTAINER_MODE:BOOL=OFF
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
-WITH_ARCHIVE_STORAGE_ENGINE:BOOL=ON
-WITH_BLACKHOLE_STORAGE_ENGINE:BOOL=ON
+WITH_ARCHIVE_STORAGE_ENGINE:BOOL=OFF
+WITH_BLACKHOLE_STORAGE_ENGINE:BOOL=OFF
 WITH_DEBUG:BOOL=OFF
 WITH_EMBEDDED_SERVER:BOOL=OFF
-WITH_EXAMPLE_STORAGE_ENGINE:BOOL=OFF
 WITH_EXTRA_CHARSETS:STRING=all
-WITH_FEDERATED_STORAGE_ENGINE:BOOL=ON
+WITH_FEDERATED_STORAGE_ENGINE:BOOL=OFF
 WITH_INNOBASE_STORAGE_ENGINE:BOOL=ON
 WITH_LIBEDIT:BOOL=ON
 WITH_LIBWRAP:BOOL=OFF

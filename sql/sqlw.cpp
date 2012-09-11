@@ -5,7 +5,8 @@
  *      Author: sravang
  */
 
-char * query = "explain select id from myt12;";
+char * query1 = "explain select temp.id from (select books1.title_id as id from books,books1 where books.title_id=books1.title_id) temp;";
+//char * query = "explain select books1.title_id as id from books,books1 where books.title_id=books1.title_id;";
 //char * query = "create table myt12(id int) engine=foo;";
 
 //char * query = " explain SELECT booking_awarded_count.id,"
@@ -14,7 +15,7 @@ char * query = "explain select id from myt12;";
 //       "(booking_awarded_count.historic / booking_count.historic) AS historic "
 //		"FROM booking_awarded_count, booking_count;";
 
-/*
+
 char * query = " explain SELECT booking_awarded_count.id,"
        "booking_awarded_count.property_name AS property_name,"
        "(booking_awarded_count.current / booking_count.current) AS current,"
@@ -24,7 +25,7 @@ char * query = " explain SELECT booking_awarded_count.id,"
                "current_table.value AS current,"
                "historic_table.value AS historic "
           "FROM (SELECT COUNT(DISTINCT b.id) AS value, p.name, p.id "
-                  "FROM x_property p, x_booking b, x_upgrade_request ur "
+                  "FROM temp_property p, temp_booking b, temp_upgrade_request ur "
                  "WHERE     b.property_id IN (87,856,694,1056,474,1301,455,1943,20,808,190,426,1888) "
                        "AND b.property_id = p.id "
                        "AND b.id = ur.booking_id "
@@ -33,7 +34,7 @@ char * query = " explain SELECT booking_awarded_count.id,"
                        "AND b.arrival < CURDATE() "
                 "GROUP BY b.property_id) current_table,"
                "(SELECT COUNT(DISTINCT b.id) AS value, p.name, p.id "
-                  "FROM x_property p, x_booking b, x_upgrade_request ur "
+                  "FROM temp_property p, temp_booking b, temp_upgrade_request ur "
                  "WHERE     b.property_id IN (87,856,694,1056,474,1301,455,1943,20,808,190,426,1888) "
                        "AND b.property_id = p.id "
                        "AND b.id = ur.booking_id "
@@ -47,7 +48,7 @@ char * query = " explain SELECT booking_awarded_count.id,"
                "current_table.value AS current,"
                "historic_table.value AS historic "
           "FROM (SELECT COUNT(DISTINCT b.id) AS value, p.name, p.id "
-                  "FROM x_booking b, x_property p, x_upgrade_request ur "
+                  "FROM temp_booking b, temp_property p, temp_upgrade_request ur "
                  "WHERE     b.property_id IN (87,856,694,1056,474,1301,455,1943,20,808,190,426,1888) "
                        "AND b.property_id = p.id "
                        "AND b.id = ur.booking_id "
@@ -55,7 +56,7 @@ char * query = " explain SELECT booking_awarded_count.id,"
                        "AND b.arrival < CURDATE() "
                 "GROUP BY b.property_id) current_table,"
                "(SELECT COUNT(DISTINCT b.id) AS value, p.name, p.id "
-                  "FROM x_booking b, x_property p, x_upgrade_request ur "
+                  "FROM temp_booking b, temp_property p, temp_upgrade_request ur "
                  "WHERE     b.property_id IN (87,856,694,1056,474,1301,455,1943,20,808,190,426,1888) "
                        "AND b.property_id = p.id "
                        "AND b.id = ur.booking_id "
@@ -64,7 +65,7 @@ char * query = " explain SELECT booking_awarded_count.id,"
                 "GROUP BY b.property_id) historic_table "
          "WHERE current_table.id = historic_table.id) booking_count "
  "WHERE booking_awarded_count.id = booking_count.id ;";
-*/
+
 
 #include<iostream>
 using namespace std;
@@ -81,7 +82,11 @@ int main(void)
 	return 0;
 }
 
-
+/*
+ * Known Bugs:
+ *
+ * id is not displayed correctly for the tables.
+ */
 
 
 
@@ -94,6 +99,36 @@ int main(void)
  * Can't we manage it inside handler implementation(custom storage engine)????
  *		-	no...some piece of the native handler code looks for .frm file
  *		before passing the handle to custom handler.
+ *
+ *
+ *
+ * From the result of the parser...
+ * 1) Get the Table names.
+ * 2) Field names, type...etc
+ *
+ * How the parse information is consumed by the Query Optimizer???
+ *
+ *
+ *
+ *
+ *
+ * What is join_tab->next_select???
+ *
+ *
+ * For tomorrow :
+ * Debug how value of "thd->security_ctx->master_access" is modified????
+ *
+ *
+ *
+ * 11th Sep
+ *
+ * mysql_execute_command is not called
+ *
+ * Probably we should analyse the above method to see if it does anything specific to derived tables...
+ *
+ * It internally calls the same method execute_sqlcom_select()
+ *
+ *
  *
  *
  */

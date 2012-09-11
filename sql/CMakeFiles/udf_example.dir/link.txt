@@ -1,1 +1,1 @@
-/usr/bin/gcc  -fPIC  -Wall -O -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DENABLED_DEBUG_SYNC   -shared -Wl,-soname,udf_example.so -o udf_example.so CMakeFiles/udf_example.dir/udf_example.c.o -lpthread -lrt 
+/usr/bin/gcc  -fPIC  -Wall -g -DENABLED_DEBUG_SYNC   -shared -Wl,-soname,udf_example.so -o udf_example.so CMakeFiles/udf_example.dir/udf_example.c.o -lpthread -lrt 

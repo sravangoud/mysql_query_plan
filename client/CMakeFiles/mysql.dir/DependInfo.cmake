@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sravang/Projects_New/mysql-5.5_New/client/completion_hash.cc" "/home/sravang/Projects_New/mysql-5.5_New/client/CMakeFiles/mysql.dir/completion_hash.cc.o"
-  "/home/sravang/Projects_New/mysql-5.5_New/client/mysql.cc" "/home/sravang/Projects_New/mysql-5.5_New/client/CMakeFiles/mysql.dir/mysql.cc.o"
-  "/home/sravang/Projects_New/mysql-5.5_New/client/readline.cc" "/home/sravang/Projects_New/mysql-5.5_New/client/CMakeFiles/mysql.dir/readline.cc.o"
-  "/home/sravang/Projects_New/mysql-5.5_New/client/sql_string.cc" "/home/sravang/Projects_New/mysql-5.5_New/client/CMakeFiles/mysql.dir/sql_string.cc.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/completion_hash.cc" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/CMakeFiles/mysql.dir/completion_hash.cc.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/mysql.cc" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/CMakeFiles/mysql.dir/mysql.cc.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/readline.cc" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/CMakeFiles/mysql.dir/readline.cc.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/sql_string.cc" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/CMakeFiles/mysql.dir/sql_string.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,6 +19,6 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sravang/Projects_New/mysql-5.5_New/libmysql/CMakeFiles/mysqlclient.dir/DependInfo.cmake"
-  "/home/sravang/Projects_New/mysql-5.5_New/cmd-line-utils/libedit/CMakeFiles/edit.dir/DependInfo.cmake"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/CMakeFiles/mysqlclient.dir/DependInfo.cmake"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/cmd-line-utils/libedit/CMakeFiles/edit.dir/DependInfo.cmake"
   )

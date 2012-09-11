@@ -2318,7 +2318,7 @@ innobase_init(
 		current_dir[0] = FN_CURLIB;
 		current_dir[1] = FN_LIBCHAR;
 		current_dir[2] = 0;
-		default_path = "/var/lib/mysql/";//"/*current_dir*/;
+		default_path = current_dir;
 	}
 
 	ut_a(default_path);

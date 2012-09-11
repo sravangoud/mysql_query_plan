@@ -1086,7 +1086,6 @@ SQL_SELECT *make_select(TABLE *head, table_map const_tables,
   select->head=head;
   select->cond=conds;
 
-#if(0)//sravan
   if (head->sort.io_cache)
   {
     select->file= *head->sort.io_cache;
@@ -1095,7 +1094,6 @@ SQL_SELECT *make_select(TABLE *head, table_map const_tables,
     my_free(head->sort.io_cache);
     head->sort.io_cache=0;
   }
-#endif
 
   DBUG_RETURN(select);
 }

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/sravang/Projects_New/mysql-5.5_New/storage/heap/hp_test1.c" "/home/sravang/Projects_New/mysql-5.5_New/storage/heap/CMakeFiles/hp_test1.dir/hp_test1.c.o"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/heap/hp_test1.c" "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/heap/CMakeFiles/hp_test1.dir/hp_test1.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 
@@ -15,8 +15,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sravang/Projects_New/mysql-5.5_New/mysys/CMakeFiles/mysys.dir/DependInfo.cmake"
-  "/home/sravang/Projects_New/mysql-5.5_New/storage/heap/CMakeFiles/heap.dir/DependInfo.cmake"
-  "/home/sravang/Projects_New/mysql-5.5_New/dbug/CMakeFiles/dbug.dir/DependInfo.cmake"
-  "/home/sravang/Projects_New/mysql-5.5_New/strings/CMakeFiles/strings.dir/DependInfo.cmake"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/CMakeFiles/mysys.dir/DependInfo.cmake"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/heap/CMakeFiles/heap.dir/DependInfo.cmake"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/dbug/CMakeFiles/dbug.dir/DependInfo.cmake"
+  "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/strings/CMakeFiles/strings.dir/DependInfo.cmake"
   )

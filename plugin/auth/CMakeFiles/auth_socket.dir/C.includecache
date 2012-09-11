@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/plugin/auth/auth_socket.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/auth/auth_socket.c
 mysql/plugin_auth.h
 -
 sys/socket.h

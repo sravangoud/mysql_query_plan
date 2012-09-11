@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/blackhole.dir/ha_blackhole.cc.o"
-  "libblackhole.pdb"
-  "libblackhole.a"
+  "ha_blackhole.pdb"
+  "ha_blackhole.so"
 )
 
 # Per-language clean rules from dependency scanning.

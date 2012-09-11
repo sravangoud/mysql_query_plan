@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/plugin/daemon_example/daemon_example.cc
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/daemon_example/daemon_example.cc
 my_global.h
 -
 sql_priv.h
@@ -22,13 +22,13 @@ mysql/plugin.h
 my_dir.h
 -
 my_pthread.h
-/home/sravang/Projects_New/mysql-5.5_New/plugin/daemon_example/my_pthread.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/daemon_example/my_pthread.h
 my_sys.h
-/home/sravang/Projects_New/mysql-5.5_New/plugin/daemon_example/my_sys.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/daemon_example/my_sys.h
 m_string.h
-/home/sravang/Projects_New/mysql-5.5_New/plugin/daemon_example/m_string.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/daemon_example/m_string.h
 sql_plugin.h
-/home/sravang/Projects_New/mysql-5.5_New/plugin/daemon_example/sql_plugin.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/daemon_example/sql_plugin.h
 
 include/m_ctype.h
 my_attribute.h

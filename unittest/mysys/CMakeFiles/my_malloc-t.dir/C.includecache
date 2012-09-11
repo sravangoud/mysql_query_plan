@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/unittest/mysys/my_malloc-t.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/unittest/mysys/my_malloc-t.c
 my_global.h
 -
 my_sys.h
 -
 tap.h
-/home/sravang/Projects_New/mysql-5.5_New/unittest/mysys/tap.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/unittest/mysys/tap.h
 
 include/m_ctype.h
 my_attribute.h

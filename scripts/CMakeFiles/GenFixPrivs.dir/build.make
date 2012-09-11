@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Utility rule file for GenFixPrivs.
 
@@ -47,10 +47,10 @@ scripts/CMakeFiles/GenFixPrivs: scripts/mysql_fix_privilege_tables_sql.c
 scripts/mysql_fix_privilege_tables_sql.c: scripts/comp_sql
 scripts/mysql_fix_privilege_tables_sql.c: scripts/mysql_system_tables.sql
 scripts/mysql_fix_privilege_tables_sql.c: scripts/mysql_system_tables_fix.sql
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating mysql_fix_privilege_tables_sql.c"
-	cd /home/sravang/Projects_New/mysql-5.5_New/scripts && /usr/bin/cmake -E chdir /home/sravang/Projects_New/mysql-5.5_New/scripts /bin/cat mysql_system_tables.sql mysql_system_tables_fix.sql > /home/sravang/Projects_New/mysql-5.5_New/scripts/mysql_fix_privilege_tables.sql
-	cd /home/sravang/Projects_New/mysql-5.5_New/scripts && /home/sravang/Projects_New/mysql-5.5_New/scripts/comp_sql mysql_fix_privilege_tables mysql_fix_privilege_tables.sql mysql_fix_privilege_tables_sql.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/scripts && /usr/bin/cmake -E chdir /home/sravang/Projects_New/mysql_rep/mysql_query_plan/scripts /bin/cat mysql_system_tables.sql mysql_system_tables_fix.sql > /home/sravang/Projects_New/mysql_rep/mysql_query_plan/scripts/mysql_fix_privilege_tables.sql
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/scripts && /home/sravang/Projects_New/mysql_rep/mysql_query_plan/scripts/comp_sql mysql_fix_privilege_tables mysql_fix_privilege_tables.sql mysql_fix_privilege_tables_sql.c
 
 GenFixPrivs: scripts/CMakeFiles/GenFixPrivs
 GenFixPrivs: scripts/mysql_fix_privilege_tables_sql.c
@@ -62,10 +62,10 @@ scripts/CMakeFiles/GenFixPrivs.dir/build: GenFixPrivs
 .PHONY : scripts/CMakeFiles/GenFixPrivs.dir/build
 
 scripts/CMakeFiles/GenFixPrivs.dir/clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/scripts && $(CMAKE_COMMAND) -P CMakeFiles/GenFixPrivs.dir/cmake_clean.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/scripts && $(CMAKE_COMMAND) -P CMakeFiles/GenFixPrivs.dir/cmake_clean.cmake
 .PHONY : scripts/CMakeFiles/GenFixPrivs.dir/clean
 
 scripts/CMakeFiles/GenFixPrivs.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/scripts /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/scripts /home/sravang/Projects_New/mysql-5.5_New/scripts/CMakeFiles/GenFixPrivs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/scripts /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/scripts /home/sravang/Projects_New/mysql_rep/mysql_query_plan/scripts/CMakeFiles/GenFixPrivs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scripts/CMakeFiles/GenFixPrivs.dir/depend
 

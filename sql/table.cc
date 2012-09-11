@@ -597,8 +597,7 @@ int open_table_def(THD *thd, TABLE_SHARE *share, uint db_flags)
   bool error_given;
   File file;
   uchar head[64];
-  char	path[FN_REFLEN] = "/var/lib/mysql";
-  char	path_partial[FN_REFLEN];
+  char	path[FN_REFLEN];
   MEM_ROOT **root_ptr, *old_root;
   DBUG_ENTER("open_table_def");
   DBUG_PRINT("enter", ("table: '%s'.'%s'  path: '%s'", share->db.str,
@@ -607,10 +606,9 @@ int open_table_def(THD *thd, TABLE_SHARE *share, uint db_flags)
   error= 1;
   error_given= 0;
 
-  strxmov(path_partial, share->normalized_path.str, reg_ext, NullS);
-  strncat(path, path_partial+1, FN_REFLEN );
+  strxmov(path, share->normalized_path.str, reg_ext, NullS);
   if ((file= mysql_file_open(key_file_frm,
-                             path/*"/var/lib/mysql/sravan/books.frm"*/, O_RDONLY | O_SHARE, MYF(0))) < 0)
+                             path, O_RDONLY | O_SHARE, MYF(0))) < 0)
   {
     /*
       We don't try to open 5.0 unencoded name, if

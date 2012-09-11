@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/mysys/default.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/default.c
 mysys_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/mysys/mysys_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mysys_priv.h
 m_string.h
-/home/sravang/Projects_New/mysql-5.5_New/mysys/m_string.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/m_string.h
 m_ctype.h
-/home/sravang/Projects_New/mysql-5.5_New/mysys/m_ctype.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/m_ctype.h
 my_dir.h
 -
 winbase.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/mysys/mysys_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/mysys_priv.h
 my_global.h
 -
 my_sys.h
 -
 system_wrappers.h
-/home/sravang/Projects_New/mysql-5.5_New/mysys/system_wrappers.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/system_wrappers.h
 sys/resource.h
 -
 my_pthread.h

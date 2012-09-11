@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Include any dependencies generated for this target.
 include storage/archive/CMakeFiles/archive.dir/depend.make
@@ -48,17 +48,17 @@ include storage/archive/CMakeFiles/archive.dir/flags.make
 
 storage/archive/CMakeFiles/archive.dir/azio.c.o: storage/archive/CMakeFiles/archive.dir/flags.make
 storage/archive/CMakeFiles/archive.dir/azio.c.o: storage/archive/azio.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object storage/archive/CMakeFiles/archive.dir/azio.c.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/storage/archive && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/archive.dir/azio.c.o   -c /home/sravang/Projects_New/mysql-5.5_New/storage/archive/azio.c
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/archive.dir/azio.c.o   -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive/azio.c
 
 storage/archive/CMakeFiles/archive.dir/azio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/archive.dir/azio.c.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/storage/archive && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/storage/archive/azio.c > CMakeFiles/archive.dir/azio.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive/azio.c > CMakeFiles/archive.dir/azio.c.i
 
 storage/archive/CMakeFiles/archive.dir/azio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/archive.dir/azio.c.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/storage/archive && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/storage/archive/azio.c -o CMakeFiles/archive.dir/azio.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive/azio.c -o CMakeFiles/archive.dir/azio.c.s
 
 storage/archive/CMakeFiles/archive.dir/azio.c.o.requires:
 .PHONY : storage/archive/CMakeFiles/archive.dir/azio.c.o.requires
@@ -71,17 +71,17 @@ storage/archive/CMakeFiles/archive.dir/azio.c.o.provides.build: storage/archive/
 
 storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o: storage/archive/CMakeFiles/archive.dir/flags.make
 storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o: storage/archive/ha_archive.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o"
-	cd /home/sravang/Projects_New/mysql-5.5_New/storage/archive && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/archive.dir/ha_archive.cc.o -c /home/sravang/Projects_New/mysql-5.5_New/storage/archive/ha_archive.cc
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/archive.dir/ha_archive.cc.o -c /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive/ha_archive.cc
 
 storage/archive/CMakeFiles/archive.dir/ha_archive.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archive.dir/ha_archive.cc.i"
-	cd /home/sravang/Projects_New/mysql-5.5_New/storage/archive && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql-5.5_New/storage/archive/ha_archive.cc > CMakeFiles/archive.dir/ha_archive.cc.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive/ha_archive.cc > CMakeFiles/archive.dir/ha_archive.cc.i
 
 storage/archive/CMakeFiles/archive.dir/ha_archive.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archive.dir/ha_archive.cc.s"
-	cd /home/sravang/Projects_New/mysql-5.5_New/storage/archive && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql-5.5_New/storage/archive/ha_archive.cc -o CMakeFiles/archive.dir/ha_archive.cc.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive/ha_archive.cc -o CMakeFiles/archive.dir/ha_archive.cc.s
 
 storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o.requires:
 .PHONY : storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o.requires
@@ -100,16 +100,16 @@ archive_OBJECTS = \
 # External object files for target archive
 archive_EXTERNAL_OBJECTS =
 
-storage/archive/libarchive.a: storage/archive/CMakeFiles/archive.dir/azio.c.o
-storage/archive/libarchive.a: storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o
-storage/archive/libarchive.a: storage/archive/CMakeFiles/archive.dir/build.make
-storage/archive/libarchive.a: storage/archive/CMakeFiles/archive.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libarchive.a"
-	cd /home/sravang/Projects_New/mysql-5.5_New/storage/archive && $(CMAKE_COMMAND) -P CMakeFiles/archive.dir/cmake_clean_target.cmake
-	cd /home/sravang/Projects_New/mysql-5.5_New/storage/archive && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/archive.dir/link.txt --verbose=$(VERBOSE)
+storage/archive/ha_archive.so: storage/archive/CMakeFiles/archive.dir/azio.c.o
+storage/archive/ha_archive.so: storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o
+storage/archive/ha_archive.so: libservices/libmysqlservices.a
+storage/archive/ha_archive.so: storage/archive/CMakeFiles/archive.dir/build.make
+storage/archive/ha_archive.so: storage/archive/CMakeFiles/archive.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ha_archive.so"
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/archive.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-storage/archive/CMakeFiles/archive.dir/build: storage/archive/libarchive.a
+storage/archive/CMakeFiles/archive.dir/build: storage/archive/ha_archive.so
 .PHONY : storage/archive/CMakeFiles/archive.dir/build
 
 storage/archive/CMakeFiles/archive.dir/requires: storage/archive/CMakeFiles/archive.dir/azio.c.o.requires
@@ -117,10 +117,10 @@ storage/archive/CMakeFiles/archive.dir/requires: storage/archive/CMakeFiles/arch
 .PHONY : storage/archive/CMakeFiles/archive.dir/requires
 
 storage/archive/CMakeFiles/archive.dir/clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/storage/archive && $(CMAKE_COMMAND) -P CMakeFiles/archive.dir/cmake_clean.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive && $(CMAKE_COMMAND) -P CMakeFiles/archive.dir/cmake_clean.cmake
 .PHONY : storage/archive/CMakeFiles/archive.dir/clean
 
 storage/archive/CMakeFiles/archive.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/storage/archive /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/storage/archive /home/sravang/Projects_New/mysql-5.5_New/storage/archive/CMakeFiles/archive.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/archive/CMakeFiles/archive.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : storage/archive/CMakeFiles/archive.dir/depend
 

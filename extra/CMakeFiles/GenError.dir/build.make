@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Utility rule file for GenError.
 
@@ -48,9 +48,9 @@ extra/CMakeFiles/GenError: sql/share/errmsg-utf8.txt
 
 include/mysqld_error.h: sql/share/errmsg-utf8.txt
 include/mysqld_error.h: extra/comp_err.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/mysqld_error.h, ../sql/share/english/errmsg.sys"
-	cd /home/sravang/Projects_New/mysql-5.5_New/extra && ./comp_err --charset=/home/sravang/Projects_New/mysql-5.5_New/sql/share/charsets --out-dir=/home/sravang/Projects_New/mysql-5.5_New/sql/share/ --header_file=/home/sravang/Projects_New/mysql-5.5_New/include/mysqld_error.h --name_file=/home/sravang/Projects_New/mysql-5.5_New/include/mysqld_ername.h --state_file=/home/sravang/Projects_New/mysql-5.5_New/include/sql_state.h --in_file=/home/sravang/Projects_New/mysql-5.5_New/sql/share/errmsg-utf8.txt
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/extra && ./comp_err --charset=/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/share/charsets --out-dir=/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/share/ --header_file=/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include/mysqld_error.h --name_file=/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include/mysqld_ername.h --state_file=/home/sravang/Projects_New/mysql_rep/mysql_query_plan/include/sql_state.h --in_file=/home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/share/errmsg-utf8.txt
 
 sql/share/english/errmsg.sys: include/mysqld_error.h
 
@@ -65,10 +65,10 @@ extra/CMakeFiles/GenError.dir/build: GenError
 .PHONY : extra/CMakeFiles/GenError.dir/build
 
 extra/CMakeFiles/GenError.dir/clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New/extra && $(CMAKE_COMMAND) -P CMakeFiles/GenError.dir/cmake_clean.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan/extra && $(CMAKE_COMMAND) -P CMakeFiles/GenError.dir/cmake_clean.cmake
 .PHONY : extra/CMakeFiles/GenError.dir/clean
 
 extra/CMakeFiles/GenError.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/extra /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/extra /home/sravang/Projects_New/mysql-5.5_New/extra/CMakeFiles/GenError.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/extra /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/extra /home/sravang/Projects_New/mysql_rep/mysql_query_plan/extra/CMakeFiles/GenError.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : extra/CMakeFiles/GenError.dir/depend
 

@@ -1,1 +1,1 @@
-/usr/bin/gcc  -fPIC  -Wall -O -g -static-libgcc -fno-omit-frame-pointer -fno-strict-aliasing -DENABLED_DEBUG_SYNC   -shared -Wl,-soname,auth_socket.so -o auth_socket.so CMakeFiles/auth_socket.dir/auth_socket.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 
+/usr/bin/gcc  -fPIC  -Wall -g -DENABLED_DEBUG_SYNC   -shared -Wl,-soname,auth_socket.so -o auth_socket.so CMakeFiles/auth_socket.dir/auth_socket.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

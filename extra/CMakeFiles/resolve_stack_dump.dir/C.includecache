@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/extra/resolve_stack_dump.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/extra/resolve_stack_dump.c
 my_global.h
 -
 m_ctype.h

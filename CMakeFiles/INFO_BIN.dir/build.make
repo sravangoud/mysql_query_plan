@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # Utility rule file for INFO_BIN.
 
@@ -43,7 +43,7 @@ CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
 include CMakeFiles/INFO_BIN.dir/progress.make
 
 CMakeFiles/INFO_BIN:
-	/usr/bin/cmake -P /home/sravang/Projects_New/mysql-5.5_New/cmake/info_bin.cmake
+	/usr/bin/cmake -P /home/sravang/Projects_New/mysql_rep/mysql_query_plan/cmake/info_bin.cmake
 
 INFO_BIN: CMakeFiles/INFO_BIN
 INFO_BIN: CMakeFiles/INFO_BIN.dir/build.make
@@ -58,6 +58,6 @@ CMakeFiles/INFO_BIN.dir/clean:
 .PHONY : CMakeFiles/INFO_BIN.dir/clean
 
 CMakeFiles/INFO_BIN.dir/depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles/INFO_BIN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles/INFO_BIN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/INFO_BIN.dir/depend
 

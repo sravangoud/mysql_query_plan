@@ -16,10 +16,10 @@
 
 # This script merges many static libraries into
 # one big library on Unix.
-SET(TARGET_LOCATION "/home/sravang/Projects_New/mysql-5.5_New/libmysql/libmysqlclient.a")
+SET(TARGET_LOCATION "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libmysqlclient.a")
 SET(TARGET "mysqlclient")
-SET(STATIC_LIBS "/home/sravang/Projects_New/mysql-5.5_New/libmysql/libclientlib.a;/home/sravang/Projects_New/mysql-5.5_New/dbug/libdbug.a;/home/sravang/Projects_New/mysql-5.5_New/strings/libstrings.a;/home/sravang/Projects_New/mysql-5.5_New/vio/libvio.a;/home/sravang/Projects_New/mysql-5.5_New/mysys/libmysys.a")
-SET(CMAKE_CURRENT_BINARY_DIR "/home/sravang/Projects_New/mysql-5.5_New/libmysql")
+SET(STATIC_LIBS "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql/libclientlib.a;/home/sravang/Projects_New/mysql_rep/mysql_query_plan/dbug/libdbug.a;/home/sravang/Projects_New/mysql_rep/mysql_query_plan/strings/libstrings.a;/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/libvio.a;/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysys/libmysys.a")
+SET(CMAKE_CURRENT_BINARY_DIR "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/libmysql")
 SET(CMAKE_AR "/usr/bin/ar")
 SET(CMAKE_RANLIB "/usr/bin/ranlib")
 

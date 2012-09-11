@@ -76,6 +76,9 @@ inline static void set_args_separator(char** arg)
 my_bool my_getopt_use_args_separator= FALSE;
 my_bool my_getopt_is_args_separator(const char* arg)
 {
+#if(0)//sravan
+  return (arg == args_separator);
+#endif
   return (0 == strncmp(arg, args_separator,strlen(args_separator)));
 }
 const char *my_defaults_file=0;

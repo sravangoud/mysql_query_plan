@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/client/client_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/client_priv.h
 my_global.h
 -
 my_sys.h
@@ -20,31 +20,31 @@ errmsg.h
 my_getopt.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/client/mysqlbinlog.cc
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/mysqlbinlog.cc
 client_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/client/client_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/client_priv.h
 my_time.h
 -
 sql_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/client/sql_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/sql_priv.h
 log_event.h
-/home/sravang/Projects_New/mysql-5.5_New/client/log_event.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/log_event.h
 sql_common.h
-/home/sravang/Projects_New/mysql-5.5_New/client/sql_common.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/sql_common.h
 welcome_copyright_notice.h
 -
 my_decimal.h
-/home/sravang/Projects_New/mysql-5.5_New/client/my_decimal.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/my_decimal.h
 decimal.c
-/home/sravang/Projects_New/mysql-5.5_New/client/decimal.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/decimal.c
 my_decimal.cc
-/home/sravang/Projects_New/mysql-5.5_New/client/my_decimal.cc
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/my_decimal.cc
 log_event.cc
-/home/sravang/Projects_New/mysql-5.5_New/client/log_event.cc
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/log_event.cc
 log_event_old.cc
-/home/sravang/Projects_New/mysql-5.5_New/client/log_event_old.cc
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/log_event_old.cc
 rpl_utility.cc
-/home/sravang/Projects_New/mysql-5.5_New/client/rpl_utility.cc
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/client/rpl_utility.cc
 
 include/atomic/gcc_builtins.h
 

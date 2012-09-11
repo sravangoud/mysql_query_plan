@@ -1,2 +1,1 @@
-/usr/bin/ar cr libfederated.a  CMakeFiles/federated.dir/ha_federated.cc.o
-/usr/bin/ranlib libfederated.a
+/usr/bin/c++  -fPIC  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -g -DENABLED_DEBUG_SYNC   -shared -Wl,-soname,ha_federated.so -o ha_federated.so CMakeFiles/federated.dir/ha_federated.cc.o CMakeFiles/federated.dir/__/__/mysys/string.c.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

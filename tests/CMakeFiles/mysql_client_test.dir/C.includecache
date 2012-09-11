@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/tests/mysql_client_test.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/tests/mysql_client_test.c
 my_global.h
 -
 my_sys.h

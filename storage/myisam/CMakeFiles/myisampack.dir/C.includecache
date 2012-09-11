@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/mi_extrafunc.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/mi_extrafunc.h
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisamdef.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisamdef.h
 myisam.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisam.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisam.h
 myisampack.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisampack.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisampack.h
 my_tree.h
 -
 my_pthread.h
@@ -22,21 +22,21 @@ thr_lock.h
 mysql/psi/mysql_file.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisampack.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisampack.c
 myisamdef.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/myisamdef.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/myisamdef.h
 queues.h
 -
 my_tree.h
 -
 mysys_err.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/mysys_err.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/mysys_err.h
 my_getopt.h
 -
 assert.h
 -
 mi_extrafunc.h
-/home/sravang/Projects_New/mysql-5.5_New/storage/myisam/mi_extrafunc.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/myisam/mi_extrafunc.h
 
 include/keycache.h
 my_sys.h

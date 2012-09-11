@@ -1,4 +1,4 @@
-# Install script for directory: /home/sravang/Projects_New/mysql-5.5_New/mysql-test/lib/My/SafeProcess
+# Install script for directory: /home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test/lib/My/SafeProcess
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Test")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/mysql-test/lib/My/SafeProcess/my_safe_process"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mysql-test/lib/My/SafeProcess" TYPE EXECUTABLE FILES "/home/sravang/Projects_New/mysql-5.5_New/mysql-test/lib/My/SafeProcess/my_safe_process")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mysql-test/lib/My/SafeProcess" TYPE EXECUTABLE FILES "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test/lib/My/SafeProcess/my_safe_process")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/mysql-test/lib/My/SafeProcess/my_safe_process" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/mysql-test/lib/My/SafeProcess/my_safe_process")
     IF(CMAKE_INSTALL_DO_STRIP)
@@ -55,7 +55,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Test")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/mysql-test/lib/My/SafeProcess/my_safe_process"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mysql-test/lib/My/SafeProcess" TYPE EXECUTABLE FILES "/home/sravang/Projects_New/mysql-5.5_New/mysql-test/lib/My/SafeProcess/my_safe_process")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mysql-test/lib/My/SafeProcess" TYPE EXECUTABLE FILES "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test/lib/My/SafeProcess/my_safe_process")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/mysql-test/lib/My/SafeProcess/my_safe_process" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/mysql-test/lib/My/SafeProcess/my_safe_process")
     IF(CMAKE_INSTALL_DO_STRIP)
@@ -66,8 +66,8 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Test
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Test")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mysql-test/lib/My/SafeProcess" TYPE FILE FILES
-    "/home/sravang/Projects_New/mysql-5.5_New/mysql-test/lib/My/SafeProcess/safe_process.pl"
-    "/home/sravang/Projects_New/mysql-5.5_New/mysql-test/lib/My/SafeProcess/Base.pm"
+    "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test/lib/My/SafeProcess/safe_process.pl"
+    "/home/sravang/Projects_New/mysql_rep/mysql_query_plan/mysql-test/lib/My/SafeProcess/Base.pm"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Test")
 

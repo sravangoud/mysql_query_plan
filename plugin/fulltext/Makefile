@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_SOURCE_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql-5.5_New
+CMAKE_BINARY_DIR = /home/sravang/Projects_New/mysql_rep/mysql_query_plan
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,7 +98,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -108,7 +108,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/sravang/Projects_New/mysql-5.5_New && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql-5.5_New/CPackSourceConfig.cmake
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles /home/sravang/Projects_New/mysql-5.5_New/plugin/fulltext/CMakeFiles/progress.marks
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 plugin/fulltext/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql-5.5_New/CMakeFiles 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles /home/sravang/Projects_New/mysql_rep/mysql_query_plan/plugin/fulltext/CMakeFiles/progress.marks
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 plugin/fulltext/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sravang/Projects_New/mysql_rep/mysql_query_plan/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 plugin/fulltext/clean
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 plugin/fulltext/clean
 .PHONY : clean
 
 # The main clean target
@@ -153,22 +153,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 plugin/fulltext/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 plugin/fulltext/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 plugin/fulltext/preinstall
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 plugin/fulltext/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugin/fulltext/CMakeFiles/ftexample.dir/rule:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f CMakeFiles/Makefile2 plugin/fulltext/CMakeFiles/ftexample.dir/rule
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f CMakeFiles/Makefile2 plugin/fulltext/CMakeFiles/ftexample.dir/rule
 .PHONY : plugin/fulltext/CMakeFiles/ftexample.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ ftexample: plugin/fulltext/CMakeFiles/ftexample.dir/rule
 
 # fast build rule for target.
 ftexample/fast:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/fulltext/CMakeFiles/ftexample.dir/build.make plugin/fulltext/CMakeFiles/ftexample.dir/build
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/fulltext/CMakeFiles/ftexample.dir/build.make plugin/fulltext/CMakeFiles/ftexample.dir/build
 .PHONY : ftexample/fast
 
 plugin_example.o: plugin_example.c.o
@@ -185,7 +185,7 @@ plugin_example.o: plugin_example.c.o
 
 # target to build an object file
 plugin_example.c.o:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/fulltext/CMakeFiles/ftexample.dir/build.make plugin/fulltext/CMakeFiles/ftexample.dir/plugin_example.c.o
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/fulltext/CMakeFiles/ftexample.dir/build.make plugin/fulltext/CMakeFiles/ftexample.dir/plugin_example.c.o
 .PHONY : plugin_example.c.o
 
 plugin_example.i: plugin_example.c.i
@@ -193,7 +193,7 @@ plugin_example.i: plugin_example.c.i
 
 # target to preprocess a source file
 plugin_example.c.i:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/fulltext/CMakeFiles/ftexample.dir/build.make plugin/fulltext/CMakeFiles/ftexample.dir/plugin_example.c.i
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/fulltext/CMakeFiles/ftexample.dir/build.make plugin/fulltext/CMakeFiles/ftexample.dir/plugin_example.c.i
 .PHONY : plugin_example.c.i
 
 plugin_example.s: plugin_example.c.s
@@ -201,7 +201,7 @@ plugin_example.s: plugin_example.c.s
 
 # target to generate assembly for a file
 plugin_example.c.s:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(MAKE) -f plugin/fulltext/CMakeFiles/ftexample.dir/build.make plugin/fulltext/CMakeFiles/ftexample.dir/plugin_example.c.s
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(MAKE) -f plugin/fulltext/CMakeFiles/ftexample.dir/build.make plugin/fulltext/CMakeFiles/ftexample.dir/plugin_example.c.s
 .PHONY : plugin_example.c.s
 
 # Help Target
@@ -234,6 +234,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sravang/Projects_New/mysql-5.5_New && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sravang/Projects_New/mysql_rep/mysql_query_plan && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

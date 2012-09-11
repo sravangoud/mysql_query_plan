@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/vio/vio.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/vio.c
 vio_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/vio/vio_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/vio_priv.h
 
-/home/sravang/Projects_New/mysql-5.5_New/vio/vio_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/vio_priv.h
 my_global.h
 -
 mysql_com.h
@@ -26,25 +26,25 @@ sys/socket.h
 netdb.h
 -
 my_net.h
-/home/sravang/Projects_New/mysql-5.5_New/vio/my_net.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/my_net.h
 
-/home/sravang/Projects_New/mysql-5.5_New/vio/viosocket.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/viosocket.c
 winsock2.h
 -
 MSWSock.h
 -
 vio_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/vio/vio_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/vio_priv.h
 sys/filio.h
 -
 
-/home/sravang/Projects_New/mysql-5.5_New/vio/viossl.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/viossl.c
 vio_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/vio/vio_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/vio_priv.h
 
-/home/sravang/Projects_New/mysql-5.5_New/vio/viosslfactories.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/viosslfactories.c
 vio_priv.h
-/home/sravang/Projects_New/mysql-5.5_New/vio/vio_priv.h
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/vio/vio_priv.h
 
 include/m_ctype.h
 my_attribute.h

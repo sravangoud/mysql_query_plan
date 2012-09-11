@@ -1,4 +1,4 @@
-# Install script for directory: /home/sravang/Projects_New/mysql-5.5_New/storage/heap
+# Install script for directory: /home/sravang/Projects_New/mysql_rep/mysql_query_plan/storage/heap
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

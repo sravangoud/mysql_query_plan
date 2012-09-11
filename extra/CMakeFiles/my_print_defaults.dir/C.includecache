@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sravang/Projects_New/mysql-5.5_New/extra/my_print_defaults.c
+/home/sravang/Projects_New/mysql_rep/mysql_query_plan/extra/my_print_defaults.c
 my_global.h
 -
 my_sys.h
