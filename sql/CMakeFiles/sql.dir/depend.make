@@ -12603,6 +12603,7 @@ sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_cache.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_class.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_const.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_crypt.h
+sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_db.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_error.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_lex.h
 sql/CMakeFiles/sql.dir/sql_wrapper.cpp.o: sql/sql_list.h

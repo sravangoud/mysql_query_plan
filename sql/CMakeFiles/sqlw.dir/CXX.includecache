@@ -9,6 +9,12 @@
 /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sql_wrapper.h
 
 /home/sravang/Projects_New/mysql_rep/mysql_query_plan/sql/sqlw.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
 iostream
 -
 sql_wrapper.h

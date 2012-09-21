@@ -2362,8 +2362,10 @@ case SQLCOM_PREPARE:
       goto end_with_restore_list;
     }
 
+#if(0)//sravan-12th Sep
     if ((res= create_table_precheck(thd, select_tables, create_table)))
       goto end_with_restore_list;
+#endif
 
     /* Might have been updated in create_table_precheck */
     create_info.alias= create_table->alias;
@@ -4476,10 +4478,12 @@ finish:
       trans_rollback_stmt(thd);
     else
     {
+#if(0)//sravan---12thSep
       /* If commit fails, we should be able to reset the OK status. */
       thd->stmt_da->can_overwrite_status= TRUE;
       trans_commit_stmt(thd);
       thd->stmt_da->can_overwrite_status= FALSE;
+#endif
     }
   }
 

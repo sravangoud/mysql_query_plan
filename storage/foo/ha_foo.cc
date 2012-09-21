@@ -758,6 +758,15 @@ int ha_foo::rnd_pos(uchar *buf, uchar *pos)
 int ha_foo::info(uint flag)
 {
   DBUG_ENTER("ha_foo::info");
+
+  stats.records=           200;
+  stats.deleted=           0;
+  stats.data_file_length=  10;
+  stats.index_file_length= 10;
+  stats.delete_length=     0;
+  stats.check_time=        0;
+  stats.mean_rec_length=   10;
+
   DBUG_RETURN(0);
 }
 

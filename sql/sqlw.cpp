@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include<iostream>
+using namespace std;
+#include "sql_wrapper.h"
 /*
  * sqlw.cpp
  *
@@ -5,9 +11,15 @@
  *      Author: sravang
  */
 
-char * query1 = "explain select temp.id from (select books1.title_id as id from books,books1 where books.title_id=books1.title_id) temp;";
+//char * query1 = "explain select temp.id from (select books1.title_id as id from books,books1 where books.title_id=books1.title_id) temp;";
 //char * query = "explain select books1.title_id as id from books,books1 where books.title_id=books1.title_id;";
 //char * query = "create table myt12(id int) engine=foo;";
+//char * query = "explain select qgd.id2 from myt1234 where id=1;";
+
+//char * query1 = "explain select t1.a,t2.b from ( select t3.x from t3 )t1, ( select t4.y from t4 ) t2;";
+//char * query = "explain select t1.a from t1 where t1.b=5;";
+
+char * query1 = "explain select t1.a, t1.b from t1 where t1.c=5;";
 
 //char * query = " explain SELECT booking_awarded_count.id,"
 //       "booking_awarded_count.property_name AS property_name,"
@@ -65,22 +77,75 @@ char * query = " explain SELECT booking_awarded_count.id,"
                 "GROUP BY b.property_id) historic_table "
          "WHERE current_table.id = historic_table.id) booking_count "
  "WHERE booking_awarded_count.id = booking_count.id ;";
+//
+//int main(void)
+//{
+//	sql_wrapper sql;
+//	//char * query = "explain select f1 from T1,T2 where T1.f2=T2.f2;";
+//	//char * query = "explain select books.title_id from books, books1 where books.title_id=books1.title_id;";
+//
+//	//char * query = "explain select id,name from t_foo;";
+//	sql.select_describe(query);
+//	cout<<"Test...."<<endl;
+//	return 0;
+//}
+
+//============================================================================
+// Name        : REPL.cpp
+// Author      :
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
 
 
-#include<iostream>
-using namespace std;
-#include "sql_wrapper.h"
-int main(void)
-{
-	sql_wrapper sql;
-	//char * query = "explain select f1 from T1,T2 where T1.f2=T2.f2;";
-	//char * query = "explain select books.title_id from books, books1 where books.title_id=books1.title_id;";
 
-	//char * query = "explain select id,name from t_foo;";
-	sql.select_describe(query);
-	cout<<"Test...."<<endl;
-	return 0;
-}
+int main() {
+
+  const int command_fd = 0;//stdin
+  const int response_fd = 1;//stdout
+
+  FILE* command_pipe = fdopen(command_fd, "rb");
+  if (!command_pipe) {
+    perror("fdopen(command_fd)");
+    return 1;
+  }
+  setlinebuf(command_pipe);
+
+  FILE* response_pipe = fdopen(response_fd, "wb");
+  if (!response_pipe) {
+    perror("fdopen(response_fd)");
+    return 1;
+  }
+  setlinebuf(response_pipe);
+
+  char buf[1024];
+  char strquit[] = "quit\n";
+  while (fgets(buf, sizeof(buf), command_pipe))
+  {
+	  if(strcmp(buf,strquit) == 0)
+	  {
+		  break;
+	  }
+	  else
+	  {
+		  sql_wrapper sql;
+		  sql.select_describe(buf);
+		  //print the input
+//		  if (fputs(buf, response_pipe) < 0) {
+//			  perror("CHILD> fputs");
+//			  break;
+//		  }
+	  }
+	  fflush(response_pipe);
+  }
+
+  fclose(command_pipe);
+  fclose(response_pipe);
+
+  return 0;
+};
+
 
 /*
  * Known Bugs:
@@ -127,6 +192,29 @@ int main(void)
  * Probably we should analyse the above method to see if it does anything specific to derived tables...
  *
  * It internally calls the same method execute_sqlcom_select()
+ *
+ *
+ * 12th Sep
+ *
+ * Objective : Create table with constraints( primary key, unique...etc)
+ *
+ *
+ * 17th Sep:
+ * Issue: Unable to create a table with constraints using FOO( it is working fine with other SE's)
+ *
+ * 		RCA : unable to grant for the table( grant_table is NULL: table_hash_search function call at Line:4587 )
+ *
+ *
+ * Methods to look-for
+ * acl_init() in sql_acl.cpp
+ *
+ * acl initialization is failing because of failing to initialize
+ * "native pwd plugin" and "old pwd plugin"
+ *
+ * why plugin initialization is failing???
+ *
+ *
+ *
  *
  *
  *
