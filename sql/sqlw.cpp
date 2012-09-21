@@ -99,7 +99,6 @@ char * query = " explain SELECT booking_awarded_count.id,"
 //============================================================================
 
 
-
 int main() {
 
   const int command_fd = 0;//stdin
@@ -119,18 +118,24 @@ int main() {
   }
   setlinebuf(response_pipe);
 
-  char buf[1024];
+  cout<<"sqlw > ";
+
+  char buf[102400];
   char strquit[] = "quit\n";
   while (fgets(buf, sizeof(buf), command_pipe))
   {
 	  if(strcmp(buf,strquit) == 0)
 	  {
+		  //DBUG_PRINT("quit", ("Closing mysqlw") );
+		  cout<<"quit, Closing mysqlw"<<endl;
 		  break;
 	  }
 	  else
 	  {
 		  sql_wrapper sql;
 		  sql.select_describe(buf);
+
+		  cout<<endl<<"sqlw > ";
 		  //print the input
 //		  if (fputs(buf, response_pipe) < 0) {
 //			  perror("CHILD> fputs");
@@ -220,6 +225,7 @@ int main() {
  *
  *
  */
+
 
 
 

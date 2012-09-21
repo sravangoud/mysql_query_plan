@@ -107,6 +107,7 @@ sql_wrapper::~sql_wrapper() {
 
 void sql_wrapper::select_describe( char * query )
 {
+	DBUG_PRINT("Enter", ("select_describe") );
 	cout<<"sql_wrapper::select_describe -->"<<endl;
 
 	//Initialize the neccessary SQL Environment
@@ -792,6 +793,9 @@ void Merge_Table_Fields( List<Table_Info> & Table_List,List<Field_Info> & oField
 	}
 }
 
+//To Do : Use map for lookup
+//Not able to use STL Map...for time being use list for lookup...
+
 void Filter_Table_Info(List<Table_Info> & table_List, List<Table_Info> & table_List_filtered)
 {
 	Table_Info * pTable_Info = NULL;
@@ -822,6 +826,8 @@ void Filter_Table_Info(List<Table_Info> & table_List, List<Table_Info> & table_L
 	}
 }
 
+//To Do : Use map for lookup
+//Not able to use STL Map...for time being use list for lookup...
 void Filter_Field_Info( List<Field_Info> &field_List,List<Field_Info> &field_List_filtered)
 {
 	Field_Info * pfield_info = NULL;
